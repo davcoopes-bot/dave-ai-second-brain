@@ -325,3 +325,29 @@
 - CLAUDE.md updated: "Pressure-test before validating" directive added
 - Contradictions: none
 - Next session: before Saturday — FBA focus
+
+---
+
+## [2026-05-09] session-close | H10 validation, automation pipeline, skills build
+
+- Decisions captured: Silicone splatter screen → ❌ PASS (real H10 data: ~$1,277/month total market vs simulated $124k — 97% discrepancy; dead product)
+- Contradictions fixed: All simulated FBA revenue data confirmed unreliable — real H10 is mandatory before any capital commitment
+- Wiki pages updated:
+  - `wiki/fba/niche-silicone-splatter-screen.md` — verdict changed from 93/100 ✅ Green Light → ❌ PASS; market snapshot updated with real H10 numbers
+  - `wiki/fba/fba-research-overview.md` — splatter screen row updated to PASS; cable management promoted to #1 priority
+  - `wiki/system/index.md` — splatter screen updated to PASS; new H10 source added; priority actions updated
+  - `CLAUDE.md` — Weekly Update section updated (2026-05-09)
+- New files created:
+  - `wiki/sources/src — H10 Silicone Splatter Screen.md` — real H10 data for 3 keywords with full product tables
+  - `05 Skills/FBA/h10-export-guide/SKILL.md` — exact H10 search terms, column checklist, export instructions
+  - `05 Skills/FBA/niche-decision/SKILL.md` — ingests H10 CSVs, scores against framework, issues go/no-go verdict
+  - `05 Skills/FBA/fba-research-review/SKILL.md` — morning briefing: agent commits, what needs action vs what can wait
+  - `.github/workflows/trigger-fba-agent.yml` — GitHub Action: triggers FBA agent on H10 CSV push to raw/
+  - `~/Library/LaunchAgents/com.dave.vault-autopull.plist` — macOS launchd: pulls vault from GitHub at 7:30am daily
+- Automation pipeline live:
+  - Vault pushed to GitHub: `github.com/davcoopes-bot/dave-ai-second-brain` (public)
+  - Remote FBA research agent scheduled: `trig_016gto8no4HwX9Va1UjUdJwu` — runs 7am Perth daily
+  - Mac auto-pull loaded and active (7:30am daily)
+  - H10 push trigger deployed (note: CLAUDE_SESSION_TOKEN placeholder — may need manual trigger)
+- Queued for ingest: none
+- Next session: Run fba-research-review skill to check overnight agent output; get cable management product locked down (run H10 Xray on "cable management box" and "under desk cable organizer")

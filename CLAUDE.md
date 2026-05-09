@@ -136,13 +136,13 @@ When Dave drops a raw file for wiki ingestion, it goes in `raw/` or `raw/sources
 
 ## Weekly Update
 
-> **Last updated:** 2026-05-06
+> **Last updated:** 2026-05-09
 
-- What's working: Vault development — happy with the progress being made on building out Claude as a proper thinking partner
-- What's not working: Vault still not complete — right skills and most valuable information not fully locked in yet
-- What I'm sitting on / need to decide: Which income route to commit to — trading or FBA — so attention and resources can be focused in the right direction
-- What I'm feeling pulled toward: Both trading and FBA — the priority decision between them is the key thing to settle
-- Any deadlines or time-sensitive things: None
+- What's working: Automation pipeline fully set up — FBA research agent runs every morning at 7am, vault auto-pulls at 7:30am, new skills built (h10-export-guide, niche-decision, fba-research-review). Vault is now on GitHub and the research loop is live.
+- What's not working: Silicone splatter screen eliminated — real H10 data showed $1,277/month total market vs $124k simulated. Simulated research can't be trusted; only real H10 data counts.
+- What I'm sitting on / need to decide: Which FBA product to commit to — cable management is the leading candidate but needs real H10 validation. Tomorrow's agent run should surface new candidates too.
+- What I'm feeling pulled toward: Getting a product locked down fast — enough research, time to commit
+- Any deadlines or time-sensitive things: None — but the longer this stays in research phase, the less time in market this year
 
 
 ## My Current Projects & Overviews
