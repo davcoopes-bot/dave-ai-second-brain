@@ -1,0 +1,42 @@
+name: Trigger FBA Agent on H10 Upload
+
+# Fires whenever Dave pushes H10 CSV files to raw/ — triggers the research
+# agent immediately instead of waiting for the 7am scheduled run.
+
+on:
+  push:
+    paths:
+      - 'raw/H10*.csv'
+      - 'raw/H10-*.csv'
+      - 'raw/sources/H10*.csv'
+      - 'raw/sources/H10-*.csv'
+
+jobs:
+  trigger-fba-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log trigger
+        run: |
+          echo "H10 CSV detected in push — triggering FBA research agent"
+          echo "Commit: ${{ github.sha }}"
+          echo "Files changed: ${{ github.event.commits[0].modified }}"
+
+      - name: Trigger FBA Research Agent via Claude Remote API
+        run: |
+          response=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
+            -H "Authorization: Bearer ${{ secrets.CLAUDE_SESSION_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            "https://claude.ai/api/v1/code/triggers/trig_016gto8no4HwX9Va1UjUdJwu/run")
+          echo "API response code: $response"
+          if [ "$response" = "200" ]; then
+            echo "✅ Agent triggered successfully"
+          else
+            echo "⚠️ Trigger returned $response — agent may need manual trigger"
+            echo "Manual trigger: https://claude.ai/code/routines/trig_016gto8no4HwX9Va1UjUdJwu"
+          fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Failed to trigger FBA agent automatically"
+          echo "Manually trigger at: https://claude.ai/code/routines/trig_016gto8no4HwX9Va1UjUdJwu"
