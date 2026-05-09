@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Obsidian config (local only - not needed by agent)
+.obsidian/
+
+# Claudian session data (private)
+.claudian/
+
+# Embedded git repos (plugin folders with their own .git)
+03 Projects/(PROJECT TEMPLATE)/.obsidian/
+03 Projects/Finances/.obsidian/
+dave-ai-brain/
+
+# Financial documents (keep private)
+**/*.pdf
+raw/TransactionSummary*.pdf
+
+# Node modules if any
+node_modules/
