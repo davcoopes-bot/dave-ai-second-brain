@@ -29,8 +29,15 @@ Read these files first:
 
 ## Step 2 — Load the H10 Data
 
-Scan `raw/` and `raw/sources/` for CSV files starting with "H10" that relate
-to this niche.
+First, run the quick stats script to get the key numbers instantly:
+
+```bash
+python3 "05 Skills/FBA/niche-decision/scripts/h10_quick_stats.py" raw/sources/H10-[keyword].csv
+```
+
+This outputs: total revenue, avg revenue top 10, price range, review moat classification, FBA penetration, and a quick verdict — all in 5 seconds. Use these numbers to populate the scoring table below.
+
+Then manually scan `raw/` and `raw/sources/` for the raw CSV files:
 
 For each CSV:
 - Parse all columns: Product, ASIN, Organic Rank, Price, Revenue, Reviews,
