@@ -16,10 +16,18 @@ Dave has $17k deployed in stocks with no documented framework in the vault. This
 
 ## Before Starting
 
-Read:
+Run the portfolio snapshot script first to get live prices — saves Dave reading out numbers manually:
+
+```bash
+python3 "05 Skills/stock-trading-review/scripts/portfolio_snapshot.py"
+```
+
+Then read:
 1. `CLAUDE.md` — overall goals, current financial position
 2. `GOALS.md` — the $10k/month and $1M targets, income stream pipeline
 3. `06 Wiki/wiki/finance/stock-trading-overview.md` — the trading framework page (may be incomplete — update it during this session if new information comes up)
+
+When Dave's positions change, update `POSITIONS` dict in `scripts/portfolio_snapshot.py`.
 
 ---
 
