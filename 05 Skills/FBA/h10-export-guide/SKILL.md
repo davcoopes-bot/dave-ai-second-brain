@@ -70,11 +70,16 @@ top right of Xray panel) → toggle on any missing columns.
 3. Drop in: `raw/sources/`
 4. Repeat for each keyword above
 
-**What I'll do when you drop the files:**
-- Auto-detected on next session open
-- Ingested into `06 Wiki/wiki/fba/niche-[slug].md`
-- Score updated with real data
-- Go/no-go verdict issued
+**What to do when you drop the files:**
+
+Option A — Instant verdict (no wait):
+```bash
+python3 "05 Skills/FBA/niche-decision/scripts/h10_quick_stats.py" raw/sources/H10-[keyword].csv
+```
+Runs in 5 seconds. Shows total revenue, review moat, top 10 table, and quick verdict. Then trigger the niche-decision skill for full scoring.
+
+Option B — Let the overnight agent process it:
+The FBA research agent will auto-detect the new CSV on next run, ingest it, and write a full niche wiki page. No action needed — just drop the file and wait for the morning pull.
 
 ---
 
