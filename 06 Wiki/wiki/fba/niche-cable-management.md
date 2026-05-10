@@ -1,16 +1,31 @@
 # Niche — Cable Management (Home Office)
 
 > **Category:** fba
-> **Last updated:** 2026-05-03
-> **Score:** 88/100 ✅ Green Light
-> **Data status:** ⚠️ SIMULATED — validate with real H10 before committing capital
-> **Sources:** [[wiki/sources/src — Three Niche Comparison.md]]
+> **Last updated:** 2026-05-09
+> **Score:** 72/100 🟡 Investigate More (revised from 88/100 — see real data update below)
+> **Data status:** ⚠️ PARTIALLY VALIDATED — keyword disambiguation confirmed; box-specific H10 Xray still needed
+> **Sources:** [[wiki/sources/src — Three Niche Comparison.md]], ASINSight.com (2026-05-09)
 
 ---
 
-## Verdict
+## ⚠️ Real Data Update — 2026-05-09
 
-**Green Light.** Revenue is spread across 10 sellers (not top-heavy), review moat is challenging but achievable within 12 months, the premium end of the market ($33–38) is wide open, and competitor listings are universally weak keyword dumps with product-only images. Basic branding beats 8/10 competitors immediately.
+**Key finding: keyword disambiguation.** The simulated data scored this niche against "cable management box" as if that keyword had 808 avg reviews and was contested by other box products. Real market data (ASINSight) shows a more complicated picture:
+
+- The broad "cable hider" keyword (~28,100/month confirmed volume) is dominated by **wall raceways and cable racetrack products** — not cable management boxes. Top 10 on this keyword have 2,900–81,653 reviews at $5–27. These are not our product category.
+- The cable management **box** appears at position #10 on the "cable hider" keyword: rattan style, $22.99, **1,204 reviews, 3,000+ orders/month** — this is a positive signal (revenue happening at low review count), but it's at the bottom of our target price range.
+- Review distribution for "cable hider": 23.66% under 100 reviews, 26.87% at 100–500 — healthy spread, not top-heavy.
+- **What's still missing:** H10 Xray specifically on "cable management box" (not "cable hider") — this is the keyword buyers use when they want the box product, and it may have a completely different competitive landscape (lower avg reviews, box-only competitors).
+
+**Revised verdict: Investigate More (72/100).** Downgraded from 88/100 Green Light. The box sub-niche is real and has revenue happening at manageable review counts — but we don't yet have box-specific keyword data. One H10 search on "cable management box" and "desk cable organizer" will either restore this to Green Light or confirm we move on. This is a 30-minute task, not a reason to drop the niche.
+
+---
+
+## Verdict (Original)
+
+**Simulated verdict was Green Light.** Revenue spread across 10 sellers (not top-heavy), review moat achievable within 12 months, premium end ($33–38) wide open, competitor listings universally weak keyword dumps. Basic branding beats 8/10 competitors immediately.
+
+**Revised verdict after real data: Investigate More.** The box product is real and has revenue, but we need box-specific keyword Xray before confirming entry. Do not order samples until "cable management box" Xray is done.
 
 ---
 
@@ -39,6 +54,19 @@
 
 ## Scoring
 
+### Revised Score (Real Data — 2026-05-09)
+
+| Category | Score | /Max | Notes |
+|----------|-------|------|-------|
+| Revenue Potential | 18 | /25 | 3,000+/mo orders on one box at $22.99 — promising, but box-specific top-10 revenue unconfirmed |
+| Competition Gap | 12 | /25 | "Cable hider" dominated by raceways (2.9k–82k reviews); box sub-niche avg reviews unknown — needs Xray |
+| Search Demand | 17 | /20 | 28,100/month confirmed (broader term); box-specific keyword volume unconfirmed |
+| Differentiation | 15 | /15 | Fixable complaints + weak branding + weak listings — unchanged |
+| Business Viability | 10 | /15 | 36% at $33+ still valid — but visible box product at $22.99 raises pricing risk |
+| **TOTAL** | **72** | **/100** | 🟡 Investigate More |
+
+### Simulated Score (original — do not use for decisions)
+
 | Category | Score | /Max | Notes |
 |----------|-------|------|-------|
 | Revenue Potential | 25 | /25 | 8 of 10 listings doing $8k–41k/month |
@@ -46,7 +74,7 @@
 | Search Demand | 20 | /20 | 28,600/month, strong supporting cluster |
 | Differentiation | 15 | /15 | Fixable complaints + weak branding + weak listings |
 | Business Viability | 10 | /15 | 36% at $33+ — must price to premium end |
-| **TOTAL** | **88** | **/100** | |
+| **TOTAL** | **88** | **/100** | Simulated — invalidated |
 
 ---
 
@@ -119,12 +147,14 @@ Enter on the lower-competition sub-terms first. "Under desk cable management" an
 
 ---
 
-## Next Steps
+## Next Steps (Updated 2026-05-09)
 
-1. **Pull real H10 Xray** on "cable management box" and "under desk cable organizer" — confirm simulated revenue and review counts
-2. **Search Alibaba** "cable management box" — filter for MOQ under 300 units, request samples from top 2–3 suppliers
-3. **Test samples** with an actual power strip and 6 cables — lid mechanism, internal fit, cable exit holes
-4. **Price target: $32.99–$36.99** — don't compete at the $19–22 budget end; margin disappears
+1. **CRITICAL — Run H10 Xray on "cable management box" specifically** (not "cable hider"). Export with Revenue and Reviews columns. This one search either restores this to Green Light or kills it. Expected time: 15 minutes.
+2. If avg reviews (top 10 boxes only, not raceways) come in under 300: **Green Light — move to Alibaba**
+3. If avg reviews come in 300–500: Re-score at ~75–80/100, still viable via sub-keywords ("under desk cable management", "cord management box")
+4. If avg reviews come in 500+: Deprioritise behind padded lifting straps
+5. **Price target stays at $32.99–$36.99** — the $22.99 rattan box at position #10 is the budget end; premium end has room
+6. ⛔ Do not search Alibaba or request samples until step 1 is done
 
 ---
 
@@ -139,3 +169,4 @@ Enter on the lower-competition sub-terms first. "Under desk cable management" an
 ## Revision History
 
 - 2026-05-03: Created. Source: Three Niche Comparison (2026-05-03).
+- 2026-05-09: Real data update. Keyword disambiguation identified — "cable hider" dominated by wall raceways, not boxes. Box sub-niche confirmed with positive revenue signal (3k+/mo orders at 1,204 reviews, $22.99). Score revised from 88/100 ✅ Green Light → 72/100 🟡 Investigate More. Box-specific H10 Xray on "cable management box" is the make-or-break next step.

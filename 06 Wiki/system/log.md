@@ -351,3 +351,19 @@
   - H10 push trigger deployed (note: CLAUDE_SESSION_TOKEN placeholder — may need manual trigger)
 - Queued for ingest: none
 - Next session: Run fba-research-review skill to check overnight agent output; get cable management product locked down (run H10 Xray on "cable management box" and "under desk cable organizer")
+
+---
+
+## [2026-05-09] update | Real data scoring — cable management box + priority restack
+
+- Triggered by: Autonomous workflow continuation — applying real ASINSight data gathered this session
+- Key finding: "Cable hider" keyword (~28,100/month) is dominated by wall raceways, not cable management boxes. Keyword disambiguation invalidates simulated 88/100 Green Light score.
+- Real data points: Cable management box confirmed at position #10 in "cable hider" — rattan style, $22.99, 1,204 reviews, 3,000+/month orders. Box sub-niche is real and has revenue; just needs box-specific keyword Xray.
+- Review distribution for "cable hider": 23.66% under 100 reviews, 26.87% at 100–500 — healthy spread, not top-heavy.
+- Confirmed fitness brands in lifting straps: Gymreapers, Element 26, Harbinger — established players but confined to head term; sub-keywords still uncontested at specific review levels.
+- Wiki pages updated:
+  - `wiki/fba/niche-cable-management.md` — revised from 88/100 Green Light → 72/100 Investigate More; added real data update section; updated next steps
+  - `wiki/fba/fba-research-overview.md` — master rankings table restacked; padded lifting straps promoted to #1; priority queue rewritten; no Green Light niches currently
+  - `wiki/system/index.md` — cable management summary updated; priority actions updated
+- Current leading candidate: Padded Lifting Straps (85/100, 46% net margin) — sub-keyword H10 Xray is the next required step
+- Next action for Dave: Run H10 Xray on "padded lifting straps" and "figure 8 lifting straps" — export with Reviews column

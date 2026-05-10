@@ -12,33 +12,37 @@ All niches researched to date, ranked by score. Data is simulated — validate w
 
 | Rank | Niche | Score | Verdict | Review Moat | Net Margin | Status |
 |------|-------|-------|---------|-------------|------------|--------|
-| 1 | Silicone Splatter Screen | ❌ Pass | ~~✅ Green Light~~ **❌ Pass** | N/A | N/A | Market too small — $1,277/mo total on silicone keyword |
-| 2 | Cable Management (Home Office) | 88/100 | ✅ Green Light | 808 avg | 25–36% | Samples needed |
-| 3 | Padded Lifting Straps | 85/100 | 🟡 Investigate More | 663 avg (head term); lighter on sub-terms | 46% | Sub-keyword validation needed |
-| 4 | Wrist Wraps | ~70/100 | 🟡 Investigate More | ~480 avg | ~42% | Not fully researched |
-| 5 | Fabric Resistance Bands | 66/100 | 🟡 Caution | 950 avg | 38% (adjusted) | Only via long-tail entry |
-| 6 | Dog Travel Accessories | 51/100 | 🔶 Caution | 6,908 avg | 15–22% | Revisit in 18 months |
-| 7 | Bamboo Kitchen Utensils | 37/100 | ❌ Pass | 6,644 avg | Fine on paper | Don't pursue |
+| 1 | Padded Lifting Straps | 85/100 | 🟡 Investigate More | 663 avg (head term); sub-keywords unconfirmed | 46% | Sub-keyword H10 Xray needed — highest priority |
+| 2 | Cable Management Box | 72/100 | 🟡 Investigate More | Box-specific avg unknown; broader keyword dominated by raceways | 25–36% | Box-specific H10 Xray needed — 15 mins to resolve |
+| 3 | Wrist Wraps | ~70/100 | 🟡 Investigate More | ~480 avg | ~42% | Not fully researched |
+| 4 | Fabric Resistance Bands | 66/100 | 🟡 Caution | 950 avg | 38% (adjusted) | Only via long-tail entry |
+| — | Silicone Splatter Screen | ❌ Pass | ~~93/100~~ **❌ Pass** | N/A | N/A | Market too small — $1,277/mo total on silicone keyword (real H10) |
+| — | Dog Travel Accessories | 51/100 | 🔶 Caution | 6,908 avg | 15–22% | Revisit in 18 months |
+| — | Bamboo Kitchen Utensils | 37/100 | ❌ Pass | 6,644 avg | Fine on paper | Don't pursue |
 
 ---
 
-## The Two Green Lights
+## Current Status — No Green Lights Yet
 
-### ⚠️ Silicone Splatter Screen (Score Under Review)
+There are currently no confirmed Green Light niches. The two top candidates are both at Investigate More and are one H10 search each away from a decision.
 
-> Real H10 data ingested 2026-05-09. Market significantly smaller than simulated.
+### ❌ Silicone Splatter Screen — PASSED
 
-Real H10 Xray shows "silicone splatter screen" keyword generates ~$1,277/month total across 50 products — simulated data claimed $124k/month. Broader terms ("splatter guard", "splatter screen") are $20–26k/month markets but dominated by stainless steel OXO products. Silicone gets 2–3% share.
-
-**Still valid:** Differentiation brief (handle + mesh), product specification, listing approach.
-**In question:** Revenue ceiling, market size, whether silicone-specific demand is large enough for FBA entry.
-**Still missing:** Review counts — needed before any final call.
+Real H10 data: "silicone splatter screen" keyword generates ~$1,277/month total across all products. Dead. Simulated data was 97% wrong.
 
 Full details: [[wiki/fba/niche-silicone-splatter-screen.md]]
 
-### 🥈 Cable Management (88/100)
+### 🟡 Padded Lifting Straps (85/100) — LEADING CANDIDATE
 
-The second strongest. Key differentiator from lifting straps and bands: the revenue is spread across 10 sellers, not concentrated at the top. Even bottom-half page 1 sellers do $6–8k/month with under 200 reviews. Premium end ($33–38) is wide open — nobody has built a real brand here.
+Strongest remaining candidate. 46% net margin — highest of any niche researched. Head-term review moat (663 avg) hides the real question: sub-keywords "padded lifting straps" and "figure 8 lifting straps" may have 150–200 avg reviews, which would make this a Green Light. Dave has direct domain knowledge (gym background), which helps with product testing and listing authenticity.
+
+**Risk:** Gymreapers, Element 26, and Harbinger are confirmed real brands with review momentum. Entry is via sub-keywords and mid-tier positioning, not taking on established brands directly.
+
+Full details: [[wiki/fba/niche-padded-lifting-straps.md]]
+
+### 🟡 Cable Management Box (72/100) — SECOND CANDIDATE
+
+Downgraded from 88/100 Green Light. Key finding: the "cable hider" keyword (~28k/month) is dominated by wall raceways, not boxes. The cable management box is a distinct sub-niche. One box product confirmed doing 3,000+/month orders at $22.99 with 1,204 reviews — positive revenue signal at low review count. Premium pricing ($33+) still viable. One H10 Xray on "cable management box" specifically resolves this.
 
 Full details: [[wiki/fba/niche-cable-management.md]]
 
@@ -66,12 +70,12 @@ Full details: [[wiki/fba/niche-padded-lifting-straps.md]]
 
 ## Priority Action Queue
 
-1. **Pull review counts for silicone splatter screen** — re-run H10 Xray with Reviews column exported. Top 10 silicone products. This determines if the niche is still viable despite lower revenue.
-2. **Pull real H10 Xray on cable management** — "cable management box", "under desk cable organizer". Cable management now the leading candidate given splatter screen revenue miss.
-3. **Pull real H10 Xray on lifting straps sub-keywords** — "padded lifting straps", "figure 8 lifting straps"
-4. **Do NOT order samples for anything** until real revenue + review count data confirms a viable market.
+1. **H10 Xray — "padded lifting straps" and "figure 8 lifting straps"** — sub-keyword avg reviews is the make-or-break metric. If under 200 avg → Green Light. If 400+ → drop it. (Leading candidate — do this first.)
+2. **H10 Xray — "cable management box" and "desk cable organizer"** — box-specific keyword (not "cable hider"). Confirms or kills the 72/100 score. 15-minute task.
+3. **Do NOT order samples** until at least one niche has real H10 confirmation on both revenue and review counts.
+4. Silicone splatter screen is dead — no further action required.
 
-**Updated priority:** Cable management moves to #1 candidate. Splatter screen is on hold pending review counts.
+**Current leading candidate: Padded Lifting Straps.** 46% margin, clear differentiation brief, manageable sub-keyword entry if review counts confirm. Run the H10 sub-keyword Xray first.
 
 ---
 
@@ -102,3 +106,4 @@ The single most important criterion in FBA research. Everything else can be work
 ## Revision History
 
 - 2026-05-03: Created. Initial population from 3 research files.
+- 2026-05-09: Major update. Cable management revised from 88/100 Green Light → 72/100 Investigate More (keyword disambiguation — "cable hider" dominated by raceways, not boxes). Padded lifting straps promoted to #1 priority. Priority queue rewritten. No Green Light niches currently confirmed.

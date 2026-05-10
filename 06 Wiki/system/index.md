@@ -1,6 +1,6 @@
 # Wiki Index — Navigation Map
 
-> **Last updated:** 2026-05-06
+> **Last updated:** 2026-05-09
 > **Total pages:** 28
 > **How to use:** Read this first every session. Find relevant pages, then drill in. Update after every ingest or new page creation.
 
@@ -22,7 +22,7 @@
 |---|---|
 | [[wiki/fba/fba-research-overview.md]] | **START HERE for FBA** — master rankings, all niches compared, priority action queue |
 | [[wiki/fba/niche-silicone-splatter-screen.md]] | ❌ PASS — real H10 revenue $1,277/mo total on silicone keyword; market too small |
-| [[wiki/fba/niche-cable-management.md]] | 88/100 ✅ Green Light — premium end open, 808 avg reviews (220 for positions 5–10), 36% margin |
+| [[wiki/fba/niche-cable-management.md]] | 72/100 🟡 Investigate More — keyword dominated by raceways; box sub-niche real, one H10 Xray resolves it |
 | [[wiki/fba/niche-padded-lifting-straps.md]] | 85/100 🟡 Investigate More — needs sub-keyword H10 Xray before committing |
 | [[wiki/fba/niche-fabric-resistance-bands.md]] | 66/100 🟡 Caution — 950 avg reviews, only via non-slip long-tail variant |
 | [[wiki/fba/niche-dog-travel-accessories.md]] | 51/100 🔶 Caution — 6,908 avg reviews, revisit in 18 months |
@@ -116,10 +116,10 @@
 
 ## Priority Actions (Current)
 
-1. Pull H10 Xray with **review counts** on "silicone splatter screen" top 10 — determines if niche is still viable despite low revenue
-2. Pull real H10 Xray — "cable management box" and "under desk cable organizer" — now leading candidate
-3. Pull real H10 Xray — "padded lifting straps" and "figure 8 lifting straps" sub-keywords
-4. ⛔ Do NOT order samples until real revenue + review data confirms a viable market
+1. **H10 Xray — "padded lifting straps" and "figure 8 lifting straps"** — sub-keyword avg reviews is the decision point. Under 200 → Green Light. 400+ → move on. Leading candidate, 46% margin.
+2. **H10 Xray — "cable management box" and "desk cable organizer"** — box-specific only (not "cable hider"). 15 mins to get a real verdict on this niche. Second candidate.
+3. ⛔ Do NOT order samples until at least one niche confirmed with real H10 review + revenue data
+4. Silicone splatter screen — DEAD. No further action.
 
 ---
 
