@@ -25,16 +25,22 @@ To wire any external service into Claude so it can take real actions, not just d
 
 1. Go to [platform.composio.dev](https://platform.composio.dev) → sign up free
 2. Copy the API key from Settings
-3. Set it permanently in the shell:
+3. Run the setup script — it handles everything in one shot:
 
 ```bash
-echo 'export COMPOSIO_API_KEY="your-key-here"' >> ~/.zshrc
-source ~/.zshrc
+python3 "05 Skills/connect/scripts/setup_composio.py" --key YOUR_KEY_HERE
 ```
 
-4. Also add it as a GitHub Secret for remote agents:
-   - Go to the vault repo → Settings → Secrets → Actions
-   - Add secret named `COMPOSIO_API_KEY`
+This script:
+- Adds `COMPOSIO_API_KEY` permanently to `~/.zshrc`
+- Adds it to GitHub Secrets (for remote agents) via `gh` CLI
+- Tests the connection
+- Optionally connects apps via OAuth
+
+To also connect Gmail and Google Calendar in one go:
+```bash
+python3 "05 Skills/connect/scripts/setup_composio.py" --key YOUR_KEY --connect gmail googlecalendar
+```
 
 ---
 
