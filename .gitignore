@@ -19,3 +19,15 @@ raw/TransactionSummary*.pdf
 
 # Node modules if any
 node_modules/
+
+# Claude Code session cache (private, machine-specific)
+.claude/
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Debug screenshots from scraper
+raw/sources/debug-*.png

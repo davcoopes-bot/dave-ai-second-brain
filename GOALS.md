@@ -27,9 +27,9 @@
 
 ### Assets
 - **Liquid cash:** ~$60,000
-- **Stock investments:** ~$17,000
+- **Stock investments:** ~$19,000
 - **Businesses/other:** None yet
-- **Estimated net worth:** ~$77,000
+- **Estimated net worth:** ~$79,000
 
 ### Parents' Mortgage
 - Amount outstanding: _[add this]_
@@ -91,5 +91,5 @@ The plan is to build outside income alongside the trade — test fast, find what
 
 | Date | Net Worth | Side Income/mo | Notes |
 |------|-----------|----------------|-------|
-| May 2026 | ~$77,000 | $0 | Starting point |
+| May 2026 | ~$79,000 | $0 | Starting point — stocks $19k, liquid $60k |
 | | | | |

@@ -136,22 +136,28 @@ When Dave drops a raw file for wiki ingestion, it goes in `raw/` or `raw/sources
 
 ## Weekly Update
 
-> **Last updated:** 2026-05-09
+> **Last updated:** 2026-05-28
 
-- What's working: Automation pipeline fully set up — FBA research agent runs every morning at 7am, vault auto-pulls at 7:30am, new skills built (h10-export-guide, niche-decision, fba-research-review). Vault is now on GitHub and the research loop is live.
-- What's not working: Silicone splatter screen eliminated — real H10 data showed $1,277/month total market vs $124k simulated. Simulated research can't be trusted; only real H10 data counts.
-- What I'm sitting on / need to decide: Which FBA product to commit to — cable management is the leading candidate but needs real H10 validation. Tomorrow's agent run should surface new candidates too.
-- What I'm feeling pulled toward: Getting a product locked down fast — enough research, time to commit
-- Any deadlines or time-sensitive things: None — but the longer this stays in research phase, the less time in market this year
+- What's working: MsWLL brand APPROVED across all stores/countries (Amazon email 2026-05-27). GTIN exemption files ready to download at agency-studios.com/customer/orders/GTIN-001134 — 30-day download window active. Course now 52% complete (64/115) — Creating Your First Listing, Product Sourcing, and Done For You Product Sourcing all complete.
+- What's not working: Product search still open — no product confirmed. Gummies ruled out (GMP/FDA complexity). 90+ keywords across 12+ scraper batches — zero passes under LegacyX $200k + ≤500 review criteria. Product direction decision is the outstanding blocker.
+- What needs action: (1) Download GTIN files immediately — 30-day window, don't let it lapse. (2) Submit GTIN exemption to Amazon under "Disposable Plates". (3) Create dummy listing — change FBA Barcode Preference to "Amazon barcode" first. (4) Watch the 3 errored Shipping module lessons directly in Thinkific (Creating A Shipping Plan x2, CRITICAL STEP Booking An Inspection). (5) Decide product direction.
+- What I'm feeling pulled toward: Getting a product locked and ordered. Brand is approved, GTIN is ready — need a product to point it at.
+- Any deadlines or time-sensitive things: GTIN download window is 30 days from order (placed ~May 23 — expires ~June 22). Dummy listing needs 5–7 days to sit before FNSKU can be generated.
 
 
 ## My Current Projects & Overviews
 
 ### FBA (with Josh) — `03 Projects/FBA Research/`
-**Status:** Active research phase — niche selection in progress
-Building an Amazon FBA business with Josh. Research phase is underway. Top niche candidates identified (silicone splatter screen 93/100, cable management 88/100). All current data is simulated — real Helium 10 validation is the next step before committing capital.
-**Wiki:** See `06 Wiki/wiki/fba/fba-research-overview.md` for the current niche shortlist and priority actions.
-**⚠️ Data warning:** All FBA research to date uses simulated H10 data. Do not commit capital without validating against real Helium 10 Xray exports.
+**Status:** Active — MsWLL brand approved, GTIN files ready, product search ongoing
+- ✅ **MsWLL Brand Qualification APPROVED** — all stores/countries (Amazon confirmed 2026-05-27). Case-sensitive: use exactly "MsWLL".
+- ✅ **GTIN exemption files ready** — Order #GTIN-001134, download at agency-studios.com/customer/orders/GTIN-001134. **30-day window (~expires June 22).**
+- 🔴 **Immediate action:** Download GTIN files → submit to Amazon under "Disposable Plates" → create dummy listing
+- Course 52% complete (64/115) — Creating Your First Listing, Product Sourcing, Done For You all complete. Shipping module started (1/8 — watch 3 errored lessons directly).
+- Product search: 90+ keywords, 12+ batches — all FAIL under LegacyX criteria. Decision needed: GLP-1 cooling case vs emerging category search vs $50k floor criteria.
+- Gummies ruled out (GMP/FDA/Amazon category gating too complex for first product)
+**Wiki:** See [[06 Wiki/wiki/fba/fba-branding-gtin.md]] for dummy listing steps. See [[06 Wiki/wiki/fba/fba-research-overview.md]] for product search status.
+**Tracker:** See [[03 Projects/FBA Research/(C) Niche Research Tracker.md]] — auto-updated by scraper every run.
+**Next step:** (1) Download + submit GTIN files. (2) Create dummy listing. (3) Decide product direction.
 
 ### Finances — `03 Projects/Finances/`
 **Status:** Just created — budget setup is next

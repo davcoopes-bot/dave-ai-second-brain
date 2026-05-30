@@ -367,3 +367,286 @@
   - `wiki/system/index.md` — cable management summary updated; priority actions updated
 - Current leading candidate: Padded Lifting Straps (85/100, 46% net margin) — sub-keyword H10 Xray is the next required step
 - Next action for Dave: Run H10 Xray on "padded lifting straps" and "figure 8 lifting straps" — export with Reviews column
+
+---
+
+## [2026-05-10] update | Composio integration + agent email alerts
+
+- Triggered by: Dave — session focused on wiring up external app integrations and 24/7 automation coverage
+- What was built:
+  - Composio CLI installed: `~/.composio/composio` v0.2.27
+  - Gmail connected and tested (word_id: `gmail_bedip-pegbox`) — confirmed emails send via CLI
+  - Google Calendar connected (word_id: `googlecalendar_plaque-teju`)
+  - Composio MCP added to Claude: `connect.composio.dev/mcp` with consumer key — available next session
+  - `COMPOSIO_API_KEY` + `COMPOSIO_CONSUMER_KEY` added to GitHub Secrets for remote agents
+  - Both keys stored permanently in `~/.zshrc`
+- Agents updated:
+  - FBA agent (`trig_016gto8no4HwX9Va1UjUdJwu`) — now emails davcoopes@gmail.com immediately when any niche scores 80+ (Green Light)
+  - Stock agent (`trig_01QiXPJoRawub6hEGUVyvDxS`) — now emails davcoopes@gmail.com on IMMEDIATE ACTION REQUIRED alerts (EXR catalyst, ERA sell)
+  - Email mechanism: agents download Composio CLI, seed credentials from GitHub Secrets, execute GMAIL_SEND_EMAIL
+- Skills updated:
+  - `05 Skills/connect/SKILL.md` — full status table, key types documented, both apps confirmed active
+- Next session: MCP tools (Gmail, Calendar) available natively in Claude — no scripts needed. Start fresh session to use them.
+- Next action for Dave: H10 Xray on "padded lifting straps" + "cable management box" — export CSVs and drop in `raw/sources/`
+
+---
+
+## [2026-05-10] update | H10 scraper — full pipeline live, all three queue keywords validated
+
+- Triggered by: Dave — continued previous session building H10 automation
+- What was built:
+  - Reverse-engineered H10's private API: `research-tools.helium10.com/api/xray/v1/searches/` (POST with ASINs), `members.helium10.com/api/v1/product/sales-chart`, `bsr-chart`, `review-chart` — all working with Bearer token from `~/.h10-session.json`
+  - Full `h10_scraper.py` rewritten — Amazon search via Playwright + pycookiecheat (Chrome cookies), H10 API enrichment, CSV output
+  - Queue processed: padded lifting straps ✅, figure 8 lifting straps ✅, cable management box ✅
+  - Session file: auth is `CORE_BEARER_TOKEN` from localStorage; Amazon cookies pulled fresh from Chrome each run
+- Real H10 data results:
+  - **Padded lifting straps**: $104,368/mo total page 1 revenue ✅ PASSES revenue filter — BUT avg 13,277 reviews ❌ closed review moat; prices avg $12.48 ❌ thin margins — LIKELY PASS on competition grounds
+  - **Figure 8 lifting straps**: $7,196/mo total ❌ FAILS revenue filter — too small a niche
+  - **Cable management box**: $9,789/mo total ❌ FAILS revenue filter — too small a niche (confirms earlier finding)
+- Wiki pages to update: `fba-research-overview.md`, niche-padded-lifting-straps.md` — scores need revision to real data
+- Skills updated: `05 Skills/FBA/h10-scraper/SKILL.md` — fully updated for new API-based approach
+- CLAUDE.md: Weekly Update updated
+- Next action: Update wiki niche pages with real data scores, then decide whether to continue researching new niches or pivot strategy
+
+---
+
+## [2026-05-10] update | Obsidian tracker auto-wired + 15 new niche candidates generated
+
+- Triggered by: Dave — continued from previous session, wrapping pipeline and generating new niche queue
+- What was built:
+  - `h10_scraper.py` updated — `update_obsidian_tracker()` function added; now auto-updates `03 Projects/FBA Research/(C) Niche Research Tracker.md` on every scrape run
+  - Tracker auto-updates three sections: Summary table (new row), ❌ Failed Niches or ✅ Green Lights (new detail block), Research Log (new or appended row); frontmatter `updated:` date also bumped
+  - `05 Skills/FBA/h10-scraper/SKILL.md` updated to document the Obsidian auto-update behaviour
+- Niche candidates generated: 15 keywords across 3 batches for next H10 queue
+  - Batch 1 (highest confidence): fridge organizer bins set, car seat back organizer with tablet holder, camping hammock with tree straps, acupressure mat and pillow set, under sink organizer and storage
+  - Batch 2: monitor stand riser with drawer, insulated lunch bag large, dog car seat cover waterproof, spice rack organizer for cabinet, massage gun attachment heads set
+  - Batch 3: elevated dog bowl stand large, hammock chair with stand, yoga mat strap carrier, silicone stretch lids set, wall mounted laundry drying rack
+- Gmail integration: Composio MCP connector not yet active in this session — needs fresh session to pick up
+- Next action: Start new session → ingest Josh's emails (Composio Gmail now available) → add Batch 1 keywords to `raw/h10-queue.txt` → run scraper
+
+---
+
+## [2026-05-10] ingest | Josh Foo emails — 9 FBA research notes (Gmail)
+
+- Source: Gmail — sinclairjosh50@gmail.com, 9 emails sent 2026-05-10, retrieved via Gmail MCP
+- Summary pages created (9):
+  - `wiki/sources/src — Selling on Amazon US from Australia.md`
+  - `wiki/sources/src — Amazon Private Label Startup Costs Full Breakdown 2025.md`
+  - `wiki/sources/src — Amazon PPC Strategy Simple System That Works.md`
+  - `wiki/sources/src — Sourcing Alibaba to Amazon FBA Step-by-Step.md`
+  - `wiki/sources/src — Top Amazon FBA Mistakes to Avoid 2025.md`
+  - `wiki/sources/src — Amazon FBA Product Research Data-Driven 2025.md`
+  - `wiki/sources/src — Selling Private Label Products on Amazon 9 Steps.md`
+  - `wiki/sources/src — Amazon FBA Private Label Make It Big 7 Steps.md`
+  - `wiki/sources/src — How to Sell on Amazon Explained in 5 Minutes.md`
+- Concept pages created (5):
+  - `wiki/fba/fba-aus-seller-setup.md` — Wise account, W-8BEN, AU-US tax treaty, sales tax nexus
+  - `wiki/fba/fba-startup-costs.md` — $3k–$10k range, all fee layers, landed cost, margin formula
+  - `wiki/fba/fba-ppc-strategy.md` — 3-tier campaign, break-even ACOS, listing quality gate
+  - `wiki/fba/fba-sourcing-alibaba.md` — 8-step workflow, supplier vetting, 5 sourcing mistakes
+  - `wiki/fba/fba-product-research-framework.md` — winning product formula, 7-step workflow, micro-test
+- Pages updated: `system/index.md` (total pages: 28 → 42)
+- Contradictions logged:
+  - Review threshold: Savvy FBA says <300; Helium 10 says <500. Resolution: use <300 (conservative). Noted in both source pages and fba-product-research-framework.md.
+- Key insights from batch:
+  - W-8BEN non-negotiable for Australian sellers — skip it and Amazon withholds 30% of all earnings
+  - 64% of PL sellers started with under $5k; 58% profitable within year one
+  - BigCommerce source most objective — less tool-pitching, stronger on risk and cost realism
+  - Online Arbitrage (OA) is a separate model to PL — filed for reference, not our path
+- Open questions:
+  - What is Dave's committed capital for the first FBA order?
+  - Which US states to prioritise for sales tax registration at scale?
+  - Freight forwarder recommendation for China → USA (Australian seller)?
+
+---
+
+## [2026-05-11] ingest | Josh's branding research — 3 sources ingested via email
+
+- Triggered by: Josh's Claude emailed 3 branding research articles + positioning exercise cover
+- Sources ingested:
+  - `sources/src — Brand Positioning How to Own a Space in Your Customers Mind.md` — "Logic of the Only" framework, white space mapping, category disruption strategy
+  - `sources/src — Branding for Private Label Building a Distinct Identity.md` — USP discovery, brand storytelling, design as communication, loyalty tactics
+  - `sources/src — Product Naming Strategy How to Name Your Brand.md` — 6 naming approaches, 5-step process, trademark checklist
+- Key action item from Josh's Claude: Complete the positioning exercise ("We are the ONLY...") together once a product category is locked in — everything else flows from that sentence
+- Summary email drafted and sent to Josh covering today's scraper results, the bifurcation pattern, rate limit status, and 60 queued keywords
+
+---
+
+## [2026-05-11] update | H10 scraper — Batches 1–3 complete, 0 green lights, strategy pivot
+
+- Triggered by: Dave — scraper ran overnight on all 15 queued keywords
+- Scraper results: 15 keywords processed, 0 pass, 0 errors
+- Fail breakdown:
+  - Revenue fails only: wall mounted laundry drying rack ($12,900), massage gun attachments ($1,606)
+  - Reviews fail only (revenue passes): under sink organizer ($116k, 5,589 avg), insulated lunch bag ($124k, 7,968 avg), dog car seat cover ($56k, 8,200 avg), acupressure mat & pillow ($52k, 21,824 avg), camping hammock ($51k, 16,781 avg)
+  - Both fail: fridge organizer, car seat organizer, monitor stand riser, spice rack, yoga mat strap, elevated dog bowl, hammock chair with stand, silicone stretch lids
+- Key insight: 22 niches tested total (7 original + 15 scraper batches) — 0 green lights. Every high-revenue category has 5k–22k average reviews (locked). Low-review categories have no revenue. Broad, established categories are structurally closed. Batch 3 needs a different input strategy.
+- Wiki pages updated:
+  - `wiki/fba/fba-research-overview.md` — scraper results section added; eliminated niches table expanded with all 15 failures; priority queue updated with Batch 3 strategy pivot; revision history updated
+  - `03 Projects/FBA Research/(C) Niche Research Tracker.md` — auto-updated by scraper
+- Next action: Build Batch 3 keyword list using trending/emerging product methodology (TikTok-driven demand, accessories to hot primaries, seasonal sub-niches entering window) — not broad category brainstorming
+
+---
+
+## [2026-05-23] ingest | LegacyX FBA FAQ + Product Dashboard V2
+
+- Raw source: Scraped autonomously via Composio browser automation (Notion public pages — JS rendering required)
+- Source URLs:
+  - https://brycejoe.notion.site/LegacyX-FBA-FAQ-220c7d93cfc7804cab34d2b67b3fa4d4
+  - https://brycejoe.notion.site/LegacyX-FBA-Product-Dashboard-V2-6c5634e8a40146038bdace37647b2424
+- Summary pages created:
+  - `wiki/sources/src — LegacyX FBA FAQ.md`
+  - `wiki/sources/src — LegacyX FBA Product Dashboard V2.md`
+- Pages created (5):
+  - `wiki/fba/fba-account-setup-legal.md` — LLC, NAICS 455219, separate accounts, liability insurance, taxes
+  - `wiki/fba/fba-launch-and-reviews.md` — launch sequence, review stacking ratio, units to order, custom packaging dos/don'ts
+  - `wiki/fba/fba-inventory-management.md` — reorder quantities, removal notices, return rate benchmarks, storage capacity
+  - `wiki/fba/fba-hijackers.md` — detection, response protocol, Buy Box dynamics, prevention
+  - `wiki/fba/fba-tools-software.md` — H10 vs Seller Sprite vs Jungle Scout, LegacyX in-house service contacts
+- Pages updated (2):
+  - `wiki/fba/fba-sourcing-alibaba.md` — Added 1688.com opening offer tactic
+  - `wiki/fba/fba-product-research-framework.md` — Added LegacyX research tips section
+- Index updated: 42 → 50 pages
+- Contradictions:
+  - GTIN sourcing: Existing compliance page recommends GS1. LegacyX recommends FBA-Pro GTIN exemption service instead of GS1/Barcodemania (recycled UPC risk). Not contradictory — different approaches. Noted in FAQ source page.
+  - Samples policy: LegacyX says order stock samples (not custom) at selection stage. Minor difference in emphasis from existing sourcing page — LegacyX is more cost-efficient for early validation.
+- What remains unscrapped:
+  - Thinkific course lessons (full curriculum) — behind authentication, couldn't access autonomously
+  - LegacyX Assets Drive (Google Drive PDFs: product workflow, barcode guide, Super URL method)
+  - LegacyX service hub (https://inhouse.legacyxfba.com/) — rendered minimally
+- Open questions:
+  - What does the Thinkific lesson curriculum actually cover week-by-week?
+  - What is the LegacyX Assets Drive URL?
+  - What does Nawprotect cost for hijacker removal?
+  - What is LaunchFast and how does it work?
+
+---
+
+## [2026-05-12] update | H10 scraper — Batches 4–7 complete, 0 green lights, Batches 8–10 queued
+
+- Triggered by: Autonomous continuation — scraper ran overnight through Batches 4–7
+- Batches 4 & 5 completed (prior session, results confirmed this session):
+  - 15 keywords, 0 pass — trending/growth-signal strategy (mouth tape 134%, sleep bonnet 64%, pimple patches 20k reviews) all closed or too small
+- Batch 6 — Premium price floor (15 keywords, 0 pass, all legitimate fails):
+  - Closed: beef tallow balm ($142k/mo, 2,788 avg reviews), blue light glasses ($83k/mo, 21,508 avg), knee compression ($339k/mo, 42,776 avg)
+  - Too small: cold brew pitcher, beeswax wrap, electric kettle, cocktail smoker, jaw exerciser, portable espresso, matcha whisk, fishing rod holder, silicone ice ball, hair diffuser, reusable straws, sleep headphones
+- Batch 7 — Niche sports + craft hobbies + seasonal (15 keywords, 0 pass, all legitimate fails):
+  - Closed: solar string lights ($76k/mo, 5,216 avg reviews)
+  - Too small: pickleball hopper ($3,535/mo, 77 avg reviews), pickleball bag ($6,963/mo, 298 avg), pool thermometer ($15,814/mo, 229 avg), punch needle (304 avg), disc golf, diamond painting, resin art, candle making, kombucha, sauna ladle, hydroponic, calligraphy, beach tent, dry bag
+  - Notable: several products with <300 avg reviews but revenue too small to enter (<$16k/mo)
+- Rate limit pattern confirmed: ~90 enrichment API calls per session before H10 rate limits (~30 keywords). Running immediately after previous session hits limit from call 1. Must wait 1+ hour between runs.
+- Batch 8 (van life/fitness/creator) — hit rate limit in two consecutive runs, both false fails. Re-queued.
+- Queue state: 45 keywords ready — Batch 8 (15) + Batch 9 (15, regulatory/Gen Z) + Batch 10 (15, biohacking/new tech)
+- Batch 10 highest conviction: stelo dexcom sensor cover patch (OTC CGM <18 months old), PFAS free beeswax food wrap sheet set (state bans live Jan 2025/2026), carbon steel wok flat bottom (non-toxic cookware shift), Ray-Ban Meta glasses lens replacement (millions of units, accessory sub-niche barely exists)
+- Next action: Wait for H10 rate limit to reset (~1 hour), then run scraper on Batches 8/9/10
+
+---
+
+## [2026-05-23] ingest | LegacyX FBA Full Course (Thinkific) — 37/115 lessons
+
+- Raw source: `raw/sources/2026-05-23 — LegacyX FBA Full Course.md` — scraped via Playwright + pycookiecheat (Chrome cookie auth)
+- Source URL: https://legacyxfba.thinkific.com/courses/take/new-course
+- Scraper: `/tmp/thinkific_scraper.py` — reusable; re-run as Dave progresses through course
+- Summary page created: `wiki/sources/src — LegacyX FBA Full Course (Thinkific).md`
+- Pages updated (2):
+  - `wiki/fba/fba-tools-software.md` — LaunchFast pricing details ($49/month student rate, QUICKSTART3 trial code, A10–F1 grading system)
+  - `wiki/fba/fba-account-setup-legal.md` — Business name = 5-minute decision tip; LLC before Amazon account setup warning
+- Index updated: 50 → 51 pages
+- Course status: Dave is 31% complete — 37 lessons accessible (6 full modules + 1 partial), 78 lessons locked behind prerequisite (must complete Branding On Amazon section)
+- Key takeaways from accessible lessons:
+  - Business name = zero-impact decision; initials + "Distribution"
+  - LLC before Seller Central setup — changing structure later triggers re-verification
+  - LaunchFast grades A10–F1; B1 and above = worth pursuing; $49/month student rate (code QUICKSTART3)
+  - FBA-Pro provides laser-etched brand approval images (brand approval ≠ brand registry)
+  - Profit margin calculator: live Google Sheet, orange cells only
+- Contradictions: none — all accessible content consistent with existing wiki
+- What remains locked (needs course progression):
+  - Branding On Amazon (7/8 lessons), Creating Your First Listing, Product Sourcing, Shipping, Listing Creation, AI Tools, Launching, Advertising, PPC (Kunze + Wilco strategies), Scaling
+- Re-ingest plan: `python3 /tmp/thinkific_scraper.py` — Chrome cookie auth auto-picks up newly unlocked lessons
+- Open questions:
+  - What are Kunze's and Wilco's specific PPC methods? (locked)
+  - What does "Your Included LegacyX Product Selection" lesson contain?
+  - What does "Section 8" refer to in the Scaling module?
+
+---
+
+## [2026-05-24] ingest | FBA niche research — full ingest, product confirmed
+
+- Triggered by: Dave — requested full ingest of all FBA niche research resources
+- New files ingested:
+  - `03 Projects/FBA Research/(C) Supplement Gummy Brand — Launch Plan.md` (created 2026-05-15)
+  - `03 Projects/FBA Research/(C) Three Product Comparison — 2026-05-05.md`
+  - `03 Projects/FBA Research/(C) Niche Research Tracker.md` — read for batches 4–10 data
+- Pages created (4):
+  - `wiki/fba/niche-supplement-gummies.md` — confirmed product page, all 3 SKUs, unit economics, manufacturer list, launch sequence
+  - `wiki/fba/niche-glp1-cooling-case.md` — green light found but not pursuing; GLP-1 space documented
+  - `wiki/sources/src — Supplement Gummy Brand Launch Plan.md` — source summary
+  - `wiki/sources/src — Three Product Comparison 2026-05-05.md` — source summary (simulated data)
+- Pages updated (1):
+  - `wiki/fba/fba-research-overview.md` — major rewrite: product confirmed, GLP-1 green lights documented, batches 4–10 added, priority queue updated, overview restructured
+- Index updated: 51 → 55 pages
+- Product decision: Supplement gummies confirmed. Three real H10 green lights (creatine 253 avg reviews, magnesium glycinate 994, NMN 776). Launch creatine first. Target: September/October 2026.
+- Current FBA status: MsWLL dummy brand submitted to FBA-Pro for GTIN exemption. Waiting on approval.
+- Key insight from full research run (80+ niches): Only strategy that found green lights was targeting products where the FORMAT is new (gummy supplement) or the market is forming around a new primary product (GLP-1 drugs). Established categories with broad keywords are universally closed (2,000–42,000 avg reviews).
+- Contradictions: none
+- Open questions:
+  - What will the actual supplement brand name be? (MsWLL is placeholder only)
+  - Which US GMP gummy manufacturer to use?
+  - Current FDA status of NMN specifically?
+
+---
+
+## [2026-05-24] update | LegacyX Thinkific course — Branding module fully extracted; wiki updates across 6 pages
+
+- Triggered by: Dave — "go through LegacyX course content and catch up to where i am"
+- Note: Previous log entry at 2026-05-23 captured only 1/8 Branding lessons. All 8 Branding lessons were accessible in the existing raw file — rest ingested now.
+- Page created (1):
+  - `wiki/fba/fba-branding-gtin.md` — NEW: complete GTIN exemption + brand approval flow; brand naming rules; FBA Pro process; barcode types table; dummy listing 3-stage sequence; catalogue auth verification method
+- Pages updated (5):
+  - `wiki/fba/fba-account-setup-legal.md` — Full Brand Name section added (naming rules, 4-step check, trademark filing link, MsWLL status); Amazon account setup specifics (Pro account $39.99/mo, brand status = private label, UPC = no)
+  - `wiki/fba/fba-tools-software.md` — Seller-Shark added to supporting tools; A2X new vs existing seller note
+  - `wiki/fba/fba-compliance-suppression.md` — Restricted/Prohibited products section added; GTIN exemption note added to Section 4
+  - `wiki/fba/fba-product-research-framework.md` — LegacyX H10 criteria vs our scraper table; Seller Sprite niche-down + rabbit hole strategy; open question on threshold alignment
+  - `wiki/fba/fba-sourcing-alibaba.md` — 30-supplier rule; 2–4x Alibaba inflation confirmation; Trade Assurance 30-day payment protection
+- Index updated: 55 → 56 pages
+- Batch 11 scraper results (15 keywords): all FAIL — $346–$37,738/mo range, all below $50k floor. Cold plunge/bath tubs both around $3–4k/mo (tiny market). Walking pads $346/mo ($309 avg price — too expensive to enter). Oura ring case $33k but 590 avg reviews and $7 price point. No green lights.
+- Fresh Thinkific scrape: in progress — results pending. Will update this entry if new lessons are unlocked.
+- Key question raised: LegacyX uses $200k+ niche revenue threshold vs our $50k scraper floor. Difference is measurement scope (total niche vs single keyword). Review ceiling: LegacyX recommends ≤500 avg reviews vs our ≤1,000. Should probably tighten.
+- Contradictions: None — new content consistent with existing wiki
+
+---
+
+## [2026-05-28] ingest | LegacyX Thinkific course — 52% complete, major content expansion
+
+- Triggered by: Dave — comprehensive wiki update from newly scraped LegacyX course content (modules unlocked after gate cleared)
+- Course progress: 45/115 → 64/115 (39% → 52%). Gate cleared: Creating Your First Listing 8/8 complete.
+- Newly completed modules: Creating Your First Listing (8/8), Product Sourcing (5/5), Done For You Product Sourcing (5/5). Shipping started (1/8).
+- Pages created (1):
+  - `wiki/fba/fba-shipping.md` — NEW: EXW vs DDP, Freight Shark, FBA fee tiers and 18" threshold, volumetric weight, shipping plan overview
+- Pages updated (5):
+  - `wiki/sources/src — LegacyX FBA Full Course (Thinkific).md` — Progress updated to 52%, course table updated, key takeaways expanded (dummy listing 2025, FNSKU fix, variations, supplier outreach, negotiating, profitability, bosssourcing.com, Brand Registry), re-ingest plan updated
+  - `wiki/fba/fba-sourcing-alibaba.md` — LegacyX supplier outreach protocol (15–20 direct contacts), negotiating masterclass (state quantity at target price, 45–60% net margin), profitability notes (35–45% target, volumetric weight, 18" threshold), Done For You section (bosssourcing.com, qcadvisor.com, gescmanagement.com caveat), margin rule updated
+  - `wiki/fba/fba-branding-gtin.md` — FNSKU barcode preference fix, 2025 dummy listing creation steps, variations strategy (2–3 max, child first, review stacking), Brand Registry section (trademark, photo rules, Fiverr warning), Brand Approval vs Registry table updated
+  - `wiki/system/index.md` — fba-shipping.md added, page count 56 → 57, priority actions updated, source entry updated
+  - `CLAUDE.md` — Weekly Update section updated (date, brand approved, GTIN ready, course progress, actions)
+- External status updates captured:
+  - MsWLL Brand Qualification APPROVED across all stores/countries (Amazon email 2026-05-27)
+  - GTIN exemption files ready for download at agency-studios.com/customer/orders/GTIN-001134 (30-day window)
+- Contradictions: None — new content consistent with existing wiki
+- Key scrape note: 3 shipping lessons had network errors (Creating A Shipping Plan x2, CRITICAL STEP Booking An Inspection) — must be watched directly in Thinkific
+- Open questions: Full shipping plan creation steps (errored lessons), Freight Shark pricing, sea vs air decision for first order
+
+---
+
+## [2026-05-24] update | Thinkific scrape completed — Branding 8/8 confirmed, Creating Your First Listing next gate
+
+- Triggered by: Fresh scrape run after Dave's "catch up to where I am" request
+- Previous state: Branding On Amazon 1/8, everything else locked
+- New state: **Branding On Amazon 8/8 ✅ COMPLETE** — all 8 lessons now accessible and previously ingested
+- Creating Your First Listing: Intro lesson accessible, 6 video-only lessons timed out
+- Everything from Product Sourcing onwards: still locked — gate is completing Creating Your First Listing
+- Pages updated:
+  - `wiki/sources/src — LegacyX FBA Full Course (Thinkific).md` — updated completion status, key takeaways, course table, re-ingest plan
+- No new wiki content extractable from this scrape — Branding module was already fully ingested this session
+- **Next scrape trigger:** Dave completes Creating Your First Listing (6 video lessons: FNSKU Setting Fix, Dummy Listing 2024, Dummy Listing 2025, Trademarking, How & Why of Variations, Creating Product Variations) → then run `python3 /tmp/thinkific_scraper.py`
+- Sessions worth ingesting when unlocked: Product Sourcing, Shipping, Listing Creation, PPC (Kunze + Wilco methods)

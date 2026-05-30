@@ -1,7 +1,7 @@
 # Wiki Index — Navigation Map
 
-> **Last updated:** 2026-05-09
-> **Total pages:** 28
+> **Last updated:** 2026-05-28
+> **Total pages:** 57
 > **How to use:** Read this first every session. Find relevant pages, then drill in. Update after every ingest or new page creation.
 
 ---
@@ -27,10 +27,24 @@
 | [[wiki/fba/niche-fabric-resistance-bands.md]] | 66/100 🟡 Caution — 950 avg reviews, only via non-slip long-tail variant |
 | [[wiki/fba/niche-dog-travel-accessories.md]] | 51/100 🔶 Caution — 6,908 avg reviews, revisit in 18 months |
 | [[wiki/fba/niche-bamboo-kitchen-utensils.md]] | 37/100 ❌ Pass — satisfied buyers, no differentiation, small market |
+| [[wiki/fba/niche-supplement-gummies.md]] | ✅ CONFIRMED PRODUCT — 3 green lights (creatine 253 reviews, magnesium 994, NMN 776). Launch creatine first. Real H10 data 2026-05-14. |
+| [[wiki/fba/niche-glp1-cooling-case.md]] | ⏸ Not pursuing — GLP-1 injection pen cooling case. 2 green lights found but gummies chosen instead. Revisit post-launch. |
 | [[wiki/fba/fba-listing-optimisation.md]] | Title rules, bullet structure, image sequence, A+ Content, backend keywords — full listing build guide for Voya |
 | [[wiki/fba/fba-ranking-factors.md]] | Amazon A10 ranking signals — sales velocity, CTR, CVR, keyword relevance, FBA status, stock rate |
 | [[wiki/fba/fba-compliance-suppression.md]] | Suppression risk table, all prohibited content, new ASIN rules, re-branding rules, GTIN requirements |
 | [[wiki/fba/fba-image-requirements.md]] | Technical specs, main image rules (white bg, 85% fill, no text), compliance checklist, Voya-specific notes |
+| [[wiki/fba/fba-aus-seller-setup.md]] | Australia-specific setup — Wise account, W-8BEN (30% withholding risk), AU-US tax treaty, sales tax nexus |
+| [[wiki/fba/fba-startup-costs.md]] | Budget $3k–$10k, mandatory/essential/hidden fees, 30–40% margin target, landed cost formula |
+| [[wiki/fba/fba-ppc-strategy.md]] | 3-tier PPC structure (Auto→Broad→Exact), ACOS/TACOS targets, listing quality gate, optimisation workflow |
+| [[wiki/fba/fba-sourcing-alibaba.md]] | 8-step sourcing process, supplier vetting checklist, 5 critical sourcing mistakes, LegacyX negotiating masterclass, bosssourcing.com DFY option |
+| [[wiki/fba/fba-shipping.md]] | EXW vs DDP explained, Freight Shark (LegacyX vetted), FBA fee tiers + 18" threshold, volumetric weight, shipping plan overview |
+| [[wiki/fba/fba-product-research-framework.md]] | Winning product formula (<300 reviews, 30%+ margin, $20–60 price), 7-step research workflow, pre-validation micro-test. LegacyX tips added. |
+| [[wiki/fba/fba-account-setup-legal.md]] | LLC setup, NAICS code (455219), separate email/bank/card, liability insurance, Amazon account tips, taxes, brand naming rules |
+| [[wiki/fba/fba-branding-gtin.md]] | Full GTIN exemption + brand approval flow — brand naming rules, FBA Pro process, barcode types, dummy listing sequence, catalogue auth verification |
+| [[wiki/fba/fba-launch-and-reviews.md]] | Launch sequence (F&F review → auto ads → first review → manual), units to order, review stacking ratio, custom packaging dos/don'ts |
+| [[wiki/fba/fba-inventory-management.md]] | Reorder quantities, removal notices, return rate benchmarks (1–5%), inventory status, storage capacity |
+| [[wiki/fba/fba-hijackers.md]] | Hijacker detection, response protocol (pause ads → C&D → Nawprotect → Brand Registry), Buy Box dynamics, prevention |
+| [[wiki/fba/fba-tools-software.md]] | Helium 10 vs Seller Sprite vs Jungle Scout. LegacyX supporting tools: GETIDA, A2X, Scale Insights, LaunchFast. In-house service contacts. |
 
 ---
 
@@ -111,15 +125,31 @@
 | [[wiki/sources/src — Amazon Product Detail Page Rules.md]] | 2026-05-03 | Official Amazon policy | Amazon Seller Central listing rules — titles, images, compliance, ASIN creation, Brand Registry |
 | [[wiki/sources/src — Amazon Product Image Guide.md]] | 2026-05-06 | Official Amazon policy | G1881 — full image technical specs, main image rules, compliance requirements |
 | [[wiki/sources/src — H10 Silicone Splatter Screen.md]] | 2026-05-09 | Real H10 Xray export | 3 keywords — silicone splatter screen, splatter screen for frying pan, splatter guard. Revenue far lower than simulated. |
+| [[wiki/sources/src — Selling on Amazon US from Australia.md]] | 2026-05-10 | Research note (Josh Foo) | Australian seller setup — Wise account, W-8BEN, AU-US tax treaty, sales tax nexus explained |
+| [[wiki/sources/src — Amazon Private Label Startup Costs Full Breakdown 2025.md]] | 2026-05-10 | Research note (Josh Foo) | Full budget breakdown $3k–$10k, all fee tiers, 3 budget scenarios, 30–40% margin target |
+| [[wiki/sources/src — Amazon PPC Strategy Simple System That Works.md]] | 2026-05-10 | Research note (Josh Foo) | Break-even ACOS, 3-tier campaign structure (Auto→Broad→Exact), listing quality gate |
+| [[wiki/sources/src — Sourcing Alibaba to Amazon FBA Step-by-Step.md]] | 2026-05-10 | Research note (Josh Foo) | 8-step sourcing process, Trade Assurance + Verified Supplier required, QC inspection |
+| [[wiki/sources/src — Top Amazon FBA Mistakes to Avoid 2025.md]] | 2026-05-10 | Research note (Josh Foo) | 9 FBA killers — wrong product, fee underestimation, inventory management, branding |
+| [[wiki/sources/src — Amazon FBA Product Research Data-Driven 2025.md]] | 2026-05-10 | Research note (Josh Foo) | Winning product formula, 7-step research workflow, pre-validation micro-test (CTR/CVR) |
+| [[wiki/sources/src — Selling Private Label Products on Amazon 9 Steps.md]] | 2026-05-10 | Research note (Josh Foo) | Most thorough PL guide — 9 steps, sourcing mistakes deep-dive, hidden costs, myth-busting |
+| [[wiki/sources/src — Amazon FBA Private Label Make It Big 7 Steps.md]] | 2026-05-10 | Research note (Josh Foo) | H10's 7-step PL guide — product criteria table, pros/cons vs OA (⚠️ tool vendor source) |
+| [[wiki/sources/src — How to Sell on Amazon Explained in 5 Minutes.md]] | 2026-05-10 | Research note (Josh Foo) | Online Arbitrage model — filed for OA vs PL model comparison only (not our path) |
+| [[wiki/sources/src — LegacyX FBA FAQ.md]] | 2026-05-23 | Course resource (LegacyX Notion) | Full FAQ for LegacyX FBA program — account setup, launch sequence, reviews, hijackers, packaging, tools, compliance |
+| [[wiki/sources/src — LegacyX FBA Product Dashboard V2.md]] | 2026-05-23 | Course resource (LegacyX Notion) | Product lifecycle tracker template + Seller Sprite / H10 / Jungle Scout tool comparison |
+| [[wiki/sources/src — LegacyX FBA Full Course (Thinkific).md]] | 2026-05-23 | Course (Thinkific — 115 lessons) | 64/115 lessons (52% complete). Creating Your First Listing, Product Sourcing, Done For You all complete. Shipping 1/8 started. Key takeaways updated with sourcing, negotiating, shipping, variations, Brand Registry content. |
+| [[wiki/sources/src — Supplement Gummy Brand Launch Plan.md]] | 2026-05-24 | Internal planning doc | Confirmed product: supplement gummies. 3 green lights. Launch plan: creatine first, $8–12k, Sept/Oct 2026. |
+| [[wiki/sources/src — Three Product Comparison 2026-05-05.md]] | 2026-05-24 | FBA research (simulated) | Magnetic fridge spice rack 81/100, wrist wraps 71/100, silicone stretch lids 68/100. All simulated — not validated. |
 
 ---
 
 ## Priority Actions (Current)
 
-1. **H10 Xray — "padded lifting straps" and "figure 8 lifting straps"** — sub-keyword avg reviews is the decision point. Under 200 → Green Light. 400+ → move on. Leading candidate, 46% margin.
-2. **H10 Xray — "cable management box" and "desk cable organizer"** — box-specific only (not "cable hider"). 15 mins to get a real verdict on this niche. Second candidate.
-3. ⛔ Do NOT order samples until at least one niche confirmed with real H10 review + revenue data
-4. Silicone splatter screen — DEAD. No further action.
+1. ✅ **MsWLL brand APPROVED** — all stores/countries confirmed (2026-05-27). Can now create ASINs under MsWLL.
+2. ✅ **GTIN exemption files ready** — Order #GTIN-001134 at agency-studios.com/customer/orders/GTIN-001134. **Download now — 30-day window.**
+3. **Submit GTIN exemption to Amazon** under "Disposable Plates" category
+4. **Create dummy listing** — Settings > FBA Barcode Preference → Amazon barcode first. Then Add Products → Blank Form. Skip images. Let sit 5–7 days.
+5. **Complete Shipping module** — 3 errored lessons (Creating A Shipping Plan x2, CRITICAL STEP Booking An Inspection) must be watched directly in Thinkific
+6. **Decide product direction** — GLP-1 cooling case vs emerging category search vs $50k floor criteria
 
 ---
 

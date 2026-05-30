@@ -20,6 +20,7 @@ Josh is Dave's best mate and primary business partner. He is involved in both FB
 - Best mate and trusted partner
 - Actively building FBA with Dave
 - Involved in stock trading (details unknown — see Open Questions)
+- **Email:** sinclairjosh50@gmail.com
 
 ---
 

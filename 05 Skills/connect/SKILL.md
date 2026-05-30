@@ -11,13 +11,17 @@ To wire any external service into Claude so it can take real actions, not just d
 
 ## Status
 
-| What | Status |
-|------|--------|
-| `composio` Python package | ✅ Installed (`pip3 install composio`) |
-| Composio API key | ⏳ Needed — see Step 1 |
-| Gmail | ⏳ Not connected |
-| Google Calendar | ⏳ Not connected |
-| GitHub | ⏳ Not connected |
+| What | Status | Key |
+|------|--------|-----|
+| Composio CLI | ✅ v0.2.27 at `~/.composio/composio` | `uak_VGUVSXwV6t40wKH5EnwW` (user key, in `~/.zshrc`) |
+| Composio MCP (Claude sessions) | ✅ Connected via `connect.composio.dev/mcp` | `ck_vrdIUWM8QVHWGXSKCTSH` (consumer key, in `~/.claude.json`) |
+| GitHub Secret (remote agents) | ✅ `COMPOSIO_API_KEY` | `uak_` key |
+| Gmail | ✅ Connected (word_id: `gmail_bedip-pegbox`) | — |
+| Google Calendar | ✅ Connected (word_id: `googlecalendar_plaque-teju`) | — |
+
+**Key types:**
+- `uak_` = User API key → used by CLI, REST API, remote agents
+- `ck_` = Consumer/project key → used by MCP server (`connect.composio.dev/mcp`)
 
 ---
 

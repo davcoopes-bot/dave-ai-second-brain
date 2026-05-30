@@ -1,6 +1,6 @@
 # Budget — Dave Cooper (2026)
 
-> **Last updated:** 2026-05-06
+> **Last updated:** 2026-05-13
 > **Status:** First version — set from bank statement analysis (Apr–May 2026)
 > **Income basis:** ~$7,100/month take-home on current apprentice wage (~$90k gross)
 > **Review:** Update when income jumps to tradesman rate (~$150–180k gross)
@@ -43,10 +43,10 @@
 | Google One | $3 |
 | Claude.ai | $34 |
 | Uber One | $10 |
-| Canva | $41 |
-| **Subscriptions total** | **$144** |
+| **Subscriptions total** | **$103** |
 
 > ChatGPT and BlossomUp cancelled May 2026 — saving ~$76/month.
+> Canva cancelled May 2026 — saving ~$41/month.
 
 ### Variable Expenses (Targets)
 
@@ -76,10 +76,10 @@
 |---|---|
 | Total income | $7,100 |
 | Fixed expenses | -$1,523 |
-| Subscriptions | -$144 |
+| Subscriptions | -$103 |
 | Variable expenses | -$750 |
 | Savings & investments | -$3,217 |
-| **Surplus / buffer** | **~$1,466** |
+| **Surplus / buffer** | **~$1,507** |
 
 > The surplus sits as a rolling buffer. Don't spend it — let it accumulate for one-off costs (car service, Amex clearance, irregular bills).
 
@@ -103,7 +103,7 @@ Track Amex separately once the medical costs clear — it should normalise to a 
 |--------|---------|--------|
 | Monthly savings rate | ~$1,717 auto | Increase when income jumps |
 | Car finance | $1,092/month | Eliminate when paid down |
-| Subscription spend | $144/month | Keep under $150 |
+| Subscription spend | $103/month | Keep under $150 |
 | Eating out + social | ~$350 actual | Target under $350 |
 | Investment additions | Irregular | $1,000/month minimum |
 

@@ -1,0 +1,1030 @@
+# H10 Xray Research Queue
+# One keyword per line. Lines starting with # are ignored.
+# Usage: python3 "05 Skills/FBA/h10-scraper/scripts/h10_scraper.py"
+#
+# ─── QUEUE ────────────────────────────────────────────────────────────────────
+
+# ── Batch 4 — Trending/emerging strategy (NOT broad established categories) ───
+# Logic: target products that are 1–3 yrs old on Amazon, socially driven demand,
+# accessories to large install-base primaries, or specific sub-niches of growing trends
+
+
+# ── Batch 5 — High-growth signals + specific variants + newer format plays ────
+# Sources: Amazon confirmed 134% growth (mouth tape), 64% (sleep bonnets),
+# 31% (sleep earbuds), 38% (blue light therapy). Others: TikTok aesthetic trend,
+# small bulky fee tier (Jan 2026), creator economy accessories.
+
+
+# ── Batch 6 — Premium price floor + growth signal candidates ─────────────────
+# Key signals: tallow balm 310% growth, blue light glasses <200 reviews pg1,
+# coffee culture natural price floor ($30-60), TikTok jaw/beauty trends.
+# All products selected to have natural price floor above $20.
+# NOTE: Re-queued after H10 rate limit ($0 false fails on prior run)
+
+
+# ── Batch 7 — Niche sports + craft hobbies + seasonal outdoor ────────────────
+# Logic: fast-growing niche sports (pickleball #1 growing US sport), hobbyist
+# craft markets with passionate buyers, seasonal outdoor with natural price floor.
+# All have enthusiast communities = higher price tolerance + repeat purchase.
+# NOTE: Re-queued after H10 rate limit ($0 false fails on prior run)
+
+
+# ── Batch 8 — Van life accessories + functional fitness + creator tools ───────
+# Van life Google search +35% Q4 2025, 1.2M community growing 28% YoY.
+# Functional fitness sub-niches (calisthenics) forming new accessory demand.
+# Creator/pro crossover: $43.9B creator economy, tools bought by operators + consumers.
+# NOTE: Re-queued after H10 rate limit ($0 false fails on 2026-05-12)
+
+
+# ── Batch 9 — Regulatory-driven + B2B crossover + Gen Z + adjacent markets ───
+# Sources: PFAS bans (MN Jan 2025, CO/ME Jan 2026), creator economy tools,
+# postpartum/new parent accessories, renter-friendly products, nail art resurgence.
+# All selected for specificity and low incumbent review counts.
+
+
+# ── Batch 10 — Biohacking/longevity + new tech accessories + emerging fitness ─
+# Sources: OTC CGM launch (Dexcom Stelo 2024), Meta Ray-Ban/smart ring boom,
+# rucking fastest-growing fitness 2024-26, PFAS cookware bans, Korean/Japanese food wave.
+# Highest conviction: CGM accessory sub-niche (<18 months old at scale) + PFAS cookware.
+# NOTE: Re-queued after H10 rate limit ($0 false fails on 2026-05-12)
+
+
+# ── Batch 12 — Stanley accessories + brow lamination + cold plunge + overlanding ─
+# Logic: install-base accessories (Stanley 50M+ units, Garmin/Whoop), professional beauty
+# going home (brow lamination adjacent to lash tint near-miss $42k/1,158 reviews),
+# cold plunge market explosion post-Huberman, overlanding fastest-growing outdoor trend.
+# Highest conviction: eyebrow lamination (same home-professional mechanic as lash tint).
+
+
+# ── Batch 13 — Wedding/bridal + DIY reno + women's sport + pet sub-niche + craft ─
+# Logic: wedding market (high AOV, emotionally-driven buyers), DIY tile/drywall (consumable,
+# task-oriented), women's niche sports (lacrosse/field hockey underserved on Amazon),
+# raw feeding pet (passionate sub-culture), sewing revival.
+# Highest conviction: bridal emergency kit, vow book set, tile leveling clips.
+
+
+# ── Batch 14 — Amazon device accessories + espresso tools + specific niches ────
+# Logic: Kindle near-miss ($52k/1,015 reviews) signals device accessories are fertile.
+# Fire HD, Echo Show, Ring doorbell follow same pattern. Espresso tools exploding
+# with home barista trend. iPad Mini 7 + Apple Pencil = large install base.
+# Highest conviction: Echo Show 5 wall mount, espresso puck screen, WDT tool.
+
+
+# ── Batch 15 — Supplement accessories + recovery tools + bar + travel + pet + baby ─
+# Logic: specific accessories to saturated primary categories (Kindle-cover pattern).
+# Lick mat/cat perch: pet boom 2022-23 still fragmenting. Kinesiology pre-cut: newer sub.
+# Supplement tools, travel, bar accessories: underexplored vs the primary products.
+
+# ── Batch 16 — New device accessories + wellness trends + gym tools + lifestyle ──
+# [re-queued from Batch 15 — rate-limit false $0]
+
+# Logic: AirPods Pro 2 (massive install base, not tested), Bogg bag charm (viral accessory sub-niche),
+# sauna hat (sauna culture boom post-2023), wall pilates band (TikTok 2024 trend, young listings),
+# kindle sleeve/felt (soft protection vs hard case — different search, fewer reviews expected),
+# lash extension aftercare (maintenance market vs kit market — not yet tested).
+
+# ── Batch 17 — Hobby sports + pro-tool-gone-consumer + stationery + emerging niches ──
+# Logic: pickleball (massive trend), sous vide (pro-to-home), bouldering tape (climbing boom),
+# speed cube (hobby with passionate buyers), wax seal journal (stationery trend), cold brew bags,
+# electric arc lighter (utility), book thumb ring (reading accessory), grip trainer (specific fitness).
+
+# ── Batch 18 — New sport accessories + wearable tech + DIY beauty + red light ──
+# [re-queued from Batch 17 — rate-limit false $0]
+
+# Logic: padel tennis (fastest growing sport globally, just hitting US, Amazon listings young),
+# wearable accessories (Whoop/Oura/Galaxy Ring — new 2023-24 devices, tiny review counts),
+# DIY beauty pro-gone-home (gel nails, teeth whitening, LED masks — pro tools now sold direct),
+# red light therapy accessories (booming wellness, still fragmenting).
+
+# ── Batch 19 — GLP-1/CGM accessories + sleep trends + new wellness tech + filters ──
+# Logic: GLP-1/Ozempic is MASSIVE 2023-25 trend — injection pen cases are a brand new category.
+# CGM sensor patches: Dexcom/Libre use exploded beyond diabetics. Mouth tape: Huberman trend.
+# Hydrogen water bottles: new wellness tech. Fridge filters: replacement consumables, huge install base.
+# Infrared sauna blanket bag: accessory to a $200+ trending product.
+
+# ── Batch 20 — GLP-1 sub-niches + new 2024-25 devices (Quest 3, Galaxy S25, Insta360) ──
+# [re-queued from Batch 19 — rate-limit false $0]
+
+# Logic: Ozempic pen case at $93k/mo+1,546 reviews = GLP-1 market is real and growing.
+# Sub-niches (Mounjaro/Wegovy/insulated) may be younger listings with lower reviews.
+# New devices: Meta Quest 3S (Oct 2024), Galaxy S25 Ultra (Jan 2025), Insta360 X4 (2024)
+# may have large enough user bases but listing ages too young for 1,000+ reviews.
+
+# ── Batch 21 — At-home aesthetics devices + GLP-1 sub-niches + new 2024 device accessories ──
+# Logic: RF/HIFU/microneedling = pro-to-home treatments with new listings. Ozempic sub-niches:
+# trulicity/mounjaro specific = different search query = potentially younger listings.
+# Apple Watch S10 (Sep 2024), GoPro Hero 13 (Sep 2024), DJI Osmo Action 5 (2024) = young listings.
+
+# ── Batch 22 — MacBook M4 (March 2025 launch!) + Pixel 9 + crafting consumables ──
+# [re-queued from Batch 21 — rate-limit false $0]
+
+# HIGHEST CONVICTION BATCH: MacBook Air M4 launched March 2025 = listings only ~8 weeks old.
+# Same "new model" pattern as kindle paperwhite magnetic cover ($52k/mo, 1,015 reviews).
+# MacBook Air sells ~20M units/year — accessory market is MASSIVE.
+# Pixel 9 Pro (Aug 2024): Google's newest flagship, not yet tested.
+# Crafting consumables (sublimation, HTV): large repeat-purchase market, not tested.
+
+# ── Batch 23 — Medical cooling/pump accessories + summer pool seasonal ──
+# Logic: insulin pump (not pen) accessories = different device, different listings = lower review count?
+# Sharps wall-mount/home = stationary format vs travel format = different search, younger listings.
+# Diabetic supply organizer = broad category covering millions of users.
+# Summer pool: seasonal spike products that reset annually = lower accumulated reviews.
+
+# ── Batch 24 — Medication cooling sub-formats + iPhone 16 + summer pool seasonal ──
+# STRATEGY: Medical cooling space passes revenue consistently ($60-142k/mo) with 1,400-2,600 reviews.
+# We need a FORMAT that fragments off with <1,000 reviews. Testing: specific bundle (ice pack included),
+# travel wallet format, 2-pen/4-pen specific capacity, temperature monitoring feature.
+# iPhone 16 (Sep 2024 launch): new size/design = potentially incompatible with old cases = young listings.
+# Inflatable pool mattress: passed $54k/mo. Sub-format testing.
+
+# ── Batch 25 — CPAP accessories + hearing aids + TENS pads + medical monitoring ──
+# Logic: CPAP = 8M+ US users, regular accessory purchases, medical-adjacent = lower review accumulation?
+# Hearing aids = 50M+ users, cleaning kits/drying boxes are consumables = low reviews?
+# TENS replacement pads = electrode pads wear out every 20-30 uses = true consumable = reviews stay low?
+# Blood pressure monitor accessories = 100M+ US adults with hypertension = huge install base.
+
+# ── Batch 26 — Home maintenance consumables + garden + automotive + plumbing ──
+# Logic: garden hose connector passed $65k/mo (2,606 reviews). Consumables keep reviews low.
+# Car cabin air filter: every car needs replacement annually = massive demand, consumable.
+# Dryer vent cleaning kit: safety product, home maintenance. Drain catchers: universal need.
+# Pool test strips: consumable for seasonal pool owners.
+
+# ── Batch 27 — Nintendo Switch 2 + Fujifilm X100VI + cycling + untested hobbies ──
+# Thesis: New incompatible device formats (Switch 2 Jun 2025, Fujifilm X100VI Feb 2024)
+# should have fresh listings. Cycling/rock climbing/golf = massive markets not yet probed.
+# Embroidery/cross-stitch = quietly exploding TikTok craft trend with dedicated buyers.
+
+# ── Batch 28 — TikTok wellness consumables + WFH gear + men's grooming + fishing ──
+# Thesis: Castor oil/berberine = TikTok-viral 2023-25 (fresh listings, repeat purchase).
+# Air fryer liners = consumable for 70M+ US air fryer install base (should have revenue).
+# Walking pad = WFH trend not yet tested. Fishing sub-niches = large untested category.
+# Men's grooming specific formats often overlooked vs general beauty categories.
+
+# ── Batch 29 — Leaf blower sub-niches + supplement accessories + new seasonal ──
+# Leaf blower cordless was $51k/mo at 1,245 reviews — 245 over ceiling.
+# Testing more specific sub-formats: mini/handheld/20V specific may pull fresher listings.
+# Supplement accessories (not supps themselves) + new summer/seasonal angles.
+
+# ── Batch 30 — EV accessories + perimenopause + bidet + safety razor + sensory ──
+# EV: 4M+ US EVs, NACS becoming standard 2024, cable mgmt is new category.
+# Perimenopause/night sweats: boomer women, massively underserved, new product framing 2023-25.
+# Safety razor: sustainability trend, not tested, natural $25+ price floor.
+# Silicone wedding rings: nurses/athletes, large US market, not tested.
+# Weighted/sensory: mental health wave, new adult format not tested.
+
+# ── Batch 31 — Leaf blower variants + near-miss follow-ups + new angles ──
+# Mini leaf blower: $48,987/mo + 926 reviews — both dimensions just under threshold.
+# Testing tighter sub-formats: 18V specific, sweeper only, patio specific = fresher listings?
+# Also: near-miss follow-ups (lymphatic $46k/1,167 → try adjacent formats).
+# New angles: menstrual disc (new format vs cup), lash serum (boomed 2024), car organizer sub-niche.
+
+# ── Batch 32 — Kinesiology tape sub-formats + med cooling variants + new angles ──
+# Kinesiology tape pre-cut was $54k/mo at 1,254 reviews — revenue passes, reviews just over.
+# Testing specific body-part formats which may pull fresher listings.
+# Medication cooling: $80-93k/mo range, 1,400-1,500 reviews — testing tighter formats.
+# New angles: pet insurance adjacent (vet care consumables), men's hair loss (booming), 
+# reading glasses (aging boomers, massive repeat market), blue light specific format.
+
+# ── Batch 33 — Untested large categories: car accessories + office + storage ──
+# Car accessories: massive install base, auto is one of Amazon's biggest categories.
+# Testing specific sub-formats not yet touched: car seat gap filler, sun shade specific,
+# trunk mat, license plate frame. Office: standing desk mat, cable clips, monitor light.
+# Storage/organisation sub-niches: over door, closet, drawer dividers.
+
+# ── Batch 34 — Seasonal summer + outdoor entertaining + water sports + new niches ──
+# Summer 2026 is peak season NOW — testing summer-specific high-revenue categories.
+# Outdoor entertaining: massive spend spike May-Aug. Water sports: growing fast.
+# Also: stationery/planner (boomed 2024-25), specific kitchen gadgets not yet tested.
+
+# ── Batch 35 — DIY tools + home improvement + workshop + trade adjacent ──
+# Dave is a boilermaker — these categories are underexplored and he knows the space.
+# B2B crossover = lower review rates. Tool accessories = consumable angle.
+# Trade-adjacent: safety gear, marking tools, measuring, workbench accessories.
+
+# ── Batch 36 — Journal/planner sub-formats + spiritual/self-help + new stationery ──
+# Habit tracker journal hit $59k/mo at 1,269 reviews — POTENTIAL. Testing tighter formats:
+# specific page count, specific audience, specific binding. May pull fresher listings.
+# Spiritual/manifestation journals boomed 2023-25. Gratitude journals = proven evergreen.
+
+# ── Batch 37 — Food/beverage accessories + kitchen gadgets + health food ──
+# Unexplored angle: specific kitchen accessories for growing food trends.
+# Sourdough bread baking is booming. Charcuterie boards are TikTok staple.
+# Specific gadgets with natural price floors: mandoline slicers, herb keepers,
+# salad spinners (sub-niches), avocado tools, cottage cheese strainer, etc.
+
+# ── Batch 38 — Completely untested: gaming accessories + desk setup + pet feeders ──
+# Gaming: $200B industry, accessories not yet touched beyond consoles. Desk setup
+# (battlestation trend) = young male demographic, high spend, passionate community.
+# Automatic pet feeders: subscription angle, repeat purchase, strong Amazon category.
+# Also: specific baby monitor format, white noise machine (specific formats).
+
+# ── Batch 39 — Hunting/archery + fishing specific + outdoor recreation untested ──
+# Hunting is a massive US category almost entirely untouched. Archery boomed post-COVID.
+# Fishing specific sub-niches beyond tackle box. Outdoor recreation = low review velocity
+# due to passionate but less-digital demographic. B2B crossover with guides/outfitters.
+
+# ── Batch 40 — Travel accessories + luggage + packing + solar garden + door security ──
+# Travel accessories largely untested. Packing cubes = one of Amazon's rising stars.
+# Solar garden lights sub-formats (pathway, fence, string = not this) not yet probed.
+# Smart door/window sensors = new smart home format, 2-3 years on Amazon, low review velocity?
+# Also: reusable bag formats and laundry accessories not yet tested.
+
+# ── Batch 41 — GLP-1 brand-specific formats + pilates reformer + new supplement accessories ──
+# GLP-1 is our only green light territory. Brand-specific keywords (Mounjaro/Wegovy/Zepbound)
+# pull DISTINCT listing sets vs generic "glp1" — potentially fresher with fewer reviews.
+# Pilates reformer accessories: reformer sales up 400% 2023-25, accessory market barely formed.
+# Supplement accessories (pill cases, shaker accessories) = accessory angle not supps themselves.
+
+# ── Batch 42 — Running/endurance + water sports + emerging action sports ──
+# Hydration vests: trail running boom 2023-25, accessories to $150+ vests = new market.
+# Surfing: passionate demographic, buys specialty gear, lower review velocity.
+# Triathlon: niche but high-spend athletes, not tested. Wakeboarding: action sports growth.
+# Also: specific yoga/pilates hardware not yet tested (reformer straps, magic circles etc).
+
+# ── Batch 43 — GLP-1 deep-dive: specific formats + accessories + adjacent ──
+# Wegovy ($115k/1,701 reviews) + Ozempic cooling ($102k/1,969 reviews) = strong revenue.
+# Reviews still above 1k ceiling but closest GLP-1 variants yet on both dimensions.
+# Testing even more specific GLP-1 sub-formats — sharps disposal, needle tips, alcohol swabs,
+# injection site markers, side effect management products (nausea, constipation).
+# ─── FAILED PRODUCTS ──────────────────────────────────────────────────────────
+# Auto-populated by scraper. Format: # FAIL | keyword | revenue | avg reviews | reason
+#
+# FAIL | padded lifting straps     | $104,368/mo | 13,277 avg reviews | Closed market — review moat
+# FAIL | figure 8 lifting straps   |   $7,196/mo |    748 avg reviews | Revenue too small
+# FAIL | cable management box      |   $9,789/mo |  3,648 avg reviews | Revenue too small
+# FAIL | silicone splatter screen  |   $1,277/mo |          —        | Revenue too small
+# FAIL | fridge organizer bins set    |    $8,979/mo | 4,975 avg reviews      | Revenue too small ($8,979/mo < $50,000 floor)
+# FAIL | car seat back organizer with tablet holder |   $26,451/mo | 3,743 avg reviews      | Revenue too small ($26,451/mo < $50,000 floor)
+# FAIL | camping hammock with tree straps |   $51,023/mo | 16,781 avg reviews     | Closed market (16,781 avg reviews > 1,000 ceiling)
+# FAIL | acupressure mat and pillow set |   $52,464/mo | 21,824 avg reviews     | Closed market (21,824 avg reviews > 1,000 ceiling)
+# FAIL | under sink organizer and storage |  $116,298/mo | 5,589 avg reviews      | Closed market (5,589 avg reviews > 1,000 ceiling)
+# FAIL | monitor stand riser with drawer |   $47,623/mo | 2,201 avg reviews      | Revenue too small ($47,623/mo < $50,000 floor)
+# FAIL | insulated lunch bag large    |  $124,234/mo | 7,968 avg reviews      | Closed market (7,968 avg reviews > 1,000 ceiling)
+# FAIL | dog car seat cover waterproof |   $56,308/mo | 8,200 avg reviews      | Closed market (8,200 avg reviews > 1,000 ceiling)
+# FAIL | spice rack organizer for cabinet |   $22,274/mo | 4,119 avg reviews      | Revenue too small ($22,274/mo < $50,000 floor)
+# FAIL | massage gun attachment heads set |    $1,606/mo | 84 avg reviews         | Revenue too small ($1,606/mo < $50,000 floor)
+# FAIL | elevated dog bowl stand large |   $32,183/mo | 2,155 avg reviews      | Revenue too small ($32,183/mo < $50,000 floor)
+# FAIL | hammock chair with stand     |    $7,964/mo | 1,121 avg reviews      | Revenue too small ($7,964/mo < $50,000 floor)
+# FAIL | yoga mat strap carrier       |   $22,118/mo | 2,599 avg reviews      | Revenue too small ($22,118/mo < $50,000 floor)
+# FAIL | silicone stretch lids set    |   $10,003/mo | 1,234 avg reviews      | Revenue too small ($10,003/mo < $50,000 floor)
+# FAIL | wall mounted laundry drying rack |   $12,900/mo | 513 avg reviews        | Revenue too small ($12,900/mo < $50,000 floor)
+# FAIL | pilates grip socks women non slip |   $95,970/mo | 2,344 avg reviews      | Closed market (2,344 avg reviews > 1,000 ceiling)
+# FAIL | electric scalp massager waterproof |   $18,863/mo | 2,107 avg reviews      | Revenue too small ($18,863/mo < $50,000 floor)
+# FAIL | weighted eye mask for sleeping |  $218,295/mo | 9,429 avg reviews      | Closed market (9,429 avg reviews > 1,000 ceiling)
+# FAIL | lash lift kit at home        |   $38,050/mo | 4,645 avg reviews      | Revenue too small ($38,050/mo < $50,000 floor)
+# FAIL | posture corrector upper back women |   $57,501/mo | 12,452 avg reviews     | Closed market (12,452 avg reviews > 1,000 ceiling)
+# FAIL | shower head filter for hard water |  $114,920/mo | 18,040 avg reviews     | Closed market (18,040 avg reviews > 1,000 ceiling)
+# FAIL | under desk footrest ergonomic |    $1,628/mo | 8,467 avg reviews      | Revenue too small ($1,628/mo < $50,000 floor)
+# FAIL | book nook insert for shelf   |   $10,197/mo | 848 avg reviews        | Revenue too small ($10,197/mo < $50,000 floor)
+# FAIL | crochet hook set ergonomic   |   $42,785/mo | 10,099 avg reviews     | Revenue too small ($42,785/mo < $50,000 floor)
+# FAIL | kindle stand adjustable foldable |   $22,784/mo | 9,812 avg reviews      | Revenue too small ($22,784/mo < $50,000 floor)
+# FAIL | magsafe wallet iphone        |   $33,519/mo | 1,355 avg reviews      | Revenue too small ($33,519/mo < $50,000 floor)
+# FAIL | running waist pack phone holder |   $77,605/mo | 5,818 avg reviews      | Closed market (5,818 avg reviews > 1,000 ceiling)
+# FAIL | collagen under eye patches gold |  $374,898/mo | 12,638 avg reviews     | Closed market (12,638 avg reviews > 1,000 ceiling)
+# FAIL | gua sha face tool set        |   $27,319/mo | 5,014 avg reviews      | Revenue too small ($27,319/mo < $50,000 floor)
+# FAIL | exfoliating body scrub gloves |   $50,868/mo | 4,246 avg reviews      | Closed market (4,246 avg reviews > 1,000 ceiling)
+# FAIL | mouth tape for sleeping nasal |   $88,680/mo | 2,329 avg reviews      | Closed market (2,329 avg reviews > 1,000 ceiling)
+# FAIL | sleep earbuds flat for side sleepers |    $8,838/mo | 232 avg reviews        | Revenue too small ($8,838/mo < $50,000 floor)
+# FAIL | sunrise alarm clock simulation lamp |   $26,374/mo | 5,214 avg reviews      | Revenue too small ($26,374/mo < $50,000 floor)
+# FAIL | shower steamers gift set aromatherapy |   $95,144/mo | 7,575 avg reviews      | Closed market (7,575 avg reviews > 1,000 ceiling)
+# FAIL | wireless lavalier microphone for iphone |  $215,302/mo | 3,099 avg reviews      | Closed market (3,099 avg reviews > 1,000 ceiling)
+# FAIL | sunset projection lamp rgb bedroom |   $23,607/mo | 1,500 avg reviews      | Revenue too small ($23,607/mo < $50,000 floor)
+# FAIL | satin sleep bonnet curly hair |  $193,458/mo | 12,722 avg reviews     | Closed market (12,722 avg reviews > 1,000 ceiling)
+# FAIL | cervical neck traction stretcher device |   $44,629/mo | 11,472 avg reviews     | Revenue too small ($44,629/mo < $50,000 floor)
+# FAIL | uv sun protective arm sleeves driving |   $69,266/mo | 3,006 avg reviews      | Closed market (3,006 avg reviews > 1,000 ceiling)
+# FAIL | magnetic phone mount car vent |   $60,694/mo | 14,131 avg reviews     | Closed market (14,131 avg reviews > 1,000 ceiling)
+# FAIL | invisible pimple patches colorful |  $287,791/mo | 20,074 avg reviews     | Closed market (20,074 avg reviews > 1,000 ceiling)
+# FAIL | diatomite bath mat anti slip |   $33,359/mo | 1,482 avg reviews      | Revenue too small ($33,359/mo < $50,000 floor)
+# FAIL | posture brace lower back lumbar support |   $73,625/mo | 3,751 avg reviews      | Closed market (3,751 avg reviews > 1,000 ceiling)
+# FAIL | dog cooling mat pad large breed |   $20,382/mo | 654 avg reviews        | Revenue too small ($20,382/mo < $50,000 floor)
+# FAIL | mini projector portable bedroom |   $26,356/mo | 2,335 avg reviews      | Revenue too small ($26,356/mo < $50,000 floor)
+# FAIL | beef tallow balm moisturizer |  $142,699/mo | 2,788 avg reviews      | Closed market (2,788 avg reviews > 1,000 ceiling)
+# FAIL | sleep headphones headband bluetooth |   $37,187/mo | 12,857 avg reviews     | Revenue too small ($37,187/mo < $50,000 floor)
+# FAIL | cocktail smoker kit with torch |   $17,211/mo | 1,232 avg reviews      | Revenue too small ($17,211/mo < $50,000 floor)
+# FAIL | portable espresso maker manual travel |   $11,463/mo | 5,657 avg reviews      | Revenue too small ($11,463/mo < $50,000 floor)
+# FAIL | jaw exerciser mewing silicone |   $10,212/mo | 1,079 avg reviews      | Revenue too small ($10,212/mo < $50,000 floor)
+# FAIL | electric gooseneck kettle pour over |   $27,003/mo | 3,965 avg reviews      | Revenue too small ($27,003/mo < $50,000 floor)
+# FAIL | cold brew coffee maker glass pitcher |   $33,011/mo | 26,028 avg reviews     | Revenue too small ($33,011/mo < $50,000 floor)
+# FAIL | beeswax food wrap reusable set |   $14,612/mo | 2,478 avg reviews      | Revenue too small ($14,612/mo < $50,000 floor)
+# FAIL | blue light blocking glasses men |   $83,627/mo | 21,508 avg reviews     | Closed market (21,508 avg reviews > 1,000 ceiling)
+# FAIL | matcha whisk set ceremonial  |   $23,142/mo | 556 avg reviews        | Revenue too small ($23,142/mo < $50,000 floor)
+# FAIL | fishing rod holder wall mount |   $24,779/mo | 1,700 avg reviews      | Revenue too small ($24,779/mo < $50,000 floor)
+# FAIL | silicone ice ball mold sphere |   $42,085/mo | 10,320 avg reviews     | Revenue too small ($42,085/mo < $50,000 floor)
+# FAIL | knee compression sleeve running |  $339,174/mo | 42,776 avg reviews     | Closed market (42,776 avg reviews > 1,000 ceiling)
+# FAIL | hair diffuser attachment curly |   $29,611/mo | 6,641 avg reviews      | Revenue too small ($29,611/mo < $50,000 floor)
+# FAIL | reusable straws metal collapsible set |   $35,864/mo | 5,199 avg reviews      | Revenue too small ($35,864/mo < $50,000 floor)
+# FAIL | pickleball ball hopper portable |    $3,535/mo | 77 avg reviews         | Revenue too small ($3,535/mo < $50,000 floor)
+# FAIL | pickleball bag backpack women |    $6,963/mo | 298 avg reviews        | Revenue too small ($6,963/mo < $50,000 floor)
+# FAIL | disc golf bag starter backpack |    $3,706/mo | 2,094 avg reviews      | Revenue too small ($3,706/mo < $50,000 floor)
+# FAIL | diamond painting kits adults large |    $5,997/mo | 377 avg reviews        | Revenue too small ($5,997/mo < $50,000 floor)
+# FAIL | resin art kit with silicone molds |    $8,794/mo | 1,058 avg reviews      | Revenue too small ($8,794/mo < $50,000 floor)
+# FAIL | wooden wick candle making supplies |    $9,818/mo | 534 avg reviews        | Revenue too small ($9,818/mo < $50,000 floor)
+# FAIL | kombucha brewing kit starter glass |    $1,801/mo | 1,487 avg reviews      | Revenue too small ($1,801/mo < $50,000 floor)
+# FAIL | cedar sauna bucket ladle set |    $1,080/mo | 72 avg reviews         | Revenue too small ($1,080/mo < $50,000 floor)
+# FAIL | solar outdoor string lights patio |   $76,511/mo | 5,216 avg reviews      | Closed market (5,216 avg reviews > 1,000 ceiling)
+# FAIL | hydroponic herb garden kit led |    $8,991/mo | 825 avg reviews        | Revenue too small ($8,991/mo < $50,000 floor)
+# FAIL | punch needle embroidery starter kit |    $2,324/mo | 304 avg reviews        | Revenue too small ($2,324/mo < $50,000 floor)
+# FAIL | calligraphy set brush pen beginner |    $9,431/mo | 4,874 avg reviews      | Revenue too small ($9,431/mo < $50,000 floor)
+# FAIL | floating pool thermometer digital |   $15,814/mo | 229 avg reviews        | Revenue too small ($15,814/mo < $50,000 floor)
+# FAIL | beach tent pop up portable shelter |   $15,934/mo | 1,805 avg reviews      | Revenue too small ($15,934/mo < $50,000 floor)
+# FAIL | waterproof dry bag backpack 20l |   $34,250/mo | 9,727 avg reviews      | Revenue too small ($34,250/mo < $50,000 floor)
+# FAIL | van life window curtain blackout magnetic |   $29,542/mo | 834 avg reviews        | Revenue too small ($29,542/mo < $50,000 floor)
+# FAIL | portable solar charger panel camping foldable |   $10,190/mo | 550 avg reviews        | Revenue too small ($10,190/mo < $50,000 floor)
+# FAIL | 12v car fridge electric cooler compact |    $4,430/mo | 582 avg reviews        | Revenue too small ($4,430/mo < $50,000 floor)
+# FAIL | rooftop cargo bag waterproof suv |   $10,791/mo | 3,390 avg reviews      | Revenue too small ($10,791/mo < $50,000 floor)
+# FAIL | van life bedding kit moisture wicking |  $367,898/mo | 98,983 avg reviews     | Closed market (98,983 avg reviews > 1,000 ceiling)
+# FAIL | gymnastics rings wooden adjustable straps |   $15,263/mo | 1,431 avg reviews      | Revenue too small ($15,263/mo < $50,000 floor)
+# FAIL | parallette bars push up training set |   $19,117/mo | 1,396 avg reviews      | Revenue too small ($19,117/mo < $50,000 floor)
+# FAIL | wrist wraps weight lifting hook support |   $29,277/mo | 2,220 avg reviews      | Revenue too small ($29,277/mo < $50,000 floor)
+# FAIL | battle rope anchor wall mount kit |    $2,553/mo | 1,342 avg reviews      | Revenue too small ($2,553/mo < $50,000 floor)
+# FAIL | ab wheel rollout with knee pad |   $34,454/mo | 3,506 avg reviews      | Revenue too small ($34,454/mo < $50,000 floor)
+# FAIL | ring light with clamp desk mount small |   $26,376/mo | 3,255 avg reviews      | Revenue too small ($26,376/mo < $50,000 floor)
+# FAIL | phone tripod flexible gorilla mount |   $32,078/mo | 14,721 avg reviews     | Revenue too small ($32,078/mo < $50,000 floor)
+# FAIL | green screen collapsible portable backdrop |    $8,762/mo | 908 avg reviews        | Revenue too small ($8,762/mo < $50,000 floor)
+# FAIL | podcast microphone boom arm desk stand |   $28,989/mo | 4,285 avg reviews      | Revenue too small ($28,989/mo < $50,000 floor)
+# FAIL | content creator desk mat large extended |   $21,022/mo | 1,329 avg reviews      | Revenue too small ($21,022/mo < $50,000 floor)
+# FAIL | pfas free lip liner set      |  $190,207/mo | 6,916 avg reviews      | Closed market (6,916 avg reviews > 1,000 ceiling)
+# FAIL | fragrance allergen free perfume roller |  $148,866/mo | 16,561 avg reviews     | Closed market (16,561 avg reviews > 1,000 ceiling)
+# FAIL | non toxic nail stamping kit  |   $59,266/mo | 3,719 avg reviews      | Closed market (3,719 avg reviews > 1,000 ceiling)
+# FAIL | lash tint training kit       |   $42,726/mo | 1,158 avg reviews      | Revenue too small ($42,726/mo < $50,000 floor)
+# FAIL | microblading practice skin sheets |    $4,615/mo | 789 avg reviews        | Revenue too small ($4,615/mo < $50,000 floor)
+# FAIL | suction cup acupuncture tool set |   $13,812/mo | 2,492 avg reviews      | Revenue too small ($13,812/mo < $50,000 floor)
+# FAIL | bookbinding starter kit      |    $6,488/mo | 424 avg reviews        | Revenue too small ($6,488/mo < $50,000 floor)
+# FAIL | leather skiving tool set     |    $3,809/mo | 430 avg reviews        | Revenue too small ($3,809/mo < $50,000 floor)
+# FAIL | wearable breast pump carry bag |    $2,521/mo | 168 avg reviews        | Revenue too small ($2,521/mo < $50,000 floor)
+# FAIL | postpartum compression shorts |  $135,118/mo | 12,533 avg reviews     | Closed market (12,533 avg reviews > 1,000 ceiling)
+# FAIL | baby led weaning suction bowl set |   $25,907/mo | 627 avg reviews        | Revenue too small ($25,907/mo < $50,000 floor)
+# FAIL | renter friendly wall anchor kit |   $25,717/mo | 440 avg reviews        | Revenue too small ($25,717/mo < $50,000 floor)
+# FAIL | grip sock laundry bag        |   $64,216/mo | 5,983 avg reviews      | Closed market (5,983 avg reviews > 1,000 ceiling)
+# FAIL | reformer pilates sticky mat spray |    $2,713/mo | 286 avg reviews        | Revenue too small ($2,713/mo < $50,000 floor)
+# FAIL | jelly nail gel starter kit   |  $165,175/mo | 17,259 avg reviews     | Closed market (17,259 avg reviews > 1,000 ceiling)
+# FAIL | stelo dexcom sensor cover patch |   $28,323/mo | 1,413 avg reviews      | Revenue too small ($28,323/mo < $50,000 floor)
+# FAIL | CGM adhesive patch non diabetic fitness |   $24,534/mo | 3,454 avg reviews      | Revenue too small ($24,534/mo < $50,000 floor)
+# FAIL | ruck plate carrier molle pouch set |   $11,878/mo | 964 avg reviews        | Revenue too small ($11,878/mo < $50,000 floor)
+# FAIL | rucking blister prevention toe sock liner |   $24,188/mo | 2,558 avg reviews      | Revenue too small ($24,188/mo < $50,000 floor)
+# FAIL | grounding mat earthing half sheet desk |    $8,822/mo | 1,407 avg reviews      | Revenue too small ($8,822/mo < $50,000 floor)
+# FAIL | sourdough starter warmer temperature controller |    $6,017/mo | 209 avg reviews        | Revenue too small ($6,017/mo < $50,000 floor)
+# FAIL | fermentation glass weight set wide mouth |    $9,760/mo | 1,459 avg reviews      | Revenue too small ($9,760/mo < $50,000 floor)
+# FAIL | Ray-Ban Meta glasses lens replacement sport |    $5,282/mo | 52 avg reviews         | Revenue too small ($5,282/mo < $50,000 floor)
+# FAIL | smart ring silicone protective case scratch |   $42,540/mo | 625 avg reviews        | Revenue too small ($42,540/mo < $50,000 floor)
+# FAIL | oura ring interchangeable color band set |  $154,621/mo | 2,117 avg reviews      | Closed market (2,117 avg reviews > 1,000 ceiling)
+# FAIL | PFAS free beeswax food wrap sheet set |   $17,753/mo | 1,136 avg reviews      | Revenue too small ($17,753/mo < $50,000 floor)
+# FAIL | carbon steel wok flat bottom induction pre-seasoned |   $12,978/mo | 1,240 avg reviews      | Revenue too small ($12,978/mo < $50,000 floor)
+# FAIL | Korean BBQ scissors stainless meat cutting |    $3,634/mo | 1,834 avg reviews      | Revenue too small ($3,634/mo < $50,000 floor)
+# FAIL | Japanese tamagoyaki pan nonstick rectangle |    $5,611/mo | 2,043 avg reviews      | Revenue too small ($5,611/mo < $50,000 floor)
+# FAIL | weighted vest rucking reflective shoulder pad replacement |    $7,096/mo | 1,311 avg reviews      | Revenue too small ($7,096/mo < $50,000 floor)
+# FAIL | padel tennis training ball hopper |    $7,086/mo | 446 avg reviews        | Revenue too small ($7,086/mo < $50,000 floor)
+# FAIL | slackline balance training kit beginner |    $2,582/mo | 519 avg reviews        | Revenue too small ($2,582/mo < $50,000 floor)
+# FAIL | bouldering finger strength training board |      $861/mo | 52 avg reviews         | Revenue too small ($861/mo < $50,000 floor)
+# FAIL | turntable stylus cleaning kit upgrade |   $19,250/mo | 5,322 avg reviews      | Revenue too small ($19,250/mo < $50,000 floor)
+# FAIL | podcast soundproof recording booth panel |    $7,372/mo | 851 avg reviews        | Revenue too small ($7,372/mo < $50,000 floor)
+# FAIL | water quality test strips comprehensive home |   $35,070/mo | 2,667 avg reviews      | Revenue too small ($35,070/mo < $50,000 floor)
+# FAIL | PFAS water filter pitcher replacement cartridge |   $71,170/mo | 9,315 avg reviews      | Closed market (9,315 avg reviews > 1,000 ceiling)
+# FAIL | linocut printmaking carving tool set |    $7,827/mo | 1,061 avg reviews      | Revenue too small ($7,827/mo < $50,000 floor)
+# FAIL | cyanotype printing kit fabric paper |   $10,721/mo | 160 avg reviews        | Revenue too small ($10,721/mo < $50,000 floor)
+# FAIL | welding fume respirator half face reusable |   $22,504/mo | 4,008 avg reviews      | Revenue too small ($22,504/mo < $50,000 floor)
+# FAIL | plumber pipe fitting practice training kit |    $1,773/mo | 149 avg reviews        | Revenue too small ($1,773/mo < $50,000 floor)
+# FAIL | electrician wire connector assortment kit |   $26,506/mo | 1,993 avg reviews      | Revenue too small ($26,506/mo < $50,000 floor)
+# FAIL | men scalp massager hair growth |   $66,262/mo | 26,688 avg reviews     | Closed market (26,688 avg reviews > 1,000 ceiling)
+# FAIL | senior grip strength rehabilitation putty |   $36,445/mo | 4,617 avg reviews      | Revenue too small ($36,445/mo < $50,000 floor)
+# FAIL | digital nomad cable organizer travel pouch |   $81,428/mo | 10,229 avg reviews     | Closed market (10,229 avg reviews > 1,000 ceiling)
+# FAIL | stanley cup boot silicone protector |   $30,838/mo | 2,316 avg reviews      | Revenue too small ($30,838/mo < $50,000 floor)
+# FAIL | stanley quencher lid replacement set |   $18,366/mo | 681 avg reviews        | Revenue too small ($18,366/mo < $50,000 floor)
+# FAIL | eyebrow lamination kit professional |   $29,705/mo | 1,830 avg reviews      | Revenue too small ($29,705/mo < $50,000 floor)
+# FAIL | brow tint training kit beginner |   $45,658/mo | 1,504 avg reviews      | Revenue too small ($45,658/mo < $50,000 floor)
+# FAIL | cold plunge thermometer floating |   $20,458/mo | 910 avg reviews        | Revenue too small ($20,458/mo < $50,000 floor)
+# FAIL | ice bath inflatable portable recovery tub |    $4,073/mo | 258 avg reviews        | Revenue too small ($4,073/mo < $50,000 floor)
+# FAIL | cold plunge chiller hose adapter kit |      $326/mo | 21 avg reviews         | Revenue too small ($326/mo < $50,000 floor)
+# FAIL | whoop band replacement strap silicone |   $11,512/mo | 1,052 avg reviews      | Revenue too small ($11,512/mo < $50,000 floor)
+# FAIL | garmin fenix quick release band kit |    $5,506/mo | 894 avg reviews        | Revenue too small ($5,506/mo < $50,000 floor)
+# FAIL | overland recovery traction board set |    $4,483/mo | 810 avg reviews        | Revenue too small ($4,483/mo < $50,000 floor)
+# FAIL | hi-lift jack mounting bracket roof rack |    $1,693/mo | 233 avg reviews        | Revenue too small ($1,693/mo < $50,000 floor)
+# FAIL | raised bed garden corner bracket kit |    $1,738/mo | 36 avg reviews         | Revenue too small ($1,738/mo < $50,000 floor)
+# FAIL | book page holder thumb reading ring |    $5,837/mo | 527 avg reviews        | Revenue too small ($5,837/mo < $50,000 floor)
+# FAIL | kindle paperwhite magnetic cover slim |   $52,742/mo | 1,015 avg reviews      | Closed market (1,015 avg reviews > 1,000 ceiling)
+# FAIL | pmu practice skin microblading beginner kit |    $1,048/mo | 198 avg reviews        | Revenue too small ($1,048/mo < $50,000 floor)
+# FAIL | women's lacrosse rebounder wall |    $4,338/mo | 265 avg reviews        | Revenue too small ($4,338/mo < $50,000 floor)
+# FAIL | field hockey shin guard bag  |    $2,311/mo | 206 avg reviews        | Revenue too small ($2,311/mo < $50,000 floor)
+# FAIL | women's powerlifting singlet belt combo |   $19,961/mo | 5,922 avg reviews      | Revenue too small ($19,961/mo < $50,000 floor)
+# FAIL | tile leveling system clips wedges kit |    $7,719/mo | 1,340 avg reviews      | Revenue too small ($7,719/mo < $50,000 floor)
+# FAIL | grout float epoxy tile kit   |    $2,782/mo | 311 avg reviews        | Revenue too small ($2,782/mo < $50,000 floor)
+# FAIL | drywall sanding block pole set |    $1,600/mo | 254 avg reviews        | Revenue too small ($1,600/mo < $50,000 floor)
+# FAIL | bridal emergency kit box bride |    $2,766/mo | 26 avg reviews         | Revenue too small ($2,766/mo < $50,000 floor)
+# FAIL | vow book set wedding ceremony |   $14,440/mo | 387 avg reviews        | Revenue too small ($14,440/mo < $50,000 floor)
+# FAIL | wedding ring dish trinket tray set |   $26,882/mo | 732 avg reviews        | Revenue too small ($26,882/mo < $50,000 floor)
+# FAIL | raw dog food meal prep containers |   $71,818/mo | 7,702 avg reviews      | Closed market (7,702 avg reviews > 1,000 ceiling)
+# FAIL | bully stick holder dog dental toy |    $7,740/mo | 567 avg reviews        | Revenue too small ($7,740/mo < $50,000 floor)
+# FAIL | capo partial guitar acoustic banjo |   $17,577/mo | 7,662 avg reviews      | Revenue too small ($17,577/mo < $50,000 floor)
+# FAIL | guitar wall hanger multi lock display |    $3,983/mo | 1,646 avg reviews      | Revenue too small ($3,983/mo < $50,000 floor)
+# [RATE LIMITED — re-queued in Batch 14]
+# [RATE LIMITED — re-queued in Batch 14]
+# FAIL | kindle paperwhite 12th generation case magnetic |        $0/mo | — avg reviews          | Revenue too small ($0/mo < $50,000 floor)
+# FAIL | kindle colorsoft case cover magnetic slim |        $0/mo | — avg reviews          | Revenue too small ($0/mo < $50,000 floor)
+# FAIL | fire hd 10 case with pencil holder |    $6,931/mo | 5,680 avg reviews      | Revenue too small ($6,931/mo < $50,000 floor)
+# FAIL | echo show 5 wall mount bracket |      $794/mo | 260 avg reviews        | Revenue too small ($794/mo < $50,000 floor)
+# FAIL | ring video doorbell faceplate cover |   $18,074/mo | 10 avg reviews         | Revenue too small ($18,074/mo < $50,000 floor)
+# FAIL | ipad mini 7 case magnetic folio |    $5,957/mo | 783 avg reviews        | Revenue too small ($5,957/mo < $50,000 floor)
+# FAIL | apple pencil gen 2 holder desk stand |      $865/mo | 903 avg reviews        | Revenue too small ($865/mo < $50,000 floor)
+# FAIL | espresso puck screen 58mm reusable |    $9,799/mo | 305 avg reviews        | Revenue too small ($9,799/mo < $50,000 floor)
+# FAIL | wdt distribution tool espresso |   $10,330/mo | 469 avg reviews        | Revenue too small ($10,330/mo < $50,000 floor)
+# FAIL | espresso knock box countertop small |   $11,495/mo | 397 avg reviews        | Revenue too small ($11,495/mo < $50,000 floor)
+# FAIL | cocktail jigger japanese style bartending |   $23,483/mo | 1,969 avg reviews      | Revenue too small ($23,483/mo < $50,000 floor)
+# FAIL | ice sphere mold large clear silicone |    $8,623/mo | 1,252 avg reviews      | Revenue too small ($8,623/mo < $50,000 floor)
+# FAIL | fishing hook organizer wallet fly |    $1,308/mo | 350 avg reviews        | Revenue too small ($1,308/mo < $50,000 floor)
+# FAIL | crankbait lure hard bait assortment |   $23,249/mo | 2,712 avg reviews      | Revenue too small ($23,249/mo < $50,000 floor)
+# FAIL | trail camera security box anti-theft |      $799/mo | 79 avg reviews         | Revenue too small ($799/mo < $50,000 floor)
+# FAIL | kindle scribe folio cover case |   $34,411/mo | 788 avg reviews        | Revenue too small ($34,411/mo < $50,000 floor)
+# FAIL | kindle paperwhite 12th generation case magnetic |   $69,125/mo | 1,729 avg reviews      | Closed market (1,729 avg reviews > 1,000 ceiling)
+# FAIL | kindle colorsoft case cover magnetic slim |   $57,602/mo | 2,371 avg reviews      | Closed market (2,371 avg reviews > 1,000 ceiling)
+# FAIL | aeropress espresso cleaning tablets set |   $44,342/mo | 2,392 avg reviews      | Revenue too small ($44,342/mo < $50,000 floor)
+# FAIL | pill organizer travel case slim |   $70,045/mo | 4,709 avg reviews      | Closed market (4,709 avg reviews > 1,000 ceiling)
+# FAIL | creatine measuring scoop set stainless |    $6,332/mo | 1,366 avg reviews      | Revenue too small ($6,332/mo < $50,000 floor)
+# FAIL | kinesiology tape pre-cut knee strips |   $54,746/mo | 1,254 avg reviews      | Closed market (1,254 avg reviews > 1,000 ceiling)
+# FAIL | toe separator bunion corrector gel |   $63,152/mo | 8,230 avg reviews      | Closed market (8,230 avg reviews > 1,000 ceiling)
+# FAIL | shin splint compression sleeve pair |  $104,975/mo | 8,425 avg reviews      | Closed market (8,425 avg reviews > 1,000 ceiling)
+# FAIL | bartending speed pourer set stainless |   $18,608/mo | 1,759 avg reviews      | Revenue too small ($18,608/mo < $50,000 floor)
+# FAIL | bar mat rail rubber drip tray |    $7,827/mo | 845 avg reviews        | Revenue too small ($7,827/mo < $50,000 floor)
+# FAIL | cocktail fine mesh strainer hawthorne set |    $2,100/mo | 585 avg reviews        | Revenue too small ($2,100/mo < $50,000 floor)
+# FAIL | passport holder slim rfid blocking |   $19,443/mo | 2,839 avg reviews      | Revenue too small ($19,443/mo < $50,000 floor)
+# FAIL | luggage scale digital hanging suitcase |  $203,771/mo | 5,700 avg reviews      | Closed market (5,700 avg reviews > 1,000 ceiling)
+# FAIL | slow feeder lick mat enrichment dog |   $59,236/mo | 2,110 avg reviews      | Closed market (2,110 avg reviews > 1,000 ceiling)
+# FAIL | cat window perch suction cup large |   $59,256/mo | 2,862 avg reviews      | Closed market (2,862 avg reviews > 1,000 ceiling)
+# FAIL | baby food storage pouches reusable squeeze |   $27,665/mo | 6,626 avg reviews      | Revenue too small ($27,665/mo < $50,000 floor)
+# FAIL | toddler fork spoon set self feeding |   $66,322/mo | 8,327 avg reviews      | Closed market (8,327 avg reviews > 1,000 ceiling)
+# FAIL | car seat gap filler organizer console |   $45,831/mo | 8,259 avg reviews      | Revenue too small ($45,831/mo < $50,000 floor)
+# FAIL | kindle paperwhite sleeve felt fabric case |   $18,572/mo | 756 avg reviews        | Revenue too small ($18,572/mo < $50,000 floor)
+# FAIL | kindle reading light rechargeable clip on |   $77,967/mo | 12,684 avg reviews     | Closed market (12,684 avg reviews > 1,000 ceiling)
+# FAIL | bogg bag charm accessories set decorative |    $7,743/mo | 196 avg reviews        | Revenue too small ($7,743/mo < $50,000 floor)
+# FAIL | mushroom coffee ground blend adaptogen |  $223,058/mo | 5,400 avg reviews      | Closed market (5,400 avg reviews > 1,000 ceiling)
+# FAIL | running vest soft flask replacement 500ml |   $10,220/mo | 132 avg reviews        | Revenue too small ($10,220/mo < $50,000 floor)
+# FAIL | whey protein shaker stainless insulated lid |  $132,784/mo | 3,777 avg reviews      | Closed market (3,777 avg reviews > 1,000 ceiling)
+# FAIL | wall pilates resistance band door anchor set |    $4,541/mo | 503 avg reviews        | Revenue too small ($4,541/mo < $50,000 floor)
+# FAIL | lash extension aftercare cleanser foam brush |  $106,217/mo | 4,194 avg reviews      | Closed market (4,194 avg reviews > 1,000 ceiling)
+# FAIL | airpods pro 2 case silicone clip cover |   $25,918/mo | 6,216 avg reviews      | Revenue too small ($25,918/mo < $50,000 floor)
+# FAIL | treadmill mat high density noise reducing |   $17,309/mo | 1,084 avg reviews      | Revenue too small ($17,309/mo < $50,000 floor)
+# FAIL | sauna hat wool felt head protection |    $6,312/mo | 46 avg reviews         | Revenue too small ($6,312/mo < $50,000 floor)
+# FAIL | hiking ankle gaiter lightweight waterproof trail |    $7,191/mo | 476 avg reviews        | Revenue too small ($7,191/mo < $50,000 floor)
+# FAIL | electric toothbrush head holder travel case |   $13,089/mo | 1,025 avg reviews      | Revenue too small ($13,089/mo < $50,000 floor)
+# FAIL | cable machine gym attachment bar handle set |   $10,546/mo | 820 avg reviews        | Revenue too small ($10,546/mo < $50,000 floor)
+# FAIL | reformer pilates grip towel non slip mat |      $942/mo | 110 avg reviews        | Revenue too small ($942/mo < $50,000 floor)
+# FAIL | pickleball paddle grip tape  |   $13,761/mo | 1,276 avg reviews      | Revenue too small ($13,761/mo < $50,000 floor)
+# FAIL | pickleball bag padded women carry |    $7,479/mo | 520 avg reviews        | Revenue too small ($7,479/mo < $50,000 floor)
+# FAIL | sous vide container with rack lid |   $13,311/mo | 1,304 avg reviews      | Revenue too small ($13,311/mo < $50,000 floor)
+# FAIL | cold brew coffee filter bag reusable |    $2,555/mo | 356 avg reviews        | Revenue too small ($2,555/mo < $50,000 floor)
+# FAIL | bouldering finger tape climbing set |    $9,508/mo | 1,263 avg reviews      | Revenue too small ($9,508/mo < $50,000 floor)
+# FAIL | speed cube magnetic competition 3x3 |   $23,119/mo | 2,024 avg reviews      | Revenue too small ($23,119/mo < $50,000 floor)
+# FAIL | journal wax seal kit stamp set |    $3,840/mo | 818 avg reviews        | Revenue too small ($3,840/mo < $50,000 floor)
+# FAIL | electric arc lighter plasma usb |   $14,423/mo | 3,637 avg reviews      | Revenue too small ($14,423/mo < $50,000 floor)
+# FAIL | book page holder thumb reading ring |    $6,522/mo | 486 avg reviews        | Revenue too small ($6,522/mo < $50,000 floor)
+# FAIL | grip strengthener hand exerciser set |   $34,432/mo | 6,087 avg reviews      | Revenue too small ($34,432/mo < $50,000 floor)
+# FAIL | portable sauna tent waterproof floor mat |    $4,080/mo | 266 avg reviews        | Revenue too small ($4,080/mo < $50,000 floor)
+# FAIL | magnetic weekly planner whiteboard wall |   $12,184/mo | 1,380 avg reviews      | Revenue too small ($12,184/mo < $50,000 floor)
+# FAIL | ceramic hair straightener brush ionic |   $34,395/mo | 20,052 avg reviews     | Revenue too small ($34,395/mo < $50,000 floor)
+# FAIL | telescope beginner adults portable refractor |    $7,668/mo | 3,543 avg reviews      | Revenue too small ($7,668/mo < $50,000 floor)
+# FAIL | drone landing pad foldable waterproof |    $5,715/mo | 166 avg reviews        | Revenue too small ($5,715/mo < $50,000 floor)
+# FAIL | padel tennis grip tape overgrip |   $52,492/mo | 4,596 avg reviews      | Closed market (4,596 avg reviews > 1,000 ceiling)
+# FAIL | padel racket dampener vibration |    $4,051/mo | 159 avg reviews        | Revenue too small ($4,051/mo < $50,000 floor)
+# FAIL | disc golf bag backpack starter |    $5,166/mo | 2,095 avg reviews      | Revenue too small ($5,166/mo < $50,000 floor)
+# FAIL | disc golf putting practice basket |    $3,809/mo | 1,537 avg reviews      | Revenue too small ($3,809/mo < $50,000 floor)
+# FAIL | whoop band protective sleeve cover |      $454/mo | 22 avg reviews         | Revenue too small ($454/mo < $50,000 floor)
+# FAIL | oura ring protective case holder |   $13,872/mo | 210 avg reviews        | Revenue too small ($13,872/mo < $50,000 floor)
+# FAIL | galaxy ring silicone case cover |   $19,280/mo | 389 avg reviews        | Revenue too small ($19,280/mo < $50,000 floor)
+# FAIL | diy gel nail extension kit builder |   $32,896/mo | 3,557 avg reviews      | Revenue too small ($32,896/mo < $50,000 floor)
+# FAIL | at home teeth whitening led light |   $49,956/mo | 17,231 avg reviews     | Revenue too small ($49,956/mo < $50,000 floor)
+# FAIL | led face mask replacement gel pads |    $9,049/mo | 142 avg reviews        | Revenue too small ($9,049/mo < $50,000 floor)
+# FAIL | red light therapy eye mask rechargeable |    $1,556/mo | 39 avg reviews         | Revenue too small ($1,556/mo < $50,000 floor)
+# FAIL | portable ems face sculpting device |    $9,789/mo | 589 avg reviews        | Revenue too small ($9,789/mo < $50,000 floor)
+# FAIL | nail stamping plate set art  |    $9,211/mo | 3,273 avg reviews      | Revenue too small ($9,211/mo < $50,000 floor)
+# FAIL | aquarium plant weights moss balls |    $3,963/mo | 1,167 avg reviews      | Revenue too small ($3,963/mo < $50,000 floor)
+# FAIL | bathroom vanity mirror led lighted |   $24,133/mo | 1,548 avg reviews      | Revenue too small ($24,133/mo < $50,000 floor)
+# FAIL | ozempic injection pen travel case |   $93,135/mo | 1,546 avg reviews      | Closed market (1,546 avg reviews > 1,000 ceiling)
+# FAIL | glp1 medication sharps travel container |  $103,161/mo | 2,136 avg reviews      | Closed market (2,136 avg reviews > 1,000 ceiling)
+# FAIL | cgm sensor cover patches waterproof dexcom |   $25,948/mo | 1,367 avg reviews      | Revenue too small ($25,948/mo < $50,000 floor)
+# FAIL | continuous glucose monitor sleeve arm cover |    $3,776/mo | 1,108 avg reviews      | Revenue too small ($3,776/mo < $50,000 floor)
+# FAIL | mouth tape sleep nose breathing strips |  $126,816/mo | 3,288 avg reviews      | Closed market (3,288 avg reviews > 1,000 ceiling)
+# FAIL | hydrogen water bottle generator portable |    $5,959/mo | 396 avg reviews        | Revenue too small ($5,959/mo < $50,000 floor)
+# FAIL | infrared sauna blanket storage carry bag |      $825/mo | 214 avg reviews        | Revenue too small ($825/mo < $50,000 floor)
+# FAIL | fridge water filter replacement samsung da29 |   $73,274/mo | 20,929 avg reviews     | Closed market (20,929 avg reviews > 1,000 ceiling)
+# FAIL | smart ring wireless charger dock stand |   $12,399/mo | 1,442 avg reviews      | Revenue too small ($12,399/mo < $50,000 floor)
+# FAIL | milk frother electric handheld rechargeable |  $103,921/mo | 10,611 avg reviews     | Closed market (10,611 avg reviews > 1,000 ceiling)
+# FAIL | at home laser hair removal device |   $54,718/mo | 1,656 avg reviews      | Closed market (1,656 avg reviews > 1,000 ceiling)
+# FAIL | nasal dilator strips anti snoring |   $91,109/mo | 6,728 avg reviews      | Closed market (6,728 avg reviews > 1,000 ceiling)
+# FAIL | breathwork training device respiratory muscle |   $10,844/mo | 1,842 avg reviews      | Revenue too small ($10,844/mo < $50,000 floor)
+# FAIL | stanley adventure quencher 30oz tumbler lid |  $117,726/mo | 9,533 avg reviews      | Closed market (9,533 avg reviews > 1,000 ceiling)
+# FAIL | apple watch ultra case rugged protection |   $46,090/mo | 8,251 avg reviews      | Revenue too small ($46,090/mo < $50,000 floor)
+# FAIL | mounjaro injection pen carrying case |   $10,903/mo | 133 avg reviews        | Revenue too small ($10,903/mo < $50,000 floor)
+# FAIL | wegovy pen insulated travel cold pouch |   $37,676/mo | 1,318 avg reviews      | Revenue too small ($37,676/mo < $50,000 floor)
+# FAIL | meta quest 3s silicone face cover |    $5,901/mo | 371 avg reviews        | Revenue too small ($5,901/mo < $50,000 floor)
+# FAIL | meta quest 3 controller grip cover |    $6,896/mo | 905 avg reviews        | Revenue too small ($6,896/mo < $50,000 floor)
+# FAIL | galaxy s25 ultra case with s pen holder |   $10,401/mo | 2,183 avg reviews      | Revenue too small ($10,401/mo < $50,000 floor)
+# FAIL | samsung galaxy s25 magsafe compatible case |   $88,866/mo | 8,925 avg reviews      | Closed market (8,925 avg reviews > 1,000 ceiling)
+# FAIL | insta360 x4 lens protector tempered glass |    $1,513/mo | 232 avg reviews        | Revenue too small ($1,513/mo < $50,000 floor)
+# FAIL | insta360 x4 carrying case accessories |    $1,206/mo | 288 avg reviews        | Revenue too small ($1,206/mo < $50,000 floor)
+# FAIL | remarkable 2 tablet folio case magnetic |    $6,393/mo | 850 avg reviews        | Revenue too small ($6,393/mo < $50,000 floor)
+# FAIL | apple vision pro travel hard case |      $607/mo | 89 avg reviews         | Revenue too small ($607/mo < $50,000 floor)
+# FAIL | samsung galaxy watch 7 band replacement |   $18,039/mo | 2,114 avg reviews      | Revenue too small ($18,039/mo < $50,000 floor)
+# FAIL | rowing machine seat cushion pad |    $1,447/mo | 611 avg reviews        | Revenue too small ($1,447/mo < $50,000 floor)
+# FAIL | weighted jump rope cable speed crossfit |   $53,170/mo | 5,484 avg reviews      | Closed market (5,484 avg reviews > 1,000 ceiling)
+# FAIL | dip bar stands parallettes push up |   $35,685/mo | 3,224 avg reviews      | Revenue too small ($35,685/mo < $50,000 floor)
+# FAIL | microneedling derma pen cartridge replacement |    $3,804/mo | 82 avg reviews         | Revenue too small ($3,804/mo < $50,000 floor)
+# FAIL | radiofrequency skin tightening device home |    $9,531/mo | 4,010 avg reviews      | Revenue too small ($9,531/mo < $50,000 floor)
+# FAIL | hifu face lift ultrasound home device |    $4,960/mo | 489 avg reviews        | Revenue too small ($4,960/mo < $50,000 floor)
+# FAIL | tattoo removal fading patch accelerator |   $15,933/mo | 1,612 avg reviews      | Revenue too small ($15,933/mo < $50,000 floor)
+# FAIL | injection site numbing topical spray pen |   $15,689/mo | 1,666 avg reviews      | Revenue too small ($15,689/mo < $50,000 floor)
+# FAIL | trulicity autoinjector pen travel case |   $28,978/mo | 503 avg reviews        | Revenue too small ($28,978/mo < $50,000 floor)
+# FAIL | ozempic needle cap remover safety device |       $64/mo | 3 avg reviews          | Revenue too small ($64/mo < $50,000 floor)
+# FAIL | insulin pen travel case insulated cooling |  $142,484/mo | 2,654 avg reviews      | Closed market (2,654 avg reviews > 1,000 ceiling)
+# FAIL | apple watch series 10 slim case cover |  $392,023/mo | 74,676 avg reviews     | Closed market (74,676 avg reviews > 1,000 ceiling)
+# FAIL | apple watch series 10 band replacement |   $71,979/mo | 10,128 avg reviews     | Closed market (10,128 avg reviews > 1,000 ceiling)
+# FAIL | gopro hero 13 lens filter polarizing |    $1,544/mo | 108 avg reviews        | Revenue too small ($1,544/mo < $50,000 floor)
+# FAIL | dji osmo action 5 waterproof carry case |    $5,627/mo | 303 avg reviews        | Revenue too small ($5,627/mo < $50,000 floor)
+# FAIL | garmin forerunner 265 protective case cover |    $1,179/mo | 59 avg reviews         | Revenue too small ($1,179/mo < $50,000 floor)
+# FAIL | garmin venu 3 replacement silicone band |    $3,712/mo | 225 avg reviews        | Revenue too small ($3,712/mo < $50,000 floor)
+# FAIL | portable photo printer pocket bluetooth |   $42,676/mo | 6,610 avg reviews      | Revenue too small ($42,676/mo < $50,000 floor)
+# FAIL | macbook air m4 case 13 inch hard shell |   $78,437/mo | 4,841 avg reviews      | Closed market (4,841 avg reviews > 1,000 ceiling)
+# FAIL | macbook air m4 sleeve carrying case |   $88,545/mo | 17,111 avg reviews     | Closed market (17,111 avg reviews > 1,000 ceiling)
+# FAIL | macbook air m4 screen protector tempered |   $19,479/mo | 1,719 avg reviews      | Revenue too small ($19,479/mo < $50,000 floor)
+# FAIL | macbook pro m4 case 14 inch cover |   $31,338/mo | 2,074 avg reviews      | Revenue too small ($31,338/mo < $50,000 floor)
+# FAIL | macbook pro m4 16 inch sleeve case |   $92,118/mo | 20,585 avg reviews     | Closed market (20,585 avg reviews > 1,000 ceiling)
+# FAIL | pixel 9 pro case slim cover magnetic |   $30,153/mo | 3,706 avg reviews      | Revenue too small ($30,153/mo < $50,000 floor)
+# FAIL | pixel 9 pro xl protective case rugged |   $26,052/mo | 7,115 avg reviews      | Revenue too small ($26,052/mo < $50,000 floor)
+# FAIL | samsung galaxy s25 plus slim case cover |  $131,702/mo | 6,043 avg reviews      | Closed market (6,043 avg reviews > 1,000 ceiling)
+# FAIL | sublimation paper sheets printable a4 |   $37,879/mo | 13,637 avg reviews     | Revenue too small ($37,879/mo < $50,000 floor)
+# FAIL | heat transfer vinyl rolls bundle cricut |   $36,349/mo | 5,533 avg reviews      | Revenue too small ($36,349/mo < $50,000 floor)
+# FAIL | cricut iron on vinyl sheets multicolor |   $12,757/mo | 5,204 avg reviews      | Revenue too small ($12,757/mo < $50,000 floor)
+# FAIL | sublimation blank tumbler 20oz skinny |    $8,230/mo | 826 avg reviews        | Revenue too small ($8,230/mo < $50,000 floor)
+# FAIL | inkjet dark transfer paper fabric iron |   $51,147/mo | 7,692 avg reviews      | Closed market (7,692 avg reviews > 1,000 ceiling)
+# FAIL | label tape refill brother p-touch 12mm |   $28,773/mo | 465 avg reviews        | Revenue too small ($28,773/mo < $50,000 floor)
+# FAIL | silicone reusable straw set collapsible |   $13,982/mo | 2,194 avg reviews      | Revenue too small ($13,982/mo < $50,000 floor)
+# FAIL | insulin pump case waterproof adults |    $1,503/mo | 271 avg reviews        | Revenue too small ($1,503/mo < $50,000 floor)
+# FAIL | insulin pump pouch clip belt holder |      $784/mo | 273 avg reviews        | Revenue too small ($784/mo < $50,000 floor)
+# FAIL | medication cooling pouch insulated travel |   $80,687/mo | 1,417 avg reviews      | Closed market (1,417 avg reviews > 1,000 ceiling)
+# FAIL | sharps container wall mount home |   $79,621/mo | 2,007 avg reviews      | Closed market (2,007 avg reviews > 1,000 ceiling)
+# FAIL | sharps disposal bin home large |   $84,373/mo | 2,402 avg reviews      | Closed market (2,402 avg reviews > 1,000 ceiling)
+# FAIL | prescription medication cooler bag portable |   $61,819/mo | 1,962 avg reviews      | Closed market (1,962 avg reviews > 1,000 ceiling)
+# FAIL | diabetic supply organizer bag case |    $4,723/mo | 969 avg reviews        | Revenue too small ($4,723/mo < $50,000 floor)
+# FAIL | pool float cup holder attachment clip |    $8,197/mo | 2,455 avg reviews      | Revenue too small ($8,197/mo < $50,000 floor)
+# FAIL | inflatable pool lounge chair adult float |   $54,594/mo | 1,438 avg reviews      | Closed market (1,438 avg reviews > 1,000 ceiling)
+# FAIL | floating pool speaker bluetooth waterproof |    $2,629/mo | 1,553 avg reviews      | Revenue too small ($2,629/mo < $50,000 floor)
+# FAIL | pop up beach tent sun shelter uv |   $33,138/mo | 5,946 avg reviews      | Revenue too small ($33,138/mo < $50,000 floor)
+# FAIL | picnic blanket waterproof outdoor large |   $90,392/mo | 2,846 avg reviews      | Closed market (2,846 avg reviews > 1,000 ceiling)
+# FAIL | portable blender usb rechargeable bottle |   $27,888/mo | 2,250 avg reviews      | Revenue too small ($27,888/mo < $50,000 floor)
+# FAIL | outdoor solar string lights waterproof |   $78,974/mo | 5,202 avg reviews      | Closed market (5,202 avg reviews > 1,000 ceiling)
+# FAIL | mini projector portable 1080p phone |   $31,652/mo | 4,298 avg reviews      | Revenue too small ($31,652/mo < $50,000 floor)
+# FAIL | insulin cooling travel wallet frio |   $53,765/mo | 4,124 avg reviews      | Closed market (4,124 avg reviews > 1,000 ceiling)
+# FAIL | medication travel kit ice pack included |   $90,939/mo | 1,576 avg reviews      | Closed market (1,576 avg reviews > 1,000 ceiling)
+# FAIL | 2 pen insulin travel case pouch |   $89,131/mo | 2,055 avg reviews      | Closed market (2,055 avg reviews > 1,000 ceiling)
+# FAIL | diabetic cooling case with temperature monitor |   $61,546/mo | 1,706 avg reviews      | Closed market (1,706 avg reviews > 1,000 ceiling)
+# FAIL | iphone 16 case magsafe slim  |  $169,874/mo | 27,566 avg reviews     | Closed market (27,566 avg reviews > 1,000 ceiling)
+# FAIL | iphone 16 pro case clear magnetic |  $142,964/mo | 39,723 avg reviews     | Closed market (39,723 avg reviews > 1,000 ceiling)
+# FAIL | iphone 16 pro max case slim cover |  $169,112/mo | 37,249 avg reviews     | Closed market (37,249 avg reviews > 1,000 ceiling)
+# FAIL | iphone 16 plus case cover slim |   $64,297/mo | 8,637 avg reviews      | Closed market (8,637 avg reviews > 1,000 ceiling)
+# FAIL | inflatable pool mattress float lounger |   $18,983/mo | 3,306 avg reviews      | Revenue too small ($18,983/mo < $50,000 floor)
+# FAIL | inflatable giant pool float island |    $4,011/mo | 987 avg reviews        | Revenue too small ($4,011/mo < $50,000 floor)
+# FAIL | pool party supplies decoration set |    $4,083/mo | 468 avg reviews        | Revenue too small ($4,083/mo < $50,000 floor)
+# FAIL | swimming pool cover winter round |   $13,513/mo | 4,860 avg reviews      | Revenue too small ($13,513/mo < $50,000 floor)
+# FAIL | outdoor cooling misting fan portable |    $4,909/mo | 453 avg reviews        | Revenue too small ($4,909/mo < $50,000 floor)
+# FAIL | garden hose connector quick release set |   $65,729/mo | 2,606 avg reviews      | Closed market (2,606 avg reviews > 1,000 ceiling)
+# FAIL | cpap heated hose adapter sleeve |    $9,772/mo | 767 avg reviews        | Revenue too small ($9,772/mo < $50,000 floor)
+# FAIL | cpap mask travel case carry  |    $4,733/mo | 149 avg reviews        | Revenue too small ($4,733/mo < $50,000 floor)
+# FAIL | blood pressure monitor travel case |    $2,318/mo | 366 avg reviews        | Revenue too small ($2,318/mo < $50,000 floor)
+# FAIL | hearing aid cleaning kit tools |    $4,274/mo | 409 avg reviews        | Revenue too small ($4,274/mo < $50,000 floor)
+# FAIL | hearing aid dehumidifier drying box |    $1,064/mo | 249 avg reviews        | Revenue too small ($1,064/mo < $50,000 floor)
+# FAIL | nebulizer travel bag case accessories |    $1,374/mo | 189 avg reviews        | Revenue too small ($1,374/mo < $50,000 floor)
+# FAIL | tens unit replacement electrode pads |   $42,198/mo | 11,875 avg reviews     | Revenue too small ($42,198/mo < $50,000 floor)
+# FAIL | wound care silicone scar sheets gel |   $92,248/mo | 4,102 avg reviews      | Closed market (4,102 avg reviews > 1,000 ceiling)
+# FAIL | medication reminder dispenser automatic weekly |    $5,240/mo | 681 avg reviews        | Revenue too small ($5,240/mo < $50,000 floor)
+# FAIL | cpap mask wipes cleaning towelette |   $59,580/mo | 5,439 avg reviews      | Closed market (5,439 avg reviews > 1,000 ceiling)
+# FAIL | pulse oximeter fingertip overnight monitor |  $141,643/mo | 67,677 avg reviews     | Closed market (67,677 avg reviews > 1,000 ceiling)
+# FAIL | portable oxygen concentrator carry bag |    $2,297/mo | 508 avg reviews        | Revenue too small ($2,297/mo < $50,000 floor)
+# FAIL | back brace lumbar support posture |   $84,213/mo | 5,650 avg reviews      | Closed market (5,650 avg reviews > 1,000 ceiling)
+# FAIL | knee brace adjustable compression support |   $96,608/mo | 14,698 avg reviews     | Closed market (14,698 avg reviews > 1,000 ceiling)
+# FAIL | wrist brace carpal tunnel support |  $118,483/mo | 15,032 avg reviews     | Closed market (15,032 avg reviews > 1,000 ceiling)
+# FAIL | shower head filter replacement cartridge |   $41,656/mo | 2,994 avg reviews      | Revenue too small ($41,656/mo < $50,000 floor)
+# FAIL | garbage disposal cleaner tablets foaming |   $94,031/mo | 2,771 avg reviews      | Closed market (2,771 avg reviews > 1,000 ceiling)
+# FAIL | drain hair catcher silicone shower |   $92,962/mo | 13,888 avg reviews     | Closed market (13,888 avg reviews > 1,000 ceiling)
+# FAIL | window weatherstrip foam seal adhesive |   $30,671/mo | 2,287 avg reviews      | Revenue too small ($30,671/mo < $50,000 floor)
+# FAIL | car cabin air filter pack set |   $95,251/mo | 1,939 avg reviews      | Closed market (1,939 avg reviews > 1,000 ceiling)
+# FAIL | garden kneeler seat foam pad folding |   $27,937/mo | 3,272 avg reviews      | Revenue too small ($27,937/mo < $50,000 floor)
+# FAIL | dryer vent cleaning kit brush flexible |  $120,787/mo | 12,220 avg reviews     | Closed market (12,220 avg reviews > 1,000 ceiling)
+# FAIL | gutter cleaning wand hose attachment |    $4,661/mo | 1,118 avg reviews      | Revenue too small ($4,661/mo < $50,000 floor)
+# FAIL | toilet tank repair kit universal |   $40,771/mo | 3,742 avg reviews      | Revenue too small ($40,771/mo < $50,000 floor)
+# FAIL | lawn plug aerator tool manual |   $13,435/mo | 83 avg reviews         | Revenue too small ($13,435/mo < $50,000 floor)
+# FAIL | pool test strips 100 count kit |   $75,715/mo | 10,642 avg reviews     | Closed market (10,642 avg reviews > 1,000 ceiling)
+# FAIL | drip coffee maker descaler cleaner pods |  $106,149/mo | 25,655 avg reviews     | Closed market (25,655 avg reviews > 1,000 ceiling)
+# FAIL | landscape fabric staples garden pins |  $192,503/mo | 4,366 avg reviews      | Closed market (4,366 avg reviews > 1,000 ceiling)
+# FAIL | sprinkler head replacement pop up |   $24,548/mo | 1,250 avg reviews      | Revenue too small ($24,548/mo < $50,000 floor)
+# FAIL | leaf blower battery cordless handheld |   $51,611/mo | 1,245 avg reviews      | Closed market (1,245 avg reviews > 1,000 ceiling)
+# FAIL | nintendo switch 2 carrying case hard shell |   $22,586/mo | 7,907 avg reviews      | Revenue too small ($22,586/mo < $50,000 floor)
+# FAIL | nintendo switch 2 screen protector tempered glass |  $126,066/mo | 14,635 avg reviews     | Closed market (14,635 avg reviews > 1,000 ceiling)
+# FAIL | nintendo switch 2 joy con grip controller holder |   $12,946/mo | 5,594 avg reviews      | Revenue too small ($12,946/mo < $50,000 floor)
+# FAIL | fujifilm x100vi case leather half camera bag |    $1,834/mo | 176 avg reviews        | Revenue too small ($1,834/mo < $50,000 floor)
+# FAIL | fujifilm x100vi screen protector glass film |   $10,036/mo | 500 avg reviews        | Revenue too small ($10,036/mo < $50,000 floor)
+# FAIL | galaxy z fold 6 case slim protective cover |    $7,081/mo | 354 avg reviews        | Revenue too small ($7,081/mo < $50,000 floor)
+# FAIL | cycling bib shorts men padded chamois |   $11,072/mo | 3,208 avg reviews      | Revenue too small ($11,072/mo < $50,000 floor)
+# FAIL | rock climbing chalk bag with zipper bouldering |    $6,704/mo | 906 avg reviews        | Revenue too small ($6,704/mo < $50,000 floor)
+# FAIL | golf alignment stick training aid 3 pack |    $5,671/mo | 952 avg reviews        | Revenue too small ($5,671/mo < $50,000 floor)
+# FAIL | swim lap counter waterproof finger ring |    $6,493/mo | 524 avg reviews        | Revenue too small ($6,493/mo < $50,000 floor)
+# FAIL | diving snorkel mask wide view set |   $37,136/mo | 2,104 avg reviews      | Revenue too small ($37,136/mo < $50,000 floor)
+# FAIL | embroidery hoop stand adjustable floor freestanding |    $3,775/mo | 307 avg reviews        | Revenue too small ($3,775/mo < $50,000 floor)
+# FAIL | cross stitch kit adults beginner stamped pattern |    $7,063/mo | 428 avg reviews        | Revenue too small ($7,063/mo < $50,000 floor)
+# FAIL | hiking pole rubber tip replacement pack |    $5,061/mo | 590 avg reviews        | Revenue too small ($5,061/mo < $50,000 floor)
+# FAIL | sewing machine needle set assortment universal |   $20,106/mo | 1,826 avg reviews      | Revenue too small ($20,106/mo < $50,000 floor)
+# FAIL | castor oil pack wrap organic reusable |   $93,278/mo | 6,269 avg reviews      | Closed market (6,269 avg reviews > 1,000 ceiling)
+# FAIL | berberine supplement 1200mg high absorption |   $63,314/mo | 3,249 avg reviews      | Closed market (3,249 avg reviews > 1,000 ceiling)
+# FAIL | air fryer parchment paper liner round |   $49,857/mo | 4,685 avg reviews      | Revenue too small ($49,857/mo < $50,000 floor)
+# FAIL | walking pad under desk treadmill foldable |   $35,227/mo | 676 avg reviews        | Revenue too small ($35,227/mo < $50,000 floor)
+# FAIL | tongue scraper stainless steel tongue cleaner |  $244,865/mo | 27,810 avg reviews     | Closed market (27,810 avg reviews > 1,000 ceiling)
+# FAIL | lymphatic drainage massage roller electric |   $45,942/mo | 1,167 avg reviews      | Revenue too small ($45,942/mo < $50,000 floor)
+# FAIL | compression leg massager boots air pump |   $12,113/mo | 1,420 avg reviews      | Revenue too small ($12,113/mo < $50,000 floor)
+# FAIL | ice roller face cooling silicone handle |   $26,542/mo | 4,045 avg reviews      | Revenue too small ($26,542/mo < $50,000 floor)
+# FAIL | lip plumper device electric suction tool |      $486/mo | 299 avg reviews        | Revenue too small ($486/mo < $50,000 floor)
+# FAIL | men's grooming kit beard trimmer case |   $56,753/mo | 5,313 avg reviews      | Closed market (5,313 avg reviews > 1,000 ceiling)
+# FAIL | fishing lure organizer tackle box large |   $13,343/mo | 2,031 avg reviews      | Revenue too small ($13,343/mo < $50,000 floor)
+# FAIL | fly fishing net rubber mesh folding |    $8,868/mo | 629 avg reviews        | Revenue too small ($8,868/mo < $50,000 floor)
+# FAIL | electrolyte powder packets sugar free hydration |  $772,213/mo | 3,774 avg reviews      | Closed market (3,774 avg reviews > 1,000 ceiling)
+# FAIL | creatine monohydrate powder unflavored bulk |  $736,439/mo | 23,253 avg reviews     | Closed market (23,253 avg reviews > 1,000 ceiling)
+# FAIL | collagen peptide powder unflavored grass fed |  $500,470/mo | 20,846 avg reviews     | Closed market (20,846 avg reviews > 1,000 ceiling)
+# FAIL | mini leaf blower cordless lightweight compact |   $48,987/mo | 926 avg reviews        | Revenue too small ($48,987/mo < $50,000 floor)
+# FAIL | 20v leaf blower battery brushless tool only |    $5,192/mo | 234 avg reviews        | Revenue too small ($5,192/mo < $50,000 floor)
+# FAIL | electric leaf blower corded lightweight |   $13,218/mo | 7,908 avg reviews      | Revenue too small ($13,218/mo < $50,000 floor)
+# FAIL | leaf vacuum mulcher shredder handheld |    $9,340/mo | 3,081 avg reviews      | Revenue too small ($9,340/mo < $50,000 floor)
+# FAIL | supplement pill organizer daily travel case |  $160,911/mo | 10,408 avg reviews     | Closed market (10,408 avg reviews > 1,000 ceiling)
+# FAIL | protein shaker bottle 28oz leak proof |  $264,348/mo | 21,098 avg reviews     | Closed market (21,098 avg reviews > 1,000 ceiling)
+# FAIL | gym bag with wet dry compartment |   $25,707/mo | 4,821 avg reviews      | Revenue too small ($25,707/mo < $50,000 floor)
+# FAIL | resistance band set fabric booty hip |   $88,889/mo | 9,427 avg reviews      | Closed market (9,427 avg reviews > 1,000 ceiling)
+# FAIL | ankle weights adjustable women pair set |   $44,255/mo | 5,592 avg reviews      | Revenue too small ($44,255/mo < $50,000 floor)
+# FAIL | jump rope speed cable weighted handles |   $49,206/mo | 3,489 avg reviews      | Revenue too small ($49,206/mo < $50,000 floor)
+# FAIL | yoga mat thick non-slip 6mm strap |  $106,318/mo | 13,825 avg reviews     | Closed market (13,825 avg reviews > 1,000 ceiling)
+# FAIL | foam roller high density full body |   $46,794/mo | 8,725 avg reviews      | Revenue too small ($46,794/mo < $50,000 floor)
+# FAIL | massage gun attachment head replacement set |    $9,666/mo | 1,541 avg reviews      | Revenue too small ($9,666/mo < $50,000 floor)
+# FAIL | sleep mask contoured 3d eye blackout |  $228,935/mo | 26,305 avg reviews     | Closed market (26,305 avg reviews > 1,000 ceiling)
+# FAIL | travel pillow memory foam neck support |   $94,532/mo | 3,182 avg reviews      | Closed market (3,182 avg reviews > 1,000 ceiling)
+# FAIL | ev charging cable bag waterproof organizer |   $40,161/mo | 4,764 avg reviews      | Revenue too small ($40,161/mo < $50,000 floor)
+# FAIL | ev home charger cable mount holder |    $5,300/mo | 356 avg reviews        | Revenue too small ($5,300/mo < $50,000 floor)
+# FAIL | safety razor double edge starter kit men |   $20,604/mo | 5,881 avg reviews      | Revenue too small ($20,604/mo < $50,000 floor)
+# FAIL | silicone wedding ring set women active |   $37,935/mo | 4,733 avg reviews      | Revenue too small ($37,935/mo < $50,000 floor)
+# FAIL | portable travel bidet bottle squeeze set |   $27,826/mo | 5,836 avg reviews      | Revenue too small ($27,826/mo < $50,000 floor)
+# FAIL | perimenopause cooling towel hot flash relief |   $63,080/mo | 9,760 avg reviews      | Closed market (9,760 avg reviews > 1,000 ceiling)
+# FAIL | night sweat mattress pad cooling waterproof |   $87,325/mo | 8,917 avg reviews      | Closed market (8,917 avg reviews > 1,000 ceiling)
+# FAIL | wearable neck fan bladeless rechargeable portable |   $55,384/mo | 10,256 avg reviews     | Closed market (10,256 avg reviews > 1,000 ceiling)
+# FAIL | tinnitus sound machine white noise sleep |   $80,812/mo | 13,329 avg reviews     | Closed market (13,329 avg reviews > 1,000 ceiling)
+# FAIL | magnetic tool holder strip wall garage |    $7,810/mo | 1,142 avg reviews      | Revenue too small ($7,810/mo < $50,000 floor)
+# FAIL | abdominal binder post surgery compression belly |   $76,763/mo | 7,131 avg reviews      | Closed market (7,131 avg reviews > 1,000 ceiling)
+# FAIL | grounding fitted sheet bed earthing twin |    $3,842/mo | 247 avg reviews        | Revenue too small ($3,842/mo < $50,000 floor)
+# FAIL | weighted lap pad sensory anxiety adults |    $5,285/mo | 482 avg reviews        | Revenue too small ($5,285/mo < $50,000 floor)
+# FAIL | kitchen countertop compost bin stainless liner |   $20,157/mo | 6,024 avg reviews      | Revenue too small ($20,157/mo < $50,000 floor)
+# FAIL | weighted stuffed animal anxiety plush adult |   $14,382/mo | 653 avg reviews        | Revenue too small ($14,382/mo < $50,000 floor)
+# FAIL | 18v cordless leaf blower tool only |    $3,802/mo | 1,440 avg reviews      | Revenue too small ($3,802/mo < $50,000 floor)
+# FAIL | cordless leaf blower 2 battery kit |   $31,367/mo | 1,064 avg reviews      | Revenue too small ($31,367/mo < $50,000 floor)
+# FAIL | patio leaf blower electric handheld light |   $42,995/mo | 4,354 avg reviews      | Revenue too small ($42,995/mo < $50,000 floor)
+# FAIL | cordless sweeper leaf broom handheld |    $8,886/mo | 5,520 avg reviews      | Revenue too small ($8,886/mo < $50,000 floor)
+# FAIL | lash growth serum enhancer applicator brush |   $12,771/mo | 1,472 avg reviews      | Revenue too small ($12,771/mo < $50,000 floor)
+# FAIL | menstrual disc reusable silicone set |   $16,284/mo | 3,066 avg reviews      | Revenue too small ($16,284/mo < $50,000 floor)
+# FAIL | car trunk organizer collapsible foldable |   $74,321/mo | 5,610 avg reviews      | Closed market (5,610 avg reviews > 1,000 ceiling)
+# FAIL | back seat car organizer hanging storage |   $18,633/mo | 3,110 avg reviews      | Revenue too small ($18,633/mo < $50,000 floor)
+# FAIL | reusable period underwear leak proof women |   $48,894/mo | 3,989 avg reviews      | Revenue too small ($48,894/mo < $50,000 floor)
+# FAIL | postpartum belly band binder recovery |   $66,783/mo | 12,268 avg reviews     | Closed market (12,268 avg reviews > 1,000 ceiling)
+# FAIL | scalp massager shampoo brush silicone |   $75,463/mo | 25,623 avg reviews     | Closed market (25,623 avg reviews > 1,000 ceiling)
+# FAIL | hair growth red light therapy cap helmet |    $7,743/mo | 610 avg reviews        | Revenue too small ($7,743/mo < $50,000 floor)
+# FAIL | eyelash curler heated electric rechargeable |    $4,233/mo | 92 avg reviews         | Revenue too small ($4,233/mo < $50,000 floor)
+# FAIL | nail drill bit set carbide replacement |   $21,265/mo | 1,506 avg reviews      | Revenue too small ($21,265/mo < $50,000 floor)
+# FAIL | press on nail kit medium coffin set |   $98,866/mo | 3,457 avg reviews      | Closed market (3,457 avg reviews > 1,000 ceiling)
+# FAIL | kinesiology tape pre cut shoulder strips |   $26,484/mo | 2,779 avg reviews      | Revenue too small ($26,484/mo < $50,000 floor)
+# POTENTIAL | kinesiology tape knee support strips precut |   $58,383/mo | 1,721 avg reviews      | Near-miss — $58,383/mo (117% of floor), 1,721 avg reviews (172% of ceiling)
+# FAIL | kinesiology tape pregnancy belly support |   $34,842/mo | 2,327 avg reviews      | Revenue too small ($34,842/mo < $50,000 floor)
+# POTENTIAL | insulin pen cooler case 30 hour |   $72,185/mo | 1,908 avg reviews      | Near-miss — $72,185/mo (144% of floor), 1,908 avg reviews (191% of ceiling)
+# FAIL | medication cooling wallet slim travel |   $42,220/mo | 4,151 avg reviews      | Revenue too small ($42,220/mo < $50,000 floor)
+# FAIL | glp1 sharps container travel small portable |   $34,268/mo | 1,034 avg reviews      | Revenue too small ($34,268/mo < $50,000 floor)
+# FAIL | hair loss treatment men minoxidil roller |   $19,694/mo | 164 avg reviews        | Revenue too small ($19,694/mo < $50,000 floor)
+# FAIL | derma roller 0.5mm beard hair growth |   $84,539/mo | 8,216 avg reviews      | Closed market (8,216 avg reviews > 1,000 ceiling)
+# FAIL | reading glasses men blue light blocking |  $217,595/mo | 5,747 avg reviews      | Closed market (5,747 avg reviews > 1,000 ceiling)
+# FAIL | blue light glasses clip on prescription |    $3,776/mo | 1,306 avg reviews      | Revenue too small ($3,776/mo < $50,000 floor)
+# FAIL | pet first aid kit emergency travel |    $6,598/mo | 731 avg reviews        | Revenue too small ($6,598/mo < $50,000 floor)
+# FAIL | dog wound care spray antiseptic heal |   $90,726/mo | 7,527 avg reviews      | Closed market (7,527 avg reviews > 1,000 ceiling)
+# FAIL | reusable makeup remover pads washable set |   $22,113/mo | 7,882 avg reviews      | Revenue too small ($22,113/mo < $50,000 floor)
+# FAIL | silicone makeup sponge blender set |  $130,415/mo | 7,399 avg reviews      | Closed market (7,399 avg reviews > 1,000 ceiling)
+# FAIL | jade roller face set gua sha |   $50,044/mo | 11,233 avg reviews     | Closed market (11,233 avg reviews > 1,000 ceiling)
+# FAIL | car sun shade windshield folding accordion |   $12,427/mo | 4,055 avg reviews      | Revenue too small ($12,427/mo < $50,000 floor)
+# FAIL | car seat gap filler console organizer leather |   $15,405/mo | 496 avg reviews        | Revenue too small ($15,405/mo < $50,000 floor)
+# FAIL | trunk cargo mat liner waterproof custom |    $8,368/mo | 5,544 avg reviews      | Revenue too small ($8,368/mo < $50,000 floor)
+# FAIL | license plate frame carbon fiber slim |   $16,215/mo | 1,565 avg reviews      | Revenue too small ($16,215/mo < $50,000 floor)
+# FAIL | standing desk anti fatigue mat thick |   $75,233/mo | 13,414 avg reviews     | Closed market (13,414 avg reviews > 1,000 ceiling)
+# FAIL | monitor light bar screen lamp usb |   $18,773/mo | 1,868 avg reviews      | Revenue too small ($18,773/mo < $50,000 floor)
+# FAIL | cable clips adhesive wire organizer desk |   $90,355/mo | 22,536 avg reviews     | Closed market (22,536 avg reviews > 1,000 ceiling)
+# FAIL | drawer organizer set bamboo adjustable |   $53,862/mo | 9,930 avg reviews      | Closed market (9,930 avg reviews > 1,000 ceiling)
+# FAIL | over door organizer pocket hanging |  $114,192/mo | 38,347 avg reviews     | Closed market (38,347 avg reviews > 1,000 ceiling)
+# FAIL | closet shelf dividers clothes organizer |   $17,796/mo | 595 avg reviews        | Revenue too small ($17,796/mo < $50,000 floor)
+# FAIL | stackable shoe box clear plastic drop front |   $24,705/mo | 6,086 avg reviews      | Revenue too small ($24,705/mo < $50,000 floor)
+# FAIL | under bed storage bag clothes zipper |   $60,255/mo | 17,296 avg reviews     | Closed market (17,296 avg reviews > 1,000 ceiling)
+# FAIL | vacuum storage bags for clothes travel |  $402,541/mo | 19,763 avg reviews     | Closed market (19,763 avg reviews > 1,000 ceiling)
+# FAIL | cord organizer cable management sleeve wrap |  $120,764/mo | 18,786 avg reviews     | Closed market (18,786 avg reviews > 1,000 ceiling)
+# FAIL | binder clip set large medium small bulk |   $58,210/mo | 3,118 avg reviews      | Closed market (3,118 avg reviews > 1,000 ceiling)
+# FAIL | outdoor string lights patio cafe bistro |   $66,646/mo | 5,746 avg reviews      | Closed market (5,746 avg reviews > 1,000 ceiling)
+# FAIL | citronella candle outdoor large bucket |   $12,468/mo | 559 avg reviews        | Revenue too small ($12,468/mo < $50,000 floor)
+# FAIL | portable blender bottle smoothie usb |   $17,404/mo | 1,014 avg reviews      | Revenue too small ($17,404/mo < $50,000 floor)
+# FAIL | ice pack reusable flexible gel large |   $99,346/mo | 22,025 avg reviews     | Closed market (22,025 avg reviews > 1,000 ceiling)
+# FAIL | beach wagon cart sand wheels folding |   $26,812/mo | 752 avg reviews        | Revenue too small ($26,812/mo < $50,000 floor)
+# FAIL | paddleboard leash ankle coil 10ft |    $3,858/mo | 826 avg reviews        | Revenue too small ($3,858/mo < $50,000 floor)
+# FAIL | snorkel set adult anti fog mask fins |   $28,705/mo | 963 avg reviews        | Revenue too small ($28,705/mo < $50,000 floor)
+# FAIL | pickleball ball outdoor 40 hole 4 pack |   $16,644/mo | 749 avg reviews        | Revenue too small ($16,644/mo < $50,000 floor)
+# FAIL | hammock tree straps weight capacity |   $11,260/mo | 2,951 avg reviews      | Revenue too small ($11,260/mo < $50,000 floor)
+# FAIL | camping lantern rechargeable led bright |   $24,459/mo | 7,855 avg reviews      | Revenue too small ($24,459/mo < $50,000 floor)
+# FAIL | french press coffee maker stainless 8 cup |   $31,872/mo | 11,906 avg reviews     | Revenue too small ($31,872/mo < $50,000 floor)
+# FAIL | cold brew coffee maker pitcher glass |   $27,857/mo | 8,706 avg reviews      | Revenue too small ($27,857/mo < $50,000 floor)
+# FAIL | pour over coffee dripper set kettle |   $23,821/mo | 3,251 avg reviews      | Revenue too small ($23,821/mo < $50,000 floor)
+# FAIL | weekly planner notepad tear off undated |    $7,094/mo | 995 avg reviews        | Revenue too small ($7,094/mo < $50,000 floor)
+# POTENTIAL | habit tracker journal dot grid notebook |   $59,888/mo | 1,269 avg reviews      | Near-miss — $59,888/mo (120% of floor), 1,269 avg reviews (127% of ceiling)
+# FAIL | magnetic wristband tool holder screws bits |    $3,209/mo | 3,104 avg reviews      | Revenue too small ($3,209/mo < $50,000 floor)
+# FAIL | stud finder electronic wall scanner |   $76,820/mo | 4,164 avg reviews      | Closed market (4,164 avg reviews > 1,000 ceiling)
+# FAIL | laser level self leveling cross line |   $42,330/mo | 4,781 avg reviews      | Revenue too small ($42,330/mo < $50,000 floor)
+# FAIL | oscillating tool blade set multi |   $39,961/mo | 3,528 avg reviews      | Revenue too small ($39,961/mo < $50,000 floor)
+# FAIL | paint edger tool trim roller |    $8,063/mo | 223 avg reviews        | Revenue too small ($8,063/mo < $50,000 floor)
+# FAIL | tile grout saw blade replacement |    $5,151/mo | 242 avg reviews        | Revenue too small ($5,151/mo < $50,000 floor)
+# FAIL | heat shrink tubing assortment kit |   $50,148/mo | 14,286 avg reviews     | Closed market (14,286 avg reviews > 1,000 ceiling)
+# FAIL | wire terminal connector kit assortment |   $53,386/mo | 3,083 avg reviews      | Closed market (3,083 avg reviews > 1,000 ceiling)
+# FAIL | safety glasses clear anti fog bulk |    $7,601/mo | 1,181 avg reviews      | Revenue too small ($7,601/mo < $50,000 floor)
+# FAIL | ear muffs noise reduction shooting range |   $40,093/mo | 20,990 avg reviews     | Revenue too small ($40,093/mo < $50,000 floor)
+# FAIL | knee pad gardening construction foam |   $73,546/mo | 12,669 avg reviews     | Closed market (12,669 avg reviews > 1,000 ceiling)
+# FAIL | hex key allen wrench set metric |   $63,143/mo | 3,830 avg reviews      | Closed market (3,830 avg reviews > 1,000 ceiling)
+# FAIL | magnetic parts tray dish round set |    $5,767/mo | 521 avg reviews        | Revenue too small ($5,767/mo < $50,000 floor)
+# FAIL | workbench clamp bar hold down set |    $6,357/mo | 1,092 avg reviews      | Revenue too small ($6,357/mo < $50,000 floor)
+# FAIL | respirator mask half face reusable |   $42,396/mo | 7,961 avg reviews      | Revenue too small ($42,396/mo < $50,000 floor)
+# FAIL | gratitude journal daily morning 5 minute |   $12,762/mo | 2,845 avg reviews      | Revenue too small ($12,762/mo < $50,000 floor)
+# FAIL | manifestation journal law of attraction |    $3,729/mo | 2,374 avg reviews      | Revenue too small ($3,729/mo < $50,000 floor)
+# FAIL | 5 year journal one line a day |    $5,896/mo | 2,630 avg reviews      | Revenue too small ($5,896/mo < $50,000 floor)
+# FAIL | prayer journal christian women guided |   $18,363/mo | 6,773 avg reviews      | Revenue too small ($18,363/mo < $50,000 floor)
+# FAIL | bullet journal dotted notebook a5 |   $83,479/mo | 7,748 avg reviews      | Closed market (7,748 avg reviews > 1,000 ceiling)
+# FAIL | reading journal book log tracker |    $4,091/mo | 346 avg reviews        | Revenue too small ($4,091/mo < $50,000 floor)
+# FAIL | fitness planner workout log spiral |   $14,711/mo | 2,505 avg reviews      | Revenue too small ($14,711/mo < $50,000 floor)
+# FAIL | meal prep planner weekly grocery list pad |   $15,542/mo | 2,230 avg reviews      | Revenue too small ($15,542/mo < $50,000 floor)
+# FAIL | password book organizer alphabetical tabs |   $31,880/mo | 12,734 avg reviews     | Revenue too small ($31,880/mo < $50,000 floor)
+# FAIL | kids journal lined drawing space ages 8 |    $7,763/mo | 579 avg reviews        | Revenue too small ($7,763/mo < $50,000 floor)
+# FAIL | teen journal prompts guided reflection |    $4,132/mo | 829 avg reviews        | Revenue too small ($4,132/mo < $50,000 floor)
+# FAIL | art sketchbook spiral bound hardcover |   $88,848/mo | 3,447 avg reviews      | Closed market (3,447 avg reviews > 1,000 ceiling)
+# FAIL | watercolor journal cold press cotton paper |    $5,486/mo | 253 avg reviews        | Revenue too small ($5,486/mo < $50,000 floor)
+# FAIL | calligraphy practice pad guide sheets |    $2,551/mo | 1,010 avg reviews      | Revenue too small ($2,551/mo < $50,000 floor)
+# FAIL | washi tape set aesthetic journaling craft |   $33,365/mo | 1,842 avg reviews      | Revenue too small ($33,365/mo < $50,000 floor)
+# FAIL | bread banneton proofing basket oval round |   $36,924/mo | 1,491 avg reviews      | Revenue too small ($36,924/mo < $50,000 floor)
+# FAIL | bread lame scoring tool curved blade |   $23,275/mo | 1,300 avg reviews      | Revenue too small ($23,275/mo < $50,000 floor)
+# FAIL | sourdough bread baking kit starter set |   $29,160/mo | 620 avg reviews        | Revenue too small ($29,160/mo < $50,000 floor)
+# FAIL | charcuterie board set slate marble wood |      $656/mo | 104 avg reviews        | Revenue too small ($656/mo < $50,000 floor)
+# FAIL | herb keeper fridge fresh storage pod |   $14,113/mo | 2,371 avg reviews      | Revenue too small ($14,113/mo < $50,000 floor)
+# FAIL | avocado keeper holder half saver |   $16,627/mo | 2,107 avg reviews      | Revenue too small ($16,627/mo < $50,000 floor)
+# FAIL | cottage cheese strainer fine mesh bowl |   $25,888/mo | 1,815 avg reviews      | Revenue too small ($25,888/mo < $50,000 floor)
+# FAIL | mandoline slicer adjustable thickness guard |   $29,125/mo | 6,560 avg reviews      | Revenue too small ($29,125/mo < $50,000 floor)
+# FAIL | salad spinner large collapsible bowl |   $26,074/mo | 6,959 avg reviews      | Revenue too small ($26,074/mo < $50,000 floor)
+# FAIL | berry colander washing bowl strainer |   $11,296/mo | 3,006 avg reviews      | Revenue too small ($11,296/mo < $50,000 floor)
+# FAIL | oil dispenser bottle glass pouring spout |   $44,806/mo | 9,738 avg reviews      | Revenue too small ($44,806/mo < $50,000 floor)
+# FAIL | coffee descaler cleaner universal machines |  $112,371/mo | 15,898 avg reviews     | Closed market (15,898 avg reviews > 1,000 ceiling)
+# FAIL | espresso tamper mat corner station set |    $6,767/mo | 548 avg reviews        | Revenue too small ($6,767/mo < $50,000 floor)
+# FAIL | milk frother handheld electric foam wand |  $295,262/mo | 54,824 avg reviews     | Closed market (54,824 avg reviews > 1,000 ceiling)
+# FAIL | mushroom coffee alternative blend adaptogen |  $270,503/mo | 2,079 avg reviews      | Closed market (2,079 avg reviews > 1,000 ceiling)
+# FAIL | gaming headset stand holder rgb |    $3,252/mo | 1,681 avg reviews      | Revenue too small ($3,252/mo < $50,000 floor)
+# FAIL | controller charging station xbox ps5 dual |    $7,130/mo | 150 avg reviews        | Revenue too small ($7,130/mo < $50,000 floor)
+# FAIL | desk pad extended mouse mat rgb |   $12,765/mo | 7,064 avg reviews      | Revenue too small ($12,765/mo < $50,000 floor)
+# FAIL | led strip lights room gaming usb |   $66,440/mo | 9,508 avg reviews      | Closed market (9,508 avg reviews > 1,000 ceiling)
+# FAIL | cable raceway wall mount cord cover |   $70,748/mo | 7,314 avg reviews      | Closed market (7,314 avg reviews > 1,000 ceiling)
+# FAIL | automatic cat feeder microchip selective |   $20,789/mo | 10,429 avg reviews     | Revenue too small ($20,789/mo < $50,000 floor)
+# FAIL | automatic dog feeder slow pour timer |   $12,299/mo | 3,545 avg reviews      | Revenue too small ($12,299/mo < $50,000 floor)
+# FAIL | pet water fountain filter replacement cartridge |    $4,149/mo | 1,059 avg reviews      | Revenue too small ($4,149/mo < $50,000 floor)
+# FAIL | white noise machine sleep baby travel |   $84,670/mo | 5,336 avg reviews      | Closed market (5,336 avg reviews > 1,000 ceiling)
+# FAIL | baby monitor no wifi analog secure |  $157,518/mo | 7,028 avg reviews      | Closed market (7,028 avg reviews > 1,000 ceiling)
+# FAIL | baby gate extra wide pressure mount |   $92,175/mo | 21,105 avg reviews     | Closed market (21,105 avg reviews > 1,000 ceiling)
+# FAIL | baby food maker steamer blender combo |   $24,859/mo | 1,817 avg reviews      | Revenue too small ($24,859/mo < $50,000 floor)
+# FAIL | portable uv sterilizer bag baby toys |    $5,665/mo | 412 avg reviews        | Revenue too small ($5,665/mo < $50,000 floor)
+# FAIL | stroller fan clip on rechargeable usb |  $136,532/mo | 7,058 avg reviews      | Closed market (7,058 avg reviews > 1,000 ceiling)
+# FAIL | diaper bag backpack men women convertible |   $22,538/mo | 4,902 avg reviews      | Revenue too small ($22,538/mo < $50,000 floor)
+# FAIL | broadhead arrow tips replacement 100 grain |    $2,017/mo | 1,831 avg reviews      | Revenue too small ($2,017/mo < $50,000 floor)
+# FAIL | archery finger tab release leather |    $1,417/mo | 136 avg reviews        | Revenue too small ($1,417/mo < $50,000 floor)
+# FAIL | bow string wax conditioner stick |    $1,992/mo | 1,368 avg reviews      | Revenue too small ($1,992/mo < $50,000 floor)
+# FAIL | turkey call slate pot friction |    $8,450/mo | 351 avg reviews        | Revenue too small ($8,450/mo < $50,000 floor)
+# FAIL | deer grunt call tube bleat   |      $686/mo | 1,701 avg reviews      | Revenue too small ($686/mo < $50,000 floor)
+# FAIL | fish hook remover tool dehooker |    $2,753/mo | 97 avg reviews         | Revenue too small ($2,753/mo < $50,000 floor)
+# FAIL | fishing braid scissors line cutter |    $7,564/mo | 1,287 avg reviews      | Revenue too small ($7,564/mo < $50,000 floor)
+# FAIL | fillet knife electric cordless rechargeable |    $4,931/mo | 235 avg reviews        | Revenue too small ($4,931/mo < $50,000 floor)
+# FAIL | kayak anchor system trolley kit |      $677/mo | 355 avg reviews        | Revenue too small ($677/mo < $50,000 floor)
+# FAIL | game bag meat hunting lightweight |      $344/mo | 218 avg reviews        | Revenue too small ($344/mo < $50,000 floor)
+# FAIL | trail camera sd card 32gb pack |   $11,202/mo | 10,550 avg reviews     | Revenue too small ($11,202/mo < $50,000 floor)
+# FAIL | shooting target paper silhouette bulk |   $10,256/mo | 705 avg reviews        | Revenue too small ($10,256/mo < $50,000 floor)
+# FAIL | gun cleaning kit universal bronze brush |    $5,809/mo | 3,540 avg reviews      | Revenue too small ($5,809/mo < $50,000 floor)
+# FAIL | bow release aid trigger wrist strap |    $1,439/mo | 629 avg reviews        | Revenue too small ($1,439/mo < $50,000 floor)
+# FAIL | hunting face mask balaclava scent control |    $9,578/mo | 1,409 avg reviews      | Revenue too small ($9,578/mo < $50,000 floor)
+# FAIL | packing cubes set luggage organizer travel |  $168,495/mo | 14,221 avg reviews     | Closed market (14,221 avg reviews > 1,000 ceiling)
+# FAIL | luggage scale handheld digital travel |  $204,164/mo | 5,522 avg reviews      | Closed market (5,522 avg reviews > 1,000 ceiling)
+# FAIL | luggage tag personalized leather set |   $13,833/mo | 2,882 avg reviews      | Revenue too small ($13,833/mo < $50,000 floor)
+# FAIL | travel compression bags roll up suitcase |   $41,041/mo | 4,450 avg reviews      | Revenue too small ($41,041/mo < $50,000 floor)
+# FAIL | travel umbrella compact wind resistant |  $248,712/mo | 31,701 avg reviews     | Closed market (31,701 avg reviews > 1,000 ceiling)
+# FAIL | solar pathway lights ground stake outdoor |   $59,098/mo | 5,329 avg reviews      | Closed market (5,329 avg reviews > 1,000 ceiling)
+# FAIL | solar fence post cap lights waterproof |   $22,861/mo | 1,321 avg reviews      | Revenue too small ($22,861/mo < $50,000 floor)
+# FAIL | solar flagpole light top kit |   $12,195/mo | 4,686 avg reviews      | Revenue too small ($12,195/mo < $50,000 floor)
+# FAIL | door alarm sensor window entry alert |   $29,678/mo | 4,966 avg reviews      | Revenue too small ($29,678/mo < $50,000 floor)
+# FAIL | door handle lock child proof cover |   $74,688/mo | 4,383 avg reviews      | Closed market (4,383 avg reviews > 1,000 ceiling)
+# FAIL | laundry mesh bag delicate wash zipper |  $107,546/mo | 10,592 avg reviews     | Closed market (10,592 avg reviews > 1,000 ceiling)
+# FAIL | wool dryer ball set 6 pack natural |   $83,561/mo | 11,141 avg reviews     | Closed market (11,141 avg reviews > 1,000 ceiling)
+# FAIL | laundry stripping powder detergent booster |  $192,811/mo | 11,480 avg reviews     | Closed market (11,480 avg reviews > 1,000 ceiling)
+# FAIL | microfiber cleaning cloth set car kitchen |  $400,556/mo | 29,572 avg reviews     | Closed market (29,572 avg reviews > 1,000 ceiling)
+# FAIL | squeegee window cleaner with scrubber set |   $41,815/mo | 7,301 avg reviews      | Revenue too small ($41,815/mo < $50,000 floor)
+# FAIL | mounjaro tirzepatide pen case travel cooling |   $15,243/mo | 156 avg reviews        | Revenue too small ($15,243/mo < $50,000 floor)
+# POTENTIAL | wegovy semaglutide injection pen travel bag |  $115,495/mo | 1,701 avg reviews      | Near-miss — $115,495/mo (231% of floor), 1,701 avg reviews (170% of ceiling)
+# POTENTIAL | ozempic semaglutide cooling case insulated |  $102,198/mo | 1,969 avg reviews      | Near-miss — $102,198/mo (204% of floor), 1,969 avg reviews (197% of ceiling)
+# FAIL | diabetic supply organizer bag travel case |   $11,361/mo | 1,004 avg reviews      | Revenue too small ($11,361/mo < $50,000 floor)
+# FAIL | insulin pump infusion set case organizer |      $828/mo | 336 avg reviews        | Revenue too small ($828/mo < $50,000 floor)
+# FAIL | pilates reformer foot strap replacement set |    $1,514/mo | 170 avg reviews        | Revenue too small ($1,514/mo < $50,000 floor)
+# FAIL | pilates reformer jump board pad cover |      $534/mo | 194 avg reviews        | Revenue too small ($534/mo < $50,000 floor)
+# FAIL | pilates ring magic circle foam pad |   $16,981/mo | 2,725 avg reviews      | Revenue too small ($16,981/mo < $50,000 floor)
+# FAIL | resistance loop band set pilates fabric |   $62,657/mo | 11,543 avg reviews     | Closed market (11,543 avg reviews > 1,000 ceiling)
+# FAIL | magnesium gummy sleep muscle recovery |   $48,997/mo | 1,714 avg reviews      | Revenue too small ($48,997/mo < $50,000 floor)
+# FAIL | supplement pill case travel daily organizer |  $257,760/mo | 10,900 avg reviews     | Closed market (10,900 avg reviews > 1,000 ceiling)
+# FAIL | protein shaker accessories ball whisk set |   $12,038/mo | 599 avg reviews        | Revenue too small ($12,038/mo < $50,000 floor)
+# FAIL | gym water bottle with storage compartment |   $23,801/mo | 1,891 avg reviews      | Revenue too small ($23,801/mo < $50,000 floor)
+# FAIL | hydration vest running trail 2l bladder |   $17,375/mo | 2,044 avg reviews      | Revenue too small ($17,375/mo < $50,000 floor)
+# FAIL | running hydration belt phone holder waist |   $21,143/mo | 2,374 avg reviews      | Revenue too small ($21,143/mo < $50,000 floor)
+# FAIL | trail running gaiters shoe dirt mud |    $6,709/mo | 242 avg reviews        | Revenue too small ($6,709/mo < $50,000 floor)
+# FAIL | triathlon race belt number holder elastic |    $4,799/mo | 701 avg reviews        | Revenue too small ($4,799/mo < $50,000 floor)
+# FAIL | triathlon wetsuit bag storage carry |    $2,026/mo | 513 avg reviews        | Revenue too small ($2,026/mo < $50,000 floor)
+# FAIL | surfboard wax comb scraper tool |      $520/mo | 26 avg reviews         | Revenue too small ($520/mo < $50,000 floor)
+# FAIL | surfboard leash 6ft coil ankle |    $2,934/mo | 527 avg reviews        | Revenue too small ($2,934/mo < $50,000 floor)
+# FAIL | kiteboarding kite pump double action |      $798/mo | 519 avg reviews        | Revenue too small ($798/mo < $50,000 floor)
+# FAIL | wakeboard binding boot bag carry |      $383/mo | 150 avg reviews        | Revenue too small ($383/mo < $50,000 floor)
+# FAIL | snowboard stomp pad traction clear |      $456/mo | 514 avg reviews        | Revenue too small ($456/mo < $50,000 floor)
+# FAIL | ski helmet goggle combo adult |    $1,345/mo | 1,028 avg reviews      | Revenue too small ($1,345/mo < $50,000 floor)
+# FAIL | ski boot bag waterproof carry roller |      $576/mo | 274 avg reviews        | Revenue too small ($576/mo < $50,000 floor)
+# FAIL | skateboard bearing cleaner kit tool |    $2,603/mo | 794 avg reviews        | Revenue too small ($2,603/mo < $50,000 floor)
+# FAIL | longboard dancing slide glove set |      $281/mo | 150 avg reviews        | Revenue too small ($281/mo < $50,000 floor)
+# FAIL | bmx bike peg foot pegs metal |    $7,479/mo | 565 avg reviews        | Revenue too small ($7,479/mo < $50,000 floor)
+# FAIL | ozempic pen needle tip replacement compatible |   $21,672/mo | 353 avg reviews        | Revenue too small ($21,672/mo < $50,000 floor)
+# FAIL | wegovy injection site rotation tracker log |        $4/mo | 1 avg reviews          | Revenue too small ($4/mo < $50,000 floor)
+# FAIL | glp1 nausea relief ginger candy drops |   $41,472/mo | 2,450 avg reviews      | Revenue too small ($41,472/mo < $50,000 floor)
+# FAIL | glp1 constipation relief magnesium supplement |  $103,981/mo | 8,343 avg reviews      | Closed market (8,343 avg reviews > 1,000 ceiling)
+# FAIL | semaglutide cooling travel wallet card slim |   $22,344/mo | 10,982 avg reviews     | Revenue too small ($22,344/mo < $50,000 floor)
+# FAIL | tirzepatide mounjaro cooling case 4 pen |   $36,780/mo | 569 avg reviews        | Revenue too small ($36,780/mo < $50,000 floor)
+# FAIL | zepbound tirzepatide sharps container travel |  $181,268/mo | 3,725 avg reviews      | Closed market (3,725 avg reviews > 1,000 ceiling)
+# FAIL | medication needle disposal container small |  $175,032/mo | 3,094 avg reviews      | Closed market (3,094 avg reviews > 1,000 ceiling)
+# FAIL | alcohol prep pad wipes sterile bulk |  $699,670/mo | 21,966 avg reviews     | Closed market (21,966 avg reviews > 1,000 ceiling)
+# FAIL | injection site numbing cream lidocaine |   $58,879/mo | 12,042 avg reviews     | Closed market (12,042 avg reviews > 1,000 ceiling)
+# FAIL | glp1 protein powder shake mix low cal |   $42,296/mo | 1,536 avg reviews      | Revenue too small ($42,296/mo < $50,000 floor)
+# FAIL | high protein low calorie meal prep container |   $33,258/mo | 7,366 avg reviews      | Revenue too small ($33,258/mo < $50,000 floor)
+# FAIL | portion control plate divided adult weight loss |    $4,847/mo | 568 avg reviews        | Revenue too small ($4,847/mo < $50,000 floor)
+# FAIL | food scale kitchen digital slim rechargeable |  $153,035/mo | 20,701 avg reviews     | Closed market (20,701 avg reviews > 1,000 ceiling)
+# FAIL | bariatric vitamin chewable after surgery |   $37,300/mo | 2,384 avg reviews      | Revenue too small ($37,300/mo < $50,000 floor)
+# FAIL | collagen peptide gummy daily beauty skin hair |   $98,434/mo | 6,589 avg reviews      | Closed market (6,589 avg reviews > 1,000 ceiling)
+# FAIL | ashwagandha gummy stress relief adult daily |  $107,941/mo | 8,542 avg reviews      | Closed market (8,542 avg reviews > 1,000 ceiling)
+# POTENTIAL | creatine monohydrate gummy bear flavored daily |   $44,335/mo | 208 avg reviews        | Near-miss — $44,335/mo (89% of floor), 208 avg reviews (21% of ceiling)
+# FAIL | dexcom g7 sensor patch cover waterproof colorful |   $14,237/mo | 624 avg reviews        | Revenue too small ($14,237/mo < $50,000 floor)
+# FAIL | freestyle libre 3 sensor cover patch waterproof |   $33,896/mo | 4,614 avg reviews      | Revenue too small ($33,896/mo < $50,000 floor)
+# FAIL | cgm sensor adhesive patch waterproof overpatch |   $38,708/mo | 7,340 avg reviews      | Revenue too small ($38,708/mo < $50,000 floor)
+# FAIL | cold plunge tub portable inflatable ice bath |    $2,991/mo | 76 avg reviews         | Revenue too small ($2,991/mo < $50,000 floor)
+# FAIL | infrared sauna blanket portable home full body |    $1,411/mo | 387 avg reviews        | Revenue too small ($1,411/mo < $50,000 floor)
+# FAIL | adhd planner notebook daily hourly time blocking |    $6,498/mo | 825 avg reviews        | Revenue too small ($6,498/mo < $50,000 floor)
+# FAIL | budget planner binder monthly expense tracker tabs |   $16,930/mo | 1,754 avg reviews      | Revenue too small ($16,930/mo < $50,000 floor)
+# FAIL | oura ring silicone protective case scratch proof |   $66,731/mo | 2,059 avg reviews      | Closed market (2,059 avg reviews > 1,000 ceiling)
+# POTENTIAL | mini leaf blower 20v lightweight compact handheld |   $46,661/mo | 875 avg reviews        | Near-miss — $46,661/mo (93% of floor), 875 avg reviews (88% of ceiling)
+# FAIL | shower filter hard water chlorine vitamin c |   $92,378/mo | 19,393 avg reviews     | Closed market (19,393 avg reviews > 1,000 ceiling)
+# FAIL | sea moss gel capsule supplement daily organic |   $20,817/mo | 2,448 avg reviews      | Revenue too small ($20,817/mo < $50,000 floor)
+# FAIL | lion's mane mushroom gummy daily focus nootropic |   $30,250/mo | 1,226 avg reviews      | Revenue too small ($30,250/mo < $50,000 floor)
+# FAIL | berberine gummy blood sugar support daily supplement |   $15,747/mo | 1,872 avg reviews      | Revenue too small ($15,747/mo < $50,000 floor)
+# FAIL | l-theanine gummy calm focus stress 200mg daily |   $20,606/mo | 408 avg reviews        | Revenue too small ($20,606/mo < $50,000 floor)
+# FAIL | shilajit gummy mens energy testosterone daily |   $37,279/mo | 584 avg reviews        | Revenue too small ($37,279/mo < $50,000 floor)
+# FAIL | tongkat ali gummy testosterone support mens daily |   $26,195/mo | 778 avg reviews        | Revenue too small ($26,195/mo < $50,000 floor)
+# FAIL | electrolyte gummy hydration daily sugar free sport |   $33,338/mo | 281 avg reviews        | Revenue too small ($33,338/mo < $50,000 floor)
+# FAIL | pre workout energy gummy chewable caffeine boost |   $12,074/mo | 210 avg reviews        | Revenue too small ($12,074/mo < $50,000 floor)
+# POTENTIAL | mini leaf blower battery small outdoor compact 21v |   $48,239/mo | 1,068 avg reviews      | Near-miss — $48,239/mo (96% of floor), 1,068 avg reviews (107% of ceiling)
+# POTENTIAL | cordless handheld leaf blower garden patio compact |   $53,991/mo | 1,385 avg reviews      | Near-miss — $53,991/mo (108% of floor), 1,385 avg reviews (138% of ceiling)
+# FAIL | mouth tape sleep strips nasal breathing anti snore |  $127,337/mo | 5,064 avg reviews      | Closed market (5,064 avg reviews > 1,000 ceiling)
+# FAIL | dog calming chews soft supplement anxiety stress |   $97,065/mo | 11,978 avg reviews     | Closed market (11,978 avg reviews > 1,000 ceiling)
+# FAIL | bovine colostrum powder supplement gut immune daily |   $30,037/mo | 914 avg reviews        | Revenue too small ($30,037/mo < $50,000 floor)
+# POTENTIAL | beef tallow face cream clean beauty moisturizer |   $69,113/mo | 1,992 avg reviews      | Near-miss — $69,113/mo (138% of floor), 1,992 avg reviews (199% of ceiling)
+# FAIL | castor oil pack kit organic wrap liver detox |   $17,256/mo | 455 avg reviews        | Revenue too small ($17,256/mo < $50,000 floor)
+# FAIL | magnesium malate gummy energy muscle fatigue daily |    $2,748/mo | 1,019 avg reviews      | Revenue too small ($2,748/mo < $50,000 floor)
+# FAIL | magnesium malate gummy energy muscle fatigue daily |   $21,877/mo | 365 avg reviews        | Revenue too small ($21,877/mo < $50,000 floor)
+# FAIL | magnesium l-threonate gummy brain memory focus |   $96,652/mo | 2,473 avg reviews      | Closed market (2,473 avg reviews > 1,000 ceiling)
+# FAIL | magnesium l-threonate gummy brain memory focus |   $96,652/mo | 2,473 avg reviews      | Closed market (2,473 avg reviews > 1,000 ceiling)
+# FAIL | magnesium citrate gummy bowel regularity daily |   $59,194/mo | 4,852 avg reviews      | Closed market (4,852 avg reviews > 1,000 ceiling)
+# FAIL | magnesium citrate gummy bowel regularity daily |   $59,194/mo | 4,852 avg reviews      | Closed market (4,852 avg reviews > 1,000 ceiling)
+# FAIL | coq10 gummy ubiquinol 200mg heart energy daily |   $44,451/mo | 2,128 avg reviews      | Revenue too small ($44,451/mo < $50,000 floor)
+# FAIL | coq10 gummy ubiquinol 200mg heart energy daily |   $44,593/mo | 1,964 avg reviews      | Revenue too small ($44,593/mo < $50,000 floor)
+# FAIL | resveratrol gummy supplement anti aging daily |    $5,503/mo | 261 avg reviews        | Revenue too small ($5,503/mo < $50,000 floor)
+# FAIL | resveratrol gummy supplement anti aging daily |    $5,497/mo | 257 avg reviews        | Revenue too small ($5,497/mo < $50,000 floor)
+# FAIL | nac gummy n-acetyl cysteine 600mg antioxidant |    $3,748/mo | 112 avg reviews        | Revenue too small ($3,748/mo < $50,000 floor)
+# FAIL | taurine gummy 1000mg cardiovascular energy daily |   $36,157/mo | 1,195 avg reviews      | Revenue too small ($36,157/mo < $50,000 floor)
+# FAIL | apigenin gummy sleep supplement 50mg daily |   $13,999/mo | 248 avg reviews        | Revenue too small ($13,999/mo < $50,000 floor)
+# FAIL | mounjaro tirzepatide pen cooling case travel |   $13,992/mo | 195 avg reviews        | Revenue too small ($13,992/mo < $50,000 floor)
+# FAIL | mounjaro tirzepatide pen cooling case travel |   $13,992/mo | 195 avg reviews        | Revenue too small ($13,992/mo < $50,000 floor)
+# FAIL | ozempic wegovy pen carrying case insulated slim |   $11,932/mo | 588 avg reviews        | Revenue too small ($11,932/mo < $50,000 floor)
+# FAIL | ozempic wegovy pen carrying case insulated slim |   $11,932/mo | 588 avg reviews        | Revenue too small ($11,932/mo < $50,000 floor)
+# POTENTIAL | glp1 injection pen organizer travel weekly kit |   $85,783/mo | 1,369 avg reviews      | Near-miss — $85,783/mo (172% of floor), 1,369 avg reviews (137% of ceiling)
+# FAIL | creatine hcl gummy chewable daily fitness |   $16,761/mo | 141 avg reviews        | Revenue too small ($16,761/mo < $50,000 floor)
+# FAIL | d-mannose cranberry gummy uti women prevention |   $23,074/mo | 670 avg reviews        | Revenue too small ($23,074/mo < $50,000 floor)
+# FAIL | fadogia agrestis tongkat ali gummy testosterone |   $21,289/mo | 769 avg reviews        | Revenue too small ($21,289/mo < $50,000 floor)
+# FAIL | fadogia agrestis tongkat ali gummy testosterone |   $21,289/mo | 769 avg reviews        | Revenue too small ($21,289/mo < $50,000 floor)
+# FAIL | ice bath tub portable foldable adult cold plunge |    $2,434/mo | 205 avg reviews        | Revenue too small ($2,434/mo < $50,000 floor)
+# FAIL | cold plunge tub inflatable recovery full body adult |    $4,553/mo | 88 avg reviews         | Revenue too small ($4,553/mo < $50,000 floor)
+# FAIL | stanley tumbler boot protector silicone bottom cover |   $37,738/mo | 2,646 avg reviews      | Revenue too small ($37,738/mo < $50,000 floor)
+# FAIL | stanley cup straw replacement set lid accessories |   $16,400/mo | 609 avg reviews        | Revenue too small ($16,400/mo < $50,000 floor)
+# FAIL | walking pad under desk treadmill foldable compact |      $346/mo | 812 avg reviews        | Revenue too small ($346/mo < $50,000 floor)
+# FAIL | oura ring protective case silicone cover scratch |   $33,586/mo | 590 avg reviews        | Revenue too small ($33,586/mo < $50,000 floor)
+# FAIL | smart ring travel charger case storage box |      $640/mo | 27 avg reviews         | Revenue too small ($640/mo < $50,000 floor)
+# FAIL | dog slow feeder bowl large breed puzzle enrichment |   $30,593/mo | 9,635 avg reviews      | Revenue too small ($30,593/mo < $50,000 floor)
+# FAIL | cat wall shelf floating climbing set indoor |    $5,152/mo | 380 avg reviews        | Revenue too small ($5,152/mo < $50,000 floor)
+# FAIL | resistance bands set with handles door anchor set |   $23,834/mo | 4,562 avg reviews      | Revenue too small ($23,834/mo < $50,000 floor)
+# FAIL | grip trainer hand strengthener forearm adjustable |   $37,010/mo | 6,676 avg reviews      | Revenue too small ($37,010/mo < $50,000 floor)
+# FAIL | kindle scribe case folio stand cover 2024 |    $9,305/mo | 223 avg reviews        | Revenue too small ($9,305/mo < $50,000 floor)
+# FAIL | car seat console organizer front storage box |   $11,250/mo | 4,501 avg reviews      | Revenue too small ($11,250/mo < $50,000 floor)
+# FAIL | laptop lap desk with fan cooling cushion pillow |    $8,170/mo | 3,456 avg reviews      | Revenue too small ($8,170/mo < $50,000 floor)
+# FAIL | tumbler cleaning brush set long handle bottle scrubber |   $66,302/mo | 6,295 avg reviews      | Closed market (6,295 avg reviews > 1,000 ceiling)
+# FAIL | r                            |    $5,606/mo | 7,697 avg reviews      | Revenue too small ($5,606/mo < $50,000 floor)
+# FAIL | adjustable dumbbell set home gym compact |   $17,343/mo | 653 avg reviews        | Revenue too small ($17,343/mo < $200,000 floor)
+# FAIL | pull up bar doorway no screw installation |   $29,394/mo | 1,584 avg reviews      | Revenue too small ($29,394/mo < $200,000 floor)
+# FAIL | heating pad electric back neck pain relief |    $8,003/mo | 791 avg reviews        | Revenue too small ($8,003/mo < $200,000 floor)
+# FAIL | packing cubes set luggage organizer travel |  $193,346/mo | 14,052 avg reviews     | Revenue too small ($193,346/mo < $200,000 floor)
+# FAIL | passport holder rfid blocking travel wallet |   $41,973/mo | 6,006 avg reviews      | Revenue too small ($41,973/mo < $200,000 floor)
+# FAIL | under desk foot rest ergonomic office support |   $12,340/mo | 5,265 avg reviews      | Revenue too small ($12,340/mo < $200,000 floor)
+# FAIL | laptop stand adjustable aluminum foldable portable |   $23,706/mo | 8,968 avg reviews      | Revenue too small ($23,706/mo < $200,000 floor)
+# FAIL | kitchen sink organizer caddy sponge holder |  $131,914/mo | 5,596 avg reviews      | Revenue too small ($131,914/mo < $200,000 floor)
+# FAIL | over toilet storage cabinet bathroom organizer |    $6,040/mo | 2,984 avg reviews      | Revenue too small ($6,040/mo < $200,000 floor)
+# FAIL | bath mat diatomite stone non slip quick dry |   $35,529/mo | 2,205 avg reviews      | Revenue too small ($35,529/mo < $200,000 floor)
+# FAIL | reusable silicone food storage bags leakproof set |   $14,888/mo | 728 avg reviews        | Revenue too small ($14,888/mo < $200,000 floor)
+# FAIL | glass meal prep containers set airtight lids |   $80,281/mo | 4,110 avg reviews      | Revenue too small ($80,281/mo < $200,000 floor)
+# FAIL | compression socks women knee high circulation |  $265,300/mo | 29,361 avg reviews     | Closed market (29,361 avg reviews > 500 ceiling)
+# FAIL | leather desk pad large mouse pad office |  $240,122/mo | 25,461 avg reviews     | Closed market (25,461 avg reviews > 500 ceiling)
+# FAIL | door hanging organizer storage pockets over |   $70,023/mo | 11,647 avg reviews     | Revenue too small ($70,023/mo < $200,000 floor)
+# FAIL | bath mat diatomite stone non slip quick dry |   $36,208/mo | 2,216 avg reviews      | Revenue too small ($36,208/mo < $200,000 floor)
+# FAIL | reusable silicone food storage bags leakproof set |   $14,888/mo | 728 avg reviews        | Revenue too small ($14,888/mo < $200,000 floor)
+# FAIL | glass meal prep containers set airtight lids |   $80,281/mo | 4,110 avg reviews      | Revenue too small ($80,281/mo < $200,000 floor)
+# FAIL | compression socks women knee high circulation |  $265,300/mo | 29,361 avg reviews     | Closed market (29,361 avg reviews > 500 ceiling)
+# FAIL | leather desk pad large mouse pad office |  $232,178/mo | 25,319 avg reviews     | Closed market (25,319 avg reviews > 500 ceiling)
+# FAIL | door hanging organizer storage pockets over |   $68,684/mo | 11,651 avg reviews     | Revenue too small ($68,684/mo < $200,000 floor)
+# FAIL | red light therapy face mask portable led |   $30,173/mo | 418 avg reviews        | Revenue too small ($30,173/mo < $200,000 floor)
+# FAIL | cold plunge tub inflatable portable ice bath |    $1,582/mo | 113 avg reviews        | Revenue too small ($1,582/mo < $200,000 floor)
+# FAIL | grounding mat earthing sheet bedroom |    $4,070/mo | 444 avg reviews        | Revenue too small ($4,070/mo < $200,000 floor)
+# FAIL | nasal strips breathe right sleep apnea |   $79,791/mo | 3,233 avg reviews      | Revenue too small ($79,791/mo < $200,000 floor)
+# FAIL | mouth breathing tape chin strap sleep |    $6,327/mo | 73 avg reviews         | Revenue too small ($6,327/mo < $200,000 floor)
+# FAIL | smart ring health tracker oura alternative |  $147,143/mo | 2,145 avg reviews      | Revenue too small ($147,143/mo < $200,000 floor)
+# FAIL | continuous glucose monitor cgm arm patch holder |   $18,107/mo | 2,316 avg reviews      | Revenue too small ($18,107/mo < $200,000 floor)
+# FAIL | whoop band replacement strap silicone |   $12,376/mo | 1,619 avg reviews      | Revenue too small ($12,376/mo < $200,000 floor)
+# FAIL | sleep tracking ring silicone case protective |   $34,226/mo | 625 avg reviews        | Revenue too small ($34,226/mo < $200,000 floor)
+# FAIL | water flosser cordless portable travel |   $75,743/mo | 2,779 avg reviews      | Revenue too small ($75,743/mo < $200,000 floor)
+# FAIL | teeth whitening led light kit home |   $24,397/mo | 3,320 avg reviews      | Revenue too small ($24,397/mo < $200,000 floor)
+# FAIL | tongue scraper stainless steel set |  $105,577/mo | 12,860 avg reviews     | Revenue too small ($105,577/mo < $200,000 floor)
+# FAIL | oral irrigator replacement tips set |   $12,958/mo | 693 avg reviews        | Revenue too small ($12,958/mo < $200,000 floor)
+# FAIL | pet gps tracker collar attachment small |    $4,887/mo | 890 avg reviews        | Revenue too small ($4,887/mo < $200,000 floor)
+# FAIL | cat gps tracker tag lightweight small |   $19,881/mo | 1,796 avg reviews      | Revenue too small ($19,881/mo < $200,000 floor)
+# FAIL | dog calming collar anxiety pheromone |   $14,149/mo | 612 avg reviews        | Revenue too small ($14,149/mo < $200,000 floor)
+# FAIL | pet anxiety thundershirt alternative wrap |   $33,202/mo | 18,835 avg reviews     | Revenue too small ($33,202/mo < $200,000 floor)
+# FAIL | automatic pet feeder camera wifi two way |   $11,138/mo | 2,859 avg reviews      | Revenue too small ($11,138/mo < $200,000 floor)
+# FAIL | cat water fountain filter replacement |   $17,467/mo | 1,538 avg reviews      | Revenue too small ($17,467/mo < $200,000 floor)
+# FAIL | dog slow feeder bowl puzzle enrichment |   $20,559/mo | 366 avg reviews        | Revenue too small ($20,559/mo < $200,000 floor)
+# FAIL | pet cooling mat self cooling summer dog |   $12,859/mo | 609 avg reviews        | Revenue too small ($12,859/mo < $200,000 floor)
+# FAIL | pet paw cleaner portable silicone washer |   $20,925/mo | 21,313 avg reviews     | Revenue too small ($20,925/mo < $200,000 floor)
+# FAIL | ai pin phone holder magnetic clip |    $4,626/mo | 126 avg reviews        | Revenue too small ($4,626/mo < $200,000 floor)
+# FAIL | meta quest 3 head strap elite replacement |    $7,449/mo | 500 avg reviews        | Revenue too small ($7,449/mo < $200,000 floor)
+# FAIL | ar glasses clip on prescription adapter |      $901/mo | 240 avg reviews        | Revenue too small ($901/mo < $200,000 floor)
+# FAIL | ring doorbell cover skin silicone weatherproof |      $833/mo | 33 avg reviews         | Revenue too small ($833/mo < $200,000 floor)
+# FAIL | electric toothbrush replacement head set |  $117,980/mo | 12,274 avg reviews     | Revenue too small ($117,980/mo < $200,000 floor)
+# FAIL | smart scale body composition replacement mat |    $4,161/mo | 3,038 avg reviews      | Revenue too small ($4,161/mo < $200,000 floor)
+# ── Batch 11 — Niche sports + pro trade accessories + home lab + emerging craft ─
+# Logic: emerging sports (padel fastest-growing globally), professional/trade accessories
+# with B2B crossover, health-conscious home testing, and very specific craft sub-niches.
+# Avoiding all broad categories that failed in Batches 1-10.
+
+# [Batch 8 + partial Batch 9 false fails removed — re-queued above after H10 rate limit on 2026-05-12]
+# [Batch 10 false fails removed — re-queued above after H10 rate limit on 2026-05-12]
+
+# ── Batch 44 — Supplement Gummies + CGM Accessories + Fresh Angles (2026-05-14) ──
+# Creatine gummy passed with only 253 reviews — testing the supplement gummy space hard.
+# CGM accessories (Dexcom/Libre) are a fast-growing medical space, newer listings, passionate users.
+# Also testing cold plunge/sauna trend and budget planner sub-format.
+
+# ── Batch 45 — Gummy supplement space deep dive + trending health (2026-05-14) ──
+# Pattern confirmed: gummies work where the format is NEW relative to the category.
+# Creatine gummy (253 reviews PASS) + magnesium gummy (994 reviews PASS) prove this.
+# Testing supplements traditionally taken as powder/capsule that haven't gone gummy long.
+# Also testing trending health products (mouth tape, colostrum, tallow) + mini leaf blower variants.
+
+# ── Batch 46 — Supplement gummy deep dive + GLP-1 formats + longevity (2026-05-14) ──
+# 3 green lights from supplement gummies: creatine (253 reviews), magnesium glycinate (994), NMN (776).
+# Testing: other magnesium forms, longevity/premium supplements, NAC, more GLP-1 brand formats.
+
+# ── Batch 46 re-queue — rate limit false fails (2026-05-14) ──
+
+
+# ── Batch 11 — Simple physical goods: new formats + accessories to trending primaries ──
+# Strategy: no supplements, no batteries/electronics, no regulated categories.
+# Target: accessories to large install-base products, new format plays on growing trends,
+# simple Alibaba-sourceable physical goods with green light potential.
+
+# ── Batch 12 — Broader keywords, LegacyX criteria ($200k+ revenue, ≤500 reviews) ─
+# STRATEGY SHIFT: Previous batches used hyper-specific long-tail keywords → low revenue.
+# Now using broader category-level searches to capture $200k+ page 1 revenue.
+# Still targeting sub-variants with natural lower review counts.
+# Thresholds updated: $200k floor, 500 review ceiling (LegacyX H10 criteria).
+
+# ── Batch 13 — 2025/2026 fresh angles: AI gadgets, biohacking, oral health, pet tech ──
+# Strategy: targeting product categories that have emerged or exploded post-2024.
+# AI hardware accessories = brand new, no legacy listings. Biohacking = passionate buyers,
+# high AOV, newer formats. Oral health = massive category with new format plays.
+# Pet tech = $150B industry with new smart accessories launching constantly.
+# All using $200k+ revenue / ≤500 review LegacyX criteria.
+robot vacuum mop replacement parts kit
+robot lawnmower boundary wire kit

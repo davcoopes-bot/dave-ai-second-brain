@@ -85,7 +85,7 @@ Reference: Amazon's [Prohibited Product Claims](https://sellercentral.amazon.com
 ## Section 4 — Adding New Listings (ASIN Creation Rules)
 
 - **No duplicate ASINs** — if a product already exists in Amazon's catalogue, you cannot create a new page for it; you join the existing listing
-- **Authorised GTINs only** — UPC/EAN/ISBN must be purchased from GS1 or authorised by the prefix owner; unauthorised GTINs are blocked at submission
+- **GTINs must be authorised** — UPC/EAN/ISBN must come from GS1 or an authorised prefix owner; unauthorised codes are blocked at submission. **Exception: GTIN exemption** bypasses this entirely — our approach via FBA Pro. See [[wiki/fba/fba-branding-gtin.md]].
 - **No false product identification** — cannot use a UPC you don't own or that belongs to a different product
 - **No cross-promotion** — cannot use a product detail page to advertise or link to other products
 
@@ -160,6 +160,35 @@ You cannot:
 - Before any Voya ASIN goes live, it should pass a 10-point compliance check against this page
 - The silicone splatter screen and cable management box are both new product categories for Voya — build them correctly from the start, don't copy competitors who may themselves be non-compliant
 - Designate a Brand Admin in Brand Registry before inviting any co-sellers or contributors
+
+---
+
+---
+
+## Restricted vs Prohibited Products
+
+From LegacyX Thinkific course — Product Research module:
+
+**Prohibited products** — completely banned on Amazon. No selling allowed:
+- Guns, firearms, ammunition
+- Brass knuckles and offensive weapons
+- Adult/pornographic content
+- Other items on Amazon's prohibited list
+
+**Restricted products** — allowed to sell but require pre-approval or paperwork:
+- Supplements (requires GMP certs, FDA compliance — one reason gummies were complex for a first product)
+- Electronics with batteries (safety certs required)
+- Kids' products (CPSC safety certificates required)
+- Medical devices (FDA clearance)
+
+**Advertising-restricted categories** — can sell, but cannot run Amazon ads:
+- Tobacco accessories
+- Adult products
+- Certain medical/health products
+
+**Critical check before ordering stock:** Always create a dummy listing to test if your product category requires category approval. Find out the hard way before you've paid for 500 units, not after. 
+
+Amazon restricted products list: https://sellercentral.amazon.com/help/hub/reference/external/G200164330?locale=en-US
 
 ---
 
